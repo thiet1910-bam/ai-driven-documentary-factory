@@ -32,10 +32,15 @@ def sync_to_github(commit_msg: str = ""):
             subprocess.run(["git", "add", "-A"], cwd=str(repo_root), check=False)
             subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(repo_root), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=str(repo_root), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        push_res = subprocess.run(["git", "push", "origin", "main", "--tags"], cwd=str(repo_root), capture_output=True, text=True)
+        br = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], cwd=str(repo_root), capture_output=True, text=True)
+        cur_branch = br.stdout.strip() or "v2"
+        if cur_branch == "main":
+            cur_branch = "v2"
+
+        subprocess.run(["git", "pull", "--rebase", "origin", cur_branch], cwd=str(repo_root), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        push_res = subprocess.run(["git", "push", "origin", f"HEAD:{cur_branch}", "--tags"], cwd=str(repo_root), capture_output=True, text=True)
         if push_res.returncode == 0:
-            print(f"[Auto-Sync GitHub OK] Đã đồng bộ lên GitHub ({now_str})")
+            print(f"[Auto-Sync GitHub OK] Đã đồng bộ lên nhánh '{cur_branch}' GitHub ({now_str})")
             return True
         else:
             print(f"[Auto-Sync GitHub WARN] Lỗi khi push: {push_res.stderr.strip()}")
