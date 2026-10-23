@@ -1,0 +1,703 @@
+[
+  {
+    "stt_id": "01.1_00m00s_polaroid_wooden_house_for_sale_7_dollars",
+    "time_range": "0.4s - 8.2s",
+    "type": "polaroid",
+    "expected_subject": "Ngôi nhà gỗ cổ thế kỷ 19 minh họa câu ẩn dụ bán căn nhà giá $7",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.1_00m00s_polaroid_wooden_house_for_sale_7_dollars.jpg",
+    "status": "CÓ (Wikipedia (Log cabin))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.1_00m00s_polaroid_wooden_house_for_sale_7_dollars.jpg",
+        "verified_title": "Log cabin",
+        "historical_context": "A log cabin is a small log house, especially a minimally finished or less architecturally sophisticated structure. Log cabins have an ancient history in Europe, and in North Americ",
+        "source": "Wikipedia (Log cabin)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Norskfolkemuseum_1.jpg/1280px-Norskfolkemuseum_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.1_00m00s_polaroid_wooden_house_for_sale_7_dollars_alt2.jpg",
+        "verified_title": "Homesteading",
+        "historical_context": "Homesteading is a lifestyle of self-sufficiency. It is characterized by subsistence agriculture, home preservation of food, and may also involve the small scale production of texti",
+        "source": "Wikipedia (Homesteading)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bill_Stagg_turning_up_his_beans%2C_Pie_Town%2C_New_Mexico._He_will_next_pile_them_for_curing_%28LOC%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.1_00m00s_polaroid_wooden_house_for_sale_7_dollars_alt3.jpg",
+        "verified_title": "Collections of the Minnesota Historical Society (IA aag6321.0011.001.umich.edu).pdf",
+        "historical_context": "Vol. 1 is a republication (1872) of the Society's Annals, 1850-56, somewhat abridged and continuously page; the reprint of 1902 includes minor corrections. Vol. 2 is a reprint (188",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Collections_of_the_Minnesota_Historical_Society_%28IA_aag6321.0011.001.umich.edu%29.pdf/page1-960px-Collections_of_the_Minnesota_Historical_Society_%28IA_aag6321.0011.001.umich.edu%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "01.2_00m04s_polaroid_gold_mine_in_basement",
+    "time_range": "4.5s - 8.2s",
+    "type": "polaroid",
+    "expected_subject": "Hầm mỏ vàng dưới lòng đất minh họa vế câu 'a gold mine in the basement'",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.2_00m04s_polaroid_gold_mine_in_basement.jpg",
+    "status": "CÓ (Wikipedia (Gold mining))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.2_00m04s_polaroid_gold_mine_in_basement.jpg",
+        "verified_title": "Gold mining",
+        "historical_context": "Gold mining involves the extraction of gold either via conventional mining or via placer mining, as it is a soft metal, gold is relatively easy to separate from its surrounding. Gl",
+        "source": "Wikipedia (Gold mining)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Super_Pit_Gold_Mine%2C_Kalgoorlie%2C_WA%2C_2023%2C_11.jpg/1280px-Super_Pit_Gold_Mine%2C_Kalgoorlie%2C_WA%2C_2023%2C_11.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.2_00m04s_polaroid_gold_mine_in_basement_alt2.jpg",
+        "verified_title": "Klondike Gold Rush",
+        "historical_context": "The Klondike Gold Rush was a migration by an estimated 100,000 prospectors to the Klondike region of Yukon in northwestern Canada, between 1896 and 1898. Gold was discovered there ",
+        "source": "Wikipedia (Klondike Gold Rush)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/ChilkootPass_steps.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.2_00m04s_polaroid_gold_mine_in_basement_alt3.jpg",
+        "verified_title": "Angus or Forfarshire, the land and people, descriptive and historical (IA angusorforfarshi01ward).pdf",
+        "historical_context": "Subjects:",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Angus_or_Forfarshire%2C_the_land_and_people%2C_descriptive_and_historical_%28IA_angusorforfarshi01ward%29.pdf/page1-960px-Angus_or_Forfarshire%2C_the_land_and_people%2C_descriptive_and_historical_%28IA_angusorforfarshi01ward%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "01.3_00m08s_polaroid_russian_america_alaska_map",
+    "time_range": "8.4s - 13.4s",
+    "type": "polaroid",
+    "expected_subject": "Bản đồ lãnh thổ Alaska của Đế quốc Nga năm 1867 ('That is what Russia did. Except the house was Alaska')",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.3_00m08s_polaroid_russian_america_alaska_map.jpg",
+    "status": "CÓ (Wikipedia (Alaska Purchase))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.3_00m08s_polaroid_russian_america_alaska_map.jpg",
+        "verified_title": "Alaska Purchase",
+        "historical_context": "The Alaska Purchase in 1867 resulted in the transfer of Russian America to the United States for $7.2 million (equivalent to $132 million in 2024). On April 9 of that year, the Uni",
+        "source": "Wikipedia (Alaska Purchase)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Alaska_Purchase_%28hi-res%29.jpg/1280px-Alaska_Purchase_%28hi-res%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.3_00m08s_polaroid_russian_america_alaska_map_alt2.jpg",
+        "verified_title": "1867 North western America showing the territory ceded by Russia to the United States, by A. Lindenkohl, United States Coast Survey, from the Digital Commonwealth - commonwealth 4m90fb81t.jpg",
+        "historical_context": "1867 North western America showing the territory ceded by Russia to the United States, by A. Lindenkohl, United States Coast Survey, from the Digital Commonwealth - commonwealth 4m",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/1867_North_western_America_showing_the_territory_ceded_by_Russia_to_the_United_States%2C_by_A._Lindenkohl%2C_United_States_Coast_Survey%2C_from_the_Digital_Commonwealth_-_commonwealth_4m90fb81t.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.3_00m08s_polaroid_russian_america_alaska_map_alt3.jpg",
+        "verified_title": "Map of Northwestern America showing the Territory Ceded by Russia to the United States - DPLA - 046dc2491225b895178adf2d01890379.jpg",
+        "historical_context": "The information on this map was compiled for the Department of State at the United States Coast Survey Office. This map was drawn by A. Lindenkohl. This map shows Russian and \"Esqu",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Map_of_Northwestern_America_showing_the_Territory_Ceded_by_Russia_to_the_United_States_-_DPLA_-_046dc2491225b895178adf2d01890379.jpg/1280px-Map_of_Northwestern_America_showing_the_Territory_Ceded_by_Russia_to_the_United_States_-_DPLA_-_046dc2491225b895178adf2d01890379.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "01.4_00m13s_polaroid_alaska_gold_and_oil_fields",
+    "time_range": "13.5s - 17.9s",
+    "type": "polaroid",
+    "expected_subject": "Mỏ vàng & giàn khoan dầu Alaska ('and the basement had gold, oil...')",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.4_00m13s_polaroid_alaska_gold_and_oil_fields.jpg",
+    "status": "CÓ (Wikipedia (Nome Gold Rush))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.4_00m13s_polaroid_alaska_gold_and_oil_fields.jpg",
+        "verified_title": "Nome Gold Rush",
+        "historical_context": "The Nome Gold Rush was a gold rush in Nome, Alaska, approximately 1899–1909. It is distinct from other gold rushes by the ease with which the metal could be obtained. Much of the g",
+        "source": "Wikipedia (Nome Gold Rush)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nome_prospectors%2C1900.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.4_00m13s_polaroid_alaska_gold_and_oil_fields_alt2.jpg",
+        "verified_title": "The Engineering and Mining Journal July 1-December 31, 1913- Vol 96 Index (IA sim engineering-and-mining-journal july-1-december-31-1913 96 index).pdf",
+        "historical_context": "The Engineering and Mining Journal July 1-December 31, 1913: Volume 96, Issue Index.Digitized from IA1532316-06.Previous issue: sim_engineering-and-mining-journal_1913-06-28_95_26.",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/The_Engineering_and_Mining_Journal_July_1-December_31%2C_1913-_Vol_96_Index_%28IA_sim_engineering-and-mining-journal_july-1-december-31-1913_96_index%29.pdf/page1-1280px-The_Engineering_and_Mining_Journal_July_1-December_31%2C_1913-_Vol_96_Index_%28IA_sim_engineering-and-mining-journal_july-1-december-31-1913_96_index%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/01.4_00m13s_polaroid_alaska_gold_and_oil_fields_alt3.jpg",
+        "verified_title": "North America (microform) (IA cihm 05648).pdf",
+        "historical_context": "Original published in series: Stanford's compendium of geography and travel\nIncludes index\nFilmed from a copy of the original publication held by the National Library of Canada\n43\n",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/North_America_%28microform%29_%28IA_cihm_05648%29.pdf/page1-960px-North_America_%28microform%29_%28IA_cihm_05648%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "02.1_00m18s_polaroid_1868_treasury_check_7m",
+    "time_range": "18.1s - 26.2s",
+    "type": "polaroid",
+    "expected_subject": "Tờ ngân phiếu 7.2 triệu USD (tương đương 2 xu / mẫu Anh)",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.1_00m18s_polaroid_1868_treasury_check_7m.jpg",
+    "status": "CÓ (Wikipedia (Alaska Purchase))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.1_00m18s_polaroid_1868_treasury_check_7m.jpg",
+        "verified_title": "Alaska Purchase",
+        "historical_context": "The Alaska Purchase in 1867 resulted in the transfer of Russian America to the United States for $7.2 million (equivalent to $132 million in 2024). On April 9 of that year, the Uni",
+        "source": "Wikipedia (Alaska Purchase)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Alaska_Purchase_%28hi-res%29.jpg/1280px-Alaska_Purchase_%28hi-res%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.1_00m18s_polaroid_1868_treasury_check_7m_alt2.jpg",
+        "verified_title": "Palmer Journal- Jul-Aug 1868 (IA julaug1868images).pdf",
+        "historical_context": "Contains:Jul 4, 1868Jul 11, 1868Jul 18, 1868Jul 25, 1868Aug 1, 1868Aug 8, 1868Aug 15, 1868Aug 22, 1868Aug 29, 1868\nSubjects: Palmer (MASS); Palmer (MASS)--Newspaper; Newspaper",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Palmer_Journal-_Jul-Aug_1868_%28IA_julaug1868images%29.pdf/page1-1280px-Palmer_Journal-_Jul-Aug_1868_%28IA_julaug1868images%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.1_00m18s_polaroid_1868_treasury_check_7m_alt3.jpg",
+        "verified_title": "Palmer Journal- Mar-Apr 1868 (IA marapr1868images).pdf",
+        "historical_context": "Contains:Mar 7, 1868Mar 14, 1868Mar 21, 1868Mar 28, 1868Apr 4, 1868Apr 11, 1868Apr 18, 1868Apr 25, 1868\nSubjects: Palmer (MASS); Palmer (MASS)--Newspaper; Newspaper",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Palmer_Journal-_Mar-Apr_1868_%28IA_marapr1868images%29.pdf/page1-1280px-Palmer_Journal-_Mar-Apr_1868_%28IA_marapr1868images%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "02.2_00m22s_sticker_william_seward",
+    "time_range": "22.4s - 26.2s",
+    "type": "sticker",
+    "expected_subject": "Chân dung tách nền Ngoại trưởng Mỹ William H. Seward — người bị dư luận Mỹ tưởng là bị Nga lừa cướp tiền",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/02.2_00m22s_sticker_william_seward.png",
+    "status": "CÓ (Wikipedia (William H. Seward))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/02.2_00m22s_sticker_william_seward.png",
+        "verified_title": "William H. Seward",
+        "historical_context": "William Henry Seward (; May 16, 1801 – October 10, 1872) was an American politician who served as United States Secretary of State from 1861 to 1869 and earlier served as governor ",
+        "source": "Wikipedia (William H. Seward)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/William_H._Seward_portrait_-_restoration.jpg/1280px-William_H._Seward_portrait_-_restoration.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/02.2_00m22s_sticker_william_seward_alt2.jpg",
+        "verified_title": "William H. Seward portrait - restoration.jpg",
+        "historical_context": "Portrait of William H. Seward, Secretary of State 1861-69",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/William_H._Seward_portrait_-_restoration.jpg/1280px-William_H._Seward_portrait_-_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/02.2_00m22s_sticker_william_seward_alt3.jpg",
+        "verified_title": "William H. Seward portrait - Original scan.tiff",
+        "historical_context": "Portrait of William H. Seward, Secretary of State 1861-69",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/William_H._Seward_portrait_-_Original_scan.tiff/lossy-page1-1280px-William_H._Seward_portrait_-_Original_scan.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "02.3_00m26s_polaroid_seward_icebox_cartoon",
+    "time_range": "26.4s - 31.4s",
+    "type": "polaroid",
+    "expected_subject": "Tranh biếm họa báo chí Mỹ 1867 chế giễu thương vụ là 'Tủ đá của Seward'",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.3_00m26s_polaroid_seward_icebox_cartoon.jpg",
+    "status": "CÓ (Wikipedia (Alaska Purchase))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.3_00m26s_polaroid_seward_icebox_cartoon.jpg",
+        "verified_title": "Alaska Purchase",
+        "historical_context": "The Alaska Purchase in 1867 resulted in the transfer of Russian America to the United States for $7.2 million (equivalent to $132 million in 2024). On April 9 of that year, the Uni",
+        "source": "Wikipedia (Alaska Purchase)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Alaska_Purchase_%28hi-res%29.jpg/1280px-Alaska_Purchase_%28hi-res%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "02.4_00m29s_polaroid_polar_bear_garden_arctic",
+    "time_range": "29.0s - 35.9s",
+    "type": "polaroid",
+    "expected_subject": "Gấu Bắc Cực trên băng giá minh họa cụm từ châm biếm 'a polar bear garden'",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.4_00m29s_polaroid_polar_bear_garden_arctic.jpg",
+    "status": "CÓ (Wikipedia (Polar bear))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.4_00m29s_polaroid_polar_bear_garden_arctic.jpg",
+        "verified_title": "Polar bear",
+        "historical_context": "The polar bear (Ursus maritimus) is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear ",
+        "source": "Wikipedia (Polar bear)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.4_00m29s_polaroid_polar_bear_garden_arctic_alt2.jpg",
+        "verified_title": "Greenland by the Polar Sea.djvu",
+        "historical_context": "Scan of the book Greenland by the Polar Sea",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Greenland_by_the_Polar_Sea.djvu/page1-1280px-Greenland_by_the_Polar_Sea.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/02.4_00m29s_polaroid_polar_bear_garden_arctic_alt3.jpg",
+        "verified_title": "The Arctic world- its plants, animals and natural phenomena (microform) - with a historical sketch of Arctic discovery down to the British Polar Expedition- 1875-76 (IA cihm 02501).pdf",
+        "historical_context": "Includes index\nFilmed from a copy of the original publication held by the Metropolitan Toronto Library, Canadian History Department\n43\nSubjects: British Polar Expedition, 1875-76; ",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/The_Arctic_world-_its_plants%2C_animals_and_natural_phenomena_%28microform%29_-_with_a_historical_sketch_of_Arctic_discovery_down_to_the_British_Polar_Expedition-_1875-76_%28IA_cihm_02501%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "03.1_00m36s_polaroid_ancient_alaska_glacier_wilderness",
+    "time_range": "36.2s - 46.8s",
+    "type": "polaroid",
+    "expected_subject": "Thiên nhiên hoang sơ hùng vĩ của Alaska thời tiền sử trước khi có Nga và Mỹ",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.1_00m36s_polaroid_ancient_alaska_glacier_wilderness.jpg",
+    "status": "CÓ (Wikipedia (Geography of Alaska))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.1_00m36s_polaroid_ancient_alaska_glacier_wilderness.jpg",
+        "verified_title": "Geography of Alaska",
+        "historical_context": "Alaska occupies the northwestern portion of the North American continent and is bordered only by Canada on the east. It is one of two U.S. states not bordered by another state; Haw",
+        "source": "Wikipedia (Geography of Alaska)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/National-atlas-alaska.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.1_00m36s_polaroid_ancient_alaska_glacier_wilderness_alt2.jpg",
+        "verified_title": "Alaska Range",
+        "historical_context": "The Alaska Range is a relatively narrow, 600-mile-long (970-kilometer) mountain range in the southcentral region of the U.S. state of Alaska, from Lake Clark at its southwest end t",
+        "source": "Wikipedia (Alaska Range)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Peaks_of_the_Alaska_Range_%281%29.jpg/1280px-Peaks_of_the_Alaska_Range_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.1_00m36s_polaroid_ancient_alaska_glacier_wilderness_alt3.jpg",
+        "verified_title": "Our new Alaska; (IA ournewalaska00hall).pdf",
+        "historical_context": "Subjects:",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Our_new_Alaska%3B_%28IA_ournewalaska00hall%29.pdf/page1-500px-Our_new_Alaska%3B_%28IA_ournewalaska00hall%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "03.2_00m47s_polaroid_beringia_land_bridge_map",
+    "time_range": "47.0s - 59.9s",
+    "type": "polaroid",
+    "expected_subject": "Bản đồ cầu đất liền Beringia nối liền Châu Á và Bắc Mỹ 15.000 năm trước",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.2_00m47s_polaroid_beringia_land_bridge_map.jpg",
+    "status": "CÓ (Wikimedia Commons)",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.2_00m47s_polaroid_beringia_land_bridge_map.jpg",
+        "verified_title": "Beringlandbrug - ontgletsjeringsperiode-nl.png",
+        "historical_context": "Berring Land bridge during deglaciation period.",
+        "source": "Wikimedia Commons",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Beringlandbrug_-_ontgletsjeringsperiode-nl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.2_00m47s_polaroid_beringia_land_bridge_map_alt2.jpg",
+        "verified_title": "1-s2.0-S0277379119301398-main.pdf",
+        "historical_context": "The world's last population of woolly mammoths (Mammuthus primigenius) lived on Wrangel Island persisting well into the Holocene, going extinct at ca. 4000 cal BP. According to the",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/1-s2.0-S0277379119301398-main.pdf/page1-960px-1-s2.0-S0277379119301398-main.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.2_00m47s_polaroid_beringia_land_bridge_map_alt3.jpg",
+        "verified_title": "Elk and domestic sheep interactions in a north-central Utah aspen ecosystem (microform) (IA elkdomesticsheep491beck).pdf",
+        "historical_context": "Cover title\n\"Sponsored by: State of Utah, Natural Resources, Division of Wildlife Resources\"--Cover\nDistributed to depository libraries in microfiche\nShipping list no.: 98-0059-M\n\"",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elk_and_domestic_sheep_interactions_in_a_north-central_Utah_aspen_ecosystem_%28microform%29_%28IA_elkdomesticsheep491beck%29.pdf/page1-960px-Elk_and_domestic_sheep_interactions_in_a_north-central_Utah_aspen_ecosystem_%28microform%29_%28IA_elkdomesticsheep491beck%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "03.3_00m54s_polaroid_steppe_grass_and_ice_landscape",
+    "time_range": "54.0s - 59.9s",
+    "type": "polaroid",
+    "expected_subject": "Thảo nguyên cỏ và băng giá rộng hàng trăm dặm ('a bridge of grass and ice, hundreds of miles wide')",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.3_00m54s_polaroid_steppe_grass_and_ice_landscape.jpg",
+    "status": "CÓ (Wikipedia (Mammoth steppe))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.3_00m54s_polaroid_steppe_grass_and_ice_landscape.jpg",
+        "verified_title": "Mammoth steppe",
+        "historical_context": "The mammoth steppe, also known as steppe-tundra, was once the Earth's most extensive biome. During glacial periods in the later Pleistocene, it stretched east to west from the Iber",
+        "source": "Wikipedia (Mammoth steppe)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ukok_Plateau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.3_00m54s_polaroid_steppe_grass_and_ice_landscape_alt2.jpg",
+        "verified_title": "Tundra",
+        "historical_context": "In physical geography, a tundra () is a type of biome where tree growth is hindered by frigid temperatures and short growing seasons. There are three regions and associated types o",
+        "source": "Wikipedia (Tundra)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Greenland_scoresby-sydkapp2_hg.jpg/1280px-Greenland_scoresby-sydkapp2_hg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/03.3_00m54s_polaroid_steppe_grass_and_ice_landscape_alt3.jpg",
+        "verified_title": "Mid-Devensian climate and landscape in England - new data from Finningley, South Yorkshire.pdf",
+        "historical_context": "Buckland, Philip I.; Bateman, Mark D.; Bennike, Ole; Buckland, Paul C.; Chase, Brian M.; Frederick, Charles; Greenwood, Malcolm; Murton, Julian; Murton, Della; Panagiotakopulu, Eva",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Mid-Devensian_climate_and_landscape_in_England_-_new_data_from_Finningley%2C_South_Yorkshire.pdf/page1-960px-Mid-Devensian_climate_and_landscape_in_England_-_new_data_from_Finningley%2C_South_Yorkshire.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "04.1_01m00s_sticker_woolly_mammoth_hunters",
+    "time_range": "60.2s - 71.2s",
+    "type": "sticker",
+    "expected_subject": "Đàn voi ma mút thời kỳ băng hà mà những người thợ săn tiền sử đi theo",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/04.1_01m00s_sticker_woolly_mammoth_hunters.png",
+    "status": "CÓ (Wikipedia (Woolly mammoth))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/04.1_01m00s_sticker_woolly_mammoth_hunters.png",
+        "verified_title": "Woolly mammoth",
+        "historical_context": "The woolly mammoth (Mammuthus primigenius) is an extinct species of mammoth that lived from the Middle Pleistocene until its extinction in the Holocene epoch. It was one of the las",
+        "source": "Wikipedia (Woolly mammoth)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Siegsdorfer_Mammut.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/04.1_01m00s_sticker_woolly_mammoth_hunters_alt2.jpg",
+        "verified_title": "Men of the old stone age, their environment, life and art (IA menofoldstoneage00osborich).pdf",
+        "historical_context": "Bibliography: p. 513-532\n\nSubjects: Prehistoric peoples; Stone age; Art, Primitive",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Men_of_the_old_stone_age%2C_their_environment%2C_life_and_art_%28IA_menofoldstoneage00osborich%29.pdf/page1-500px-Men_of_the_old_stone_age%2C_their_environment%2C_life_and_art_%28IA_menofoldstoneage00osborich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/04.1_01m00s_sticker_woolly_mammoth_hunters_alt3.jpg",
+        "verified_title": "Men of the old stone age, their environment, life and art (IA menofoldstoneage00osbo).pdf",
+        "historical_context": "Subjects: Prehistoric peoples; Stone age; Art, Primitive",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Men_of_the_old_stone_age%2C_their_environment%2C_life_and_art_%28IA_menofoldstoneage00osbo%29.pdf/page1-500px-Men_of_the_old_stone_age%2C_their_environment%2C_life_and_art_%28IA_menofoldstoneage00osbo%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "04.2_01m04s_polaroid_paleo_indians_first_humans_americas",
+    "time_range": "64.2s - 71.2s",
+    "type": "polaroid",
+    "expected_subject": "Những con người đầu tiên đặt chân lên lục địa Châu Mỹ ('first humans to ever set foot in the Americas')",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.2_01m04s_polaroid_paleo_indians_first_humans_americas.jpg",
+    "status": "CÓ (Wikipedia (Peopling of the Americas))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.2_01m04s_polaroid_paleo_indians_first_humans_americas.jpg",
+        "verified_title": "Peopling of the Americas",
+        "historical_context": "It is believed that the peopling of the Americas began when Paleolithic hunter-gatherers (Paleo-Indians) entered North America from the North Asian Mammoth steppe via the Beringia ",
+        "source": "Wikipedia (Peopling of the Americas)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Early_migrations_mercator.svg/1280px-Early_migrations_mercator.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.2_01m04s_polaroid_paleo_indians_first_humans_americas_alt2.jpg",
+        "verified_title": "Paleo-Indians",
+        "historical_context": "Paleo-Indians (also spelled Paleoindians) were the first peoples who entered and subsequently inhabited the Americas towards the end of the Late Pleistocene period. The word comes ",
+        "source": "Wikipedia (Paleo-Indians)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Glyptodon_old_drawing.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      }
+    ]
+  },
+  {
+    "stt_id": "04.3_01m12s_polaroid_inupiat_yupik_arctic_family",
+    "time_range": "71.4s - 81.3s",
+    "type": "polaroid",
+    "expected_subject": "Người bản địa phương Bắc Inupiat & Yupik ở lại vùng băng giá Alaska",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.3_01m12s_polaroid_inupiat_yupik_arctic_family.jpg",
+    "status": "CÓ (Wikipedia (Iñupiat))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.3_01m12s_polaroid_inupiat_yupik_arctic_family.jpg",
+        "verified_title": "Iñupiat",
+        "historical_context": "The Iñupiat (singular: Iñupiaq), also known as Alaskan Inuit, are a group of Alaska Natives whose traditional territory roughly spans northeast from Norton Sound on the Bering Sea ",
+        "source": "Wikipedia (Iñupiat)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Genuine_kunik.jpg/1280px-Genuine_kunik.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.3_01m12s_polaroid_inupiat_yupik_arctic_family_alt2.jpg",
+        "verified_title": "Inupiat Family from Noatak, Alaska, 1929, Edward S. Curtis (restored).jpg",
+        "historical_context": "A family portrait of an Inupiat Eskimo mother, father, and son.\nPhotographed in Noatak, Alaska, circa 1929.\nFrom The North American Indian, by Edward S. Curtis.\nThe scan was made f",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Inupiat_Family_from_Noatak%2C_Alaska%2C_1929%2C_Edward_S._Curtis_%28restored%29.jpg/1280px-Inupiat_Family_from_Noatak%2C_Alaska%2C_1929%2C_Edward_S._Curtis_%28restored%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.3_01m12s_polaroid_inupiat_yupik_arctic_family_alt3.jpg",
+        "verified_title": "Inupiat Family from Noatak, Alaska, 1929, Edward S. Curtis.jpg",
+        "historical_context": "\" Inupiat Family from Noatak, Alaska.\"\nA family portrait of an Inupiat Eskimo mother, father, and son, circa 1929.\nFrom The North American Indian, by Edward S. Curtis.\nThe scan was",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Inupiat_Family_from_Noatak%2C_Alaska%2C_1929%2C_Edward_S._Curtis.jpg/1280px-Inupiat_Family_from_Noatak%2C_Alaska%2C_1929%2C_Edward_S._Curtis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "04.4_01m16s_polaroid_tlingit_athabaskan_chief",
+    "time_range": "75.5s - 91.9s",
+    "type": "polaroid",
+    "expected_subject": "Tù trưởng Tlingit / Athabaskan đại diện văn hóa bản địa Alaska lâu đời",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.4_01m16s_polaroid_tlingit_athabaskan_chief.jpg",
+    "status": "CÓ (Wikipedia (Tlingit))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.4_01m16s_polaroid_tlingit_athabaskan_chief.jpg",
+        "verified_title": "Tlingit",
+        "historical_context": "The Tlingit or Lingít (  KLING-kit, TLING-kit) are an Indigenous people of the Pacific Northwest Coast of North America. Tlingit people are Alaska Natives and First Nations in Cana",
+        "source": "Wikipedia (Tlingit)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chief_Anotklosh_of_the_Taku_Tribe_in_Juneau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.4_01m16s_polaroid_tlingit_athabaskan_chief_alt2.jpg",
+        "verified_title": "Indigenous peoples of the Pacific Northwest Coast",
+        "historical_context": "The Indigenous peoples of the Pacific Northwest Coast are the many First Nations and Alaska Native peoples whose traditional homelands lie along the Pacific coast of northwestern N",
+        "source": "Wikipedia (Indigenous peoples of the Pacific Northwest Coast)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chief_Anotklosh_of_the_Taku_Tribe_in_Juneau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/04.4_01m16s_polaroid_tlingit_athabaskan_chief_alt3.jpg",
+        "verified_title": "Annual report of the Bureau of American Ethnology to the Secretary of the Smithsonian Institution (IA annualreportofbu34smithso).pdf",
+        "historical_context": "Vols. 16-48 include accompanying papers\nVol. 1-48, 1879/80-1930/31, in vol. 48\nANTHREF 2nd (1880/81), 27th (1905/06), 30th (1908/09) has bookplate: Smithsonian Institution Librarie",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Annual_report_of_the_Bureau_of_American_Ethnology_to_the_Secretary_of_the_Smithsonian_Institution_%28IA_annualreportofbu34smithso%29.pdf/page1-960px-Annual_report_of_the_Bureau_of_American_Ethnology_to_the_Secretary_of_the_Smithsonian_Institution_%28IA_annualreportofbu34smithso%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "05.1_01m32s_polaroid_st_peter_ship_1741",
+    "time_range": "92.2s - 107.2s",
+    "type": "polaroid",
+    "expected_subject": "Con tàu thám hiểm St. Peter và hải trình năm 1741 từ Siberia tới Alaska",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.1_01m32s_polaroid_st_peter_ship_1741.jpg",
+    "status": "CÓ (Wikipedia (Great Northern Expedition))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.1_01m32s_polaroid_st_peter_ship_1741.jpg",
+        "verified_title": "Great Northern Expedition",
+        "historical_context": "The Great Northern Expedition (Russian: Великая Северная экспедиция) or Second Kamchatka Expedition (Russian: Вторая Камчатская экспедиция) was a major Russian Arctic expedition be",
+        "source": "Wikipedia (Great Northern Expedition)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Jefferys_-_The_Russian_Discoveries.jpg/1280px-Jefferys_-_The_Russian_Discoveries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.1_01m32s_polaroid_st_peter_ship_1741_alt2.jpg",
+        "verified_title": "Vitus Bering",
+        "historical_context": "Vitus Jonassen Bering  (baptised 5 August 1681 – 19 December 1741), also known as Ivan Ivanovich Bering, was a Danish-born Russian cartographer, explorer, and officer in the Russia",
+        "source": "Wikipedia (Vitus Bering)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Vitus_Bering_reconstruction.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.1_01m32s_polaroid_st_peter_ship_1741_alt3.jpg",
+        "verified_title": "Early expeditions to the region of Bering Sea and Strait - from the reports and journals of Vitus Ivanovich Bering (IA earlyexpeditions00dall).pdf",
+        "historical_context": "At head of title: United States Coast and Geodetic Survey ... Geographical explorations\nSeparate of Appendix no. 19 to Report of Coast and Geodetic Survey for 1890\nCaption title: .",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Early_expeditions_to_the_region_of_Bering_Sea_and_Strait_-_from_the_reports_and_journals_of_Vitus_Ivanovich_Bering_%28IA_earlyexpeditions00dall%29.pdf/page1-960px-Early_expeditions_to_the_region_of_Bering_Sea_and_Strait_-_from_the_reports_and_journals_of_Vitus_Ivanovich_Bering_%28IA_earlyexpeditions00dall%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "05.2_01m36s_sticker_vitus_bering",
+    "time_range": "96.7s - 107.2s",
+    "type": "sticker",
+    "expected_subject": "Chân dung tách nền Thuyền trưởng Vitus Bering (nhà thám hiểm Đan Mạch phục vụ Nga)",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/05.2_01m36s_sticker_vitus_bering.png",
+    "status": "CÓ (Wikipedia (Vitus Bering))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/05.2_01m36s_sticker_vitus_bering.png",
+        "verified_title": "Vitus Bering",
+        "historical_context": "Vitus Jonassen Bering  (baptised 5 August 1681 – 19 December 1741), also known as Ivan Ivanovich Bering, was a Danish-born Russian cartographer, explorer, and officer in the Russia",
+        "source": "Wikipedia (Vitus Bering)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Vitus_Bering_reconstruction.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/05.2_01m36s_sticker_vitus_bering_alt2.jpg",
+        "verified_title": "Vitus Bering 1.jpg",
+        "historical_context": "Vitus Bering 1.jpg",
+        "source": "Wikimedia Commons",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Vitus_Bering_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/05.2_01m36s_sticker_vitus_bering_alt3.jpg",
+        "verified_title": "Johan Hörner - Portræt af Vita Bering.png",
+        "historical_context": "The experts at Bruun Rasmussen described this as a portrait of Vita Bering (c. 1756-1830), daughter of the scholar Vitus Pedersen Bering (1617-1675). His daughter Vita actually liv",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Johan_H%C3%B6rner_-_Portr%C3%A6t_af_Vita_Bering.png/1280px-Johan_H%C3%B6rner_-_Portr%C3%A6t_af_Vita_Bering.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "05.3_01m47s_polaroid_bering_island_shipwreck",
+    "time_range": "107.4s - 120.4s",
+    "type": "polaroid",
+    "expected_subject": "Vụ đắm tàu của Vitus Bering trên hòn đảo băng giá mùa đông 1741",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.3_01m47s_polaroid_bering_island_shipwreck.jpg",
+    "status": "CÓ (Wikipedia (Bering Island))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.3_01m47s_polaroid_bering_island_shipwreck.jpg",
+        "verified_title": "Bering Island",
+        "historical_context": "Bering Island (Russian: Остров Беринга, romanized: Ostrov Beringa) is located off the Kamchatka Peninsula in the Bering Sea.",
+        "source": "Wikipedia (Bering Island)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bering_island.jpg/1280px-Bering_island.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.3_01m47s_polaroid_bering_island_shipwreck_alt2.jpg",
+        "verified_title": "Vitus Bering- the discoverer of Bering Strait (IA vitusberingdisco00lauriala).pdf",
+        "historical_context": "Subjects: Bering, Vitus Jonassen, 1681-1741; Kamchatskaia ekspeditsiia 1725-1730); Bering Strait -- Discovery and exploration",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Vitus_Bering-_the_discoverer_of_Bering_Strait_%28IA_vitusberingdisco00lauriala%29.pdf/page1-500px-Vitus_Bering-_the_discoverer_of_Bering_Strait_%28IA_vitusberingdisco00lauriala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.3_01m47s_polaroid_bering_island_shipwreck_alt3.jpg",
+        "verified_title": "Vitus Bering- the discoverer of Bering Strait (IA vitusberingdisco00laur).pdf",
+        "historical_context": "At head of title: Russian explorations, 1725-1743\nextracted picklist\nSubjects: Bering, Vitus Jonassen, 1681-1741; Kamchatskaia ekspeditsiia",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Vitus_Bering-_the_discoverer_of_Bering_Strait_%28IA_vitusberingdisco00laur%29.pdf/page1-500px-Vitus_Bering-_the_discoverer_of_Bering_Strait_%28IA_vitusberingdisco00laur%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "05.4_01m53s_polaroid_survivors_rebuilt_boat_1742",
+    "time_range": "113.2s - 120.4s",
+    "type": "polaroid",
+    "expected_subject": "Thủy thủ đoàn sống sót qua mùa đông, đóng lại thuyền từ xác tàu đắm để trở về năm 1742",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.4_01m53s_polaroid_survivors_rebuilt_boat_1742.jpg",
+    "status": "CÓ (Wikipedia (Great Northern Expedition))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.4_01m53s_polaroid_survivors_rebuilt_boat_1742.jpg",
+        "verified_title": "Great Northern Expedition",
+        "historical_context": "The Great Northern Expedition (Russian: Великая Северная экспедиция) or Second Kamchatka Expedition (Russian: Вторая Камчатская экспедиция) was a major Russian Arctic expedition be",
+        "source": "Wikipedia (Great Northern Expedition)",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Jefferys_-_The_Russian_Discoveries.jpg/1280px-Jefferys_-_The_Russian_Discoveries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.4_01m53s_polaroid_survivors_rebuilt_boat_1742_alt2.jpg",
+        "verified_title": "A thousand years of Russian history (IA thousandyearsofr00howe).pdf",
+        "historical_context": "Bibliography: p. 423-425\n\nSubjects: Soviet Union -- History",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/A_thousand_years_of_Russian_history_%28IA_thousandyearsofr00howe%29.pdf/page1-500px-A_thousand_years_of_Russian_history_%28IA_thousandyearsofr00howe%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/05.4_01m53s_polaroid_survivors_rebuilt_boat_1742_alt3.jpg",
+        "verified_title": "Our lost explorers - the narrative of the Jeannette Arctic Expedition as related by the survivors, and in the records and last journals of Lieutenant De Long (IA ourlostexplorers01newc).pdf",
+        "historical_context": "Subjects: De Long, George W. (George Washington), 1844-1881; Jeannette (Ship); Jeannette Expedition (1879-1881)",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Our_lost_explorers_-_the_narrative_of_the_Jeannette_Arctic_Expedition_as_related_by_the_survivors%2C_and_in_the_records_and_last_journals_of_Lieutenant_De_Long_%28IA_ourlostexplorers01newc%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "06.1_02m01s_sticker_sea_otter_soft_gold",
+    "time_range": "120.6s - 133.6s",
+    "type": "sticker",
+    "expected_subject": "Rái cá biển Bắc Thái Bình Dương với bộ lông dày và mềm nhất thế giới",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/06.1_02m01s_sticker_sea_otter_soft_gold.png",
+    "status": "CÓ (Wikipedia (Sea otter))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/06.1_02m01s_sticker_sea_otter_soft_gold.png",
+        "verified_title": "Sea otter",
+        "historical_context": "The sea otter (Enhydra lutris) is a marine mammal native to the coasts of the northern and eastern North Pacific Ocean. Adult sea otters typically weigh between 14 and 45 kg (30–10",
+        "source": "Wikipedia (Sea otter)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      },
+      {
+        "option": 2,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/06.1_02m01s_sticker_sea_otter_soft_gold_alt2.jpg",
+        "verified_title": "Grouping -1 - a raft of California Sea Otters - Enhydra lutris nereis, Elkhorn Slough, Moss Landing, California.jpg",
+        "historical_context": "Grouping -1 - a raft of California Sea Otters - Enhydra lutris nereis, Elkhorn Slough, Moss Landing, California. This species almost went extinct due to overhunting for fur.  On th",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Grouping_-1_-_a_raft_of_California_Sea_Otters_-_Enhydra_lutris_nereis%2C_Elkhorn_Slough%2C_Moss_Landing%2C_California.jpg/1280px-Grouping_-1_-_a_raft_of_California_Sea_Otters_-_Enhydra_lutris_nereis%2C_Elkhorn_Slough%2C_Moss_Landing%2C_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "option": 3,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/stickers_cutout/06.1_02m01s_sticker_sea_otter_soft_gold_alt3.jpg",
+        "verified_title": "Four sea otters together.jpg",
+        "historical_context": "Romp of Otters. Sea Otter Mom with NOT Two Pups but ONE, Morro Bay, CA 16april2007.  Photo by Mike Baird bairdphotos.com Canon 5D 600mm IS on tripod.\nYou have to look closely (see ",
+        "source": "Wikimedia Commons",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Four_sea_otters_together.jpg/1280px-Four_sea_otters_together.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ]
+  },
+  {
+    "stt_id": "06.2_02m06s_polaroid_qing_dynasty_china_fur_trade",
+    "time_range": "125.8s - 133.6s",
+    "type": "polaroid",
+    "expected_subject": "Thương mại lông thú với giới quý tộc nhà Thanh Trung Hoa ('In China, a single pelt was worth a fortune')",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/06.2_02m06s_polaroid_qing_dynasty_china_fur_trade.jpg",
+    "status": "CÓ (Wikipedia (Maritime fur trade))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/06.2_02m06s_polaroid_qing_dynasty_china_fur_trade.jpg",
+        "verified_title": "Maritime fur trade",
+        "historical_context": "The maritime fur trade (historically called the North West trade), a ship-based fur trade system, focused largely on acquiring furs of sea otters and other animals from the Indigen",
+        "source": "Wikipedia (Maritime fur trade)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Maritime_Fur_Trade-NorthWestCoast.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      }
+    ]
+  },
+  {
+    "stt_id": "06.3_02m14s_video_aleutian_sea_hunters",
+    "time_range": "133.8s - 139.2s",
+    "type": "video_clip",
+    "expected_subject": "Đoạn băng chuyển động đoàn thuyền thợ săn Nga tràn qua chuỗi đảo Aleutian",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/video_footage/06.3_02m14s_video_aleutian_sea_hunters.mp4",
+    "status": "CÓ (Phương án Thay thế: Archival Motion Clip (Aleutian Islands))",
+    "source": "Phương án Thay thế: Archival Motion Clip (Aleutian Islands)"
+  },
+  {
+    "stt_id": "06.4_02m19s_polaroid_unangan_aleut_forced_hunters",
+    "time_range": "139.3s - 145.1s",
+    "type": "polaroid",
+    "expected_subject": "Người bản địa Unangan (Aleut) bị cưỡng bức săn bắn trên biển và chịu thảm kịch dịch bệnh, bạo lực",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/06.4_02m19s_polaroid_unangan_aleut_forced_hunters.jpg",
+    "status": "CÓ (Wikipedia (Aleuts))",
+    "candidates": [
+      {
+        "option": 1,
+        "local_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_01/images_polaroid/06.4_02m19s_polaroid_unangan_aleut_forced_hunters.jpg",
+        "verified_title": "Aleuts",
+        "historical_context": "Aleuts (  AL-ee-OOT; Aleut: Unangan (west) or Unangas (east) Russian: Алеуты, romanized: Aleuty) are the Indigenous people of the Aleutian Islands, which are located between the No",
+        "source": "Wikipedia (Aleuts)",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Greany_Attu_Woman.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+# Video thành phẩm & file nhị phân dung lượng lớn
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4a
+*.M4A
+*.zip
+*.ZIP
+*.docx
+
+# File âm thanh giọng đọc gốc dung lượng lớn (giữ lại kịch bản .txt và .json)
+1_INPUT_NHAN_SU/*.mp3
+1_INPUT_NHAN_SU/**/*.mp3
+
+# Thư mục sao lưu nội bộ & khung hình nháp lịch sử
+_BACKUP_LUU_TRU/
+.agent/backups/
+**/director_review_frames_v1_0/
+**/qa_frames_phan_01/
+**/qa_frames_phan_01_v2_0/
+
+# Hệ thống & Cache Python
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

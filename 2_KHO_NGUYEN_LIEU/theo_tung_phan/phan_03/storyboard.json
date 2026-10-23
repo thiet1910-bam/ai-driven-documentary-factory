@@ -1,0 +1,1174 @@
+{
+  "part_id": "phan_03",
+  "title": "PHẦN 03: CƠN SỐT VÀNG KLONDIKE, CUỘC ĐUA HUYẾT THANH 1925 & MẶT TRẬN ALASKA THẾ CHIẾN II",
+  "duration": 150.73,
+  "voice_path": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_03/phan_03_voice.mp3",
+  "ledger_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/ledger.json",
+  "scenes": [
+    {
+      "id": "sc_01",
+      "title": "17 NĂM BỎ QUÊN & TIẾNG SÉT VÀNG KLONDIKE 1896",
+      "t0": 0.0,
+      "t1": 17.8,
+      "scene_motif": "MOTIF_1_DETECTIVE_CANVAS_PAN",
+      "camera_move": "DESK_PAN_ZOOM",
+      "seam_transition": "ZOOM_THROUGH",
+      "bg_mode": "CREAM_GRID",
+      "era_label": "1867–1896 • THE FORGOTTEN TERRITORY",
+      "source_footnote": "Source: U.S. Congressional Record (1884 Organic Act) • Yukon Archives",
+      "hud_ticker": {
+        "label": "GOVERNANCE STATUS",
+        "value": "17 YEARS NO GOVT"
+      },
+      "beats": [
+        {
+          "stt_id": "01.1_00m00s_polaroid_forgotten_sitka_outpost",
+          "type": "POLAROID",
+          "t0": 0.0,
+          "t1": 7.4,
+          "x": 110,
+          "y": 130,
+          "w": 680,
+          "h": 480,
+          "rot": -2.0,
+          "caption": "SITKA OUTPOST • FORGOTTEN BY WASHINGTON",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.1_00m00s_polaroid_forgotten_sitka_outpost.jpg",
+          "search_query": "Sitka Alaska 1870s 1880s historical photograph vintage",
+          "wiki_titles": [
+            "Department of Alaska",
+            "District of Alaska"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Mở màn bàn hồ sơ lãnh thổ Alaska bị bỏ quên",
+          "source_origin": "Wikimedia Commons: The town of Sitka, Alaska, circa 1886.jpg (W. H. Case)"
+        },
+        {
+          "stt_id": "01.2_00m02s_headline_17_years_no_govt",
+          "type": "HEADLINE",
+          "t0": 2.4,
+          "t1": 7.4,
+          "x": 920,
+          "y": 170,
+          "w": 840,
+          "h": 210,
+          "rot": 0.0,
+          "prefix": "After the purchase, America forgot it:",
+          "highlight": "17 YEARS WITH NO REAL GOVERNMENT",
+          "strikethrough": "FEDERAL LAW & ORDER",
+          "sfx": "red_pen_scratch.wav",
+          "sfx_reason": "Gạch bỏ chính quyền liên bang suốt 17 năm"
+        },
+        {
+          "stt_id": "01.3_00m05s_stamp_lawless_frontier",
+          "type": "STAMP",
+          "t0": 4.8,
+          "t1": 7.4,
+          "x": 1020,
+          "y": 460,
+          "w": 420,
+          "h": 110,
+          "rot": -6.0,
+          "text": "NO CIVIL GOVERNMENT",
+          "radar_ring": true,
+          "sfx": "rubber_stamp.wav",
+          "sfx_reason": "Đóng dấu xác nhận tình trạng vô chính phủ"
+        },
+        {
+          "stt_id": "01.4_00m07s_polaroid_klondike_gold_pan_1896",
+          "type": "POLAROID",
+          "t0": 7.6,
+          "t1": 17.7,
+          "x": 110,
+          "y": 130,
+          "w": 680,
+          "h": 480,
+          "rot": 1.8,
+          "caption": "AUGUST 1896 • GOLD DISCOVERED IN KLONDIKE",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.4_00m07s_polaroid_klondike_gold_pan_1896.jpg",
+          "search_query": "Klondike gold panning 1896 historical photo miner",
+          "wiki_titles": [
+            "Klondike Gold Rush",
+            "Bonanza Creek"
+          ],
+          "sfx": "low_boom.wav",
+          "sfx_reason": "Cú nổ phát hiện vàng năm 1896",
+          "source_origin": "Wikimedia Commons: Five prospectors panning for gold in a creek, Alaska, 1897 (LAROCHE 193).jpeg"
+        },
+        {
+          "stt_id": "01.5_00m11s_polaroid_klondike_border_map",
+          "type": "POLAROID",
+          "t0": 10.4,
+          "t1": 17.7,
+          "x": 940,
+          "y": 130,
+          "w": 780,
+          "h": 500,
+          "rot": -1.5,
+          "caption": "CANADA'S KLONDIKE • GATEWAY THROUGH ALASKA",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.5_00m11s_polaroid_klondike_border_map.jpg",
+          "search_query": "Klondike Gold Rush map routes Alaska Yukon 1897",
+          "wiki_titles": [
+            "Klondike Gold Rush"
+          ],
+          "sfx": "map_whoosh.wav",
+          "sfx_reason": "Trải bản đồ biên giới Canada - Alaska",
+          "source_origin": "Wikimedia Commons: Map Showing Routes From San Francisco To Alaska And The Klondike (1897, David Rumsey Collection)"
+        },
+        {
+          "stt_id": "01.6_00m14s_callout_fastest_way_in",
+          "type": "HANDWRITTEN_CALLOUT",
+          "t0": 13.8,
+          "t1": 17.7,
+          "x": 1020,
+          "y": 660,
+          "w": 620,
+          "h": 160,
+          "rot": -2.0,
+          "text": "Fastest route in: straight through Alaska!",
+          "arrow_dir": "UP_LEFT",
+          "sfx": "marker_swipe.wav",
+          "sfx_reason": "Khoanh mũi tên chỉ đường tắt qua Alaska"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.0,
+        "toScale": 1.06,
+        "fromX": 0,
+        "toX": -18,
+        "fromY": 0,
+        "toY": -8
+      }
+    },
+    {
+      "id": "sc_02",
+      "title": "100.000 NGƯỜI & 1.500 BẬC THANG BĂNG CHILKOOT PASS",
+      "t0": 17.8,
+      "t1": 37.5,
+      "scene_motif": "MOTIF_2_BROLL_KINETIC_OVERDRIVE",
+      "camera_move": "KEN_BURNS_PUSH",
+      "seam_transition": "TORN_PAPER_WIPE",
+      "bg_mode": "PARCHMENT_MAP",
+      "era_label": "1897–1898 • THE CHILKOOT GOLDEN STAIRS",
+      "source_footnote": "Source: Royal Canadian Mounted Police Supply Mandate (1 Ton Rule)",
+      "hud_ticker": {
+        "label": "STAMPEDE SCALE",
+        "value": "100,000 STAMPEDERS"
+      },
+      "beats": [
+        {
+          "stt_id": "02.1_00m18s_counter_100k_stampeders",
+          "type": "NUMBER_COUNTER",
+          "t0": 17.9,
+          "t1": 24.8,
+          "x": 110,
+          "y": 140,
+          "w": 640,
+          "h": 170,
+          "rot": 0.0,
+          "label": "PEOPLE HEADING NORTH",
+          "target_text": "100,000+ STAMPEDERS",
+          "sfx": "counter_tick_loop.wav",
+          "sfx_reason": "Đếm 100.000 người bỏ tất cả lao về phương Bắc",
+          "target_number": 100000,
+          "prefix": "",
+          "suffix": "+ STAMPEDERS",
+          "caption": "PEOPLE DROPPING EVERYTHING TO HEAD NORTH"
+        },
+        {
+          "stt_id": "02.2_00m20s_polaroid_one_ton_supplies",
+          "type": "POLAROID",
+          "t0": 20.2,
+          "t1": 27.6,
+          "x": 920,
+          "y": 130,
+          "w": 780,
+          "h": 490,
+          "rot": 1.6,
+          "caption": "MANDATORY BORDER RULE: 1 TON OF SUPPLIES PER PERSON",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/02.2_00m20s_polaroid_one_ton_supplies.jpg",
+          "search_query": "Klondike stampeders supplies outfit Chilkoot trail 1898",
+          "wiki_titles": [
+            "Chilkoot Trail",
+            "Ton of goods"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Hiện quy định bắt buộc mang 1 tấn lương thực",
+          "source_origin": "Wikimedia Commons: Sleds and supplies at the summit of Chilkoot Pass, ca 1898 (CURTIS 1837).jpeg"
+        },
+        {
+          "stt_id": "02.3_00m24s_note_full_year_food",
+          "type": "DETECTIVE_TAPE_NOTE",
+          "t0": 23.8,
+          "t1": 27.6,
+          "x": 110,
+          "y": 380,
+          "w": 680,
+          "h": 165,
+          "rot": -1.5,
+          "title": "BORDER REQUIREMENT",
+          "text": "1 FULL YEAR OF SUPPLIES (~2,000 LBS) TO PREVENT STARVATION",
+          "sfx": "typewriter.wav",
+          "sfx_reason": "Ghi chú quy định 1 năm lương thực"
+        },
+        {
+          "stt_id": "02.4_00m27s_video_chilkoot_pass_climbers",
+          "type": "VIDEO_CLIP",
+          "t0": 27.8,
+          "t1": 37.4,
+          "x": 90,
+          "y": 140,
+          "w": 860,
+          "h": 560,
+          "rot": -1.0,
+          "caption": "CHILKOOT PASS • SINGLE LINE UP THE FROZEN MOUNTAIN",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/02.4_00m27s_video_chilkoot_pass_climbers.mp4",
+          "search_query": "Chilkoot Pass climbers Klondike Gold Rush archival footage",
+          "wiki_titles": [
+            "Chilkoot Pass"
+          ],
+          "sfx": "map_whoosh.wav",
+          "sfx_reason": "Băng tư liệu đoàn người nối đuôi leo vách núi băng Chilkoot",
+          "source_origin": "Wikimedia Commons Archival Motion (2 Shots): ChilkootPass_steps.jpg & Line of Klondikers ascending Chilkoot Pass, 1898 (HEGG 378)"
+        },
+        {
+          "stt_id": "02.5_00m30s_headline_1500_ice_steps",
+          "type": "HEADLINE",
+          "t0": 30.2,
+          "t1": 37.4,
+          "x": 1010,
+          "y": 150,
+          "w": 790,
+          "h": 210,
+          "rot": 0.0,
+          "prefix": "Carved straight into solid ice:",
+          "highlight": "1,500 STEPS • CLIMBED 30 TO 40 TIMES",
+          "sfx": "marker_swipe.wav",
+          "sfx_reason": "Bút dạ tô đậm 1.500 bậc thang băng leo đi leo lại 30-40 lần"
+        },
+        {
+          "stt_id": "02.6_00m33s_red_circle_human_chain",
+          "type": "RED_INK_CIRCLE",
+          "t0": 33.4,
+          "t1": 37.4,
+          "x": 280,
+          "y": 240,
+          "w": 380,
+          "h": 220,
+          "rot": -4.0,
+          "label": "30-40 TRIPS PER MINER!",
+          "src": "2_KHO_NGUYEN_LIEU/dung_chung_toan_kenh/fx_overlays/red_ink_circle.png",
+          "sfx": "red_pen_scratch.wav",
+          "sfx_reason": "Khoanh mực đỏ vào sợi dây người trên vách băng"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.02,
+        "toScale": 1.08,
+        "fromX": -12,
+        "toX": 14,
+        "fromY": -6,
+        "toY": -14
+      }
+    },
+    {
+      "id": "sc_03",
+      "title": "NGHỊCH LÝ BÁN XẺNG, WYATT EARP & BÃI BIỂN VÀNG NOME",
+      "t0": 37.5,
+      "t1": 61.5,
+      "scene_motif": "MOTIF_4_EVIDENCE_SPLIT_COLLISION",
+      "camera_move": "DESK_PAN_ZOOM",
+      "seam_transition": "CUT_THE_CURVE_LEFT",
+      "bg_mode": "CREAM_GRID",
+      "era_label": "1899–1900 • SHOVEL SELLERS & NOME GOLD BEACH",
+      "source_footnote": "Source: Dexter Saloon Records, Nome Alaska (Wyatt Earp, 1899)",
+      "hud_ticker": {
+        "label": "REAL WINNERS",
+        "value": "SHOVEL & SALOON OWNERS"
+      },
+      "beats": [
+        {
+          "stt_id": "03.1_00m37s_torn_split_miners_vs_shovels",
+          "type": "TORN_PAPER_SPLIT",
+          "t0": 37.6,
+          "t1": 44.2,
+          "x": 915,
+          "y": 0,
+          "w": 90,
+          "h": 1080,
+          "rot": 0.0,
+          "sfx": "paper_rip_split.wav",
+          "sfx_reason": "Xé đôi màn hình đối chiếu Kẻ đào vàng vs Kẻ bán xẻng"
+        },
+        {
+          "stt_id": "03.2_00m38s_bars_gold_miners_vs_merchants",
+          "type": "ROUGH_EDGE_BARS",
+          "t0": 38.2,
+          "t1": 46.8,
+          "x": 100,
+          "y": 180,
+          "w": 760,
+          "h": 320,
+          "rot": 0.0,
+          "title": "WHO ACTUALLY GOT RICH IN THE GOLD RUSH?",
+          "bars": [
+            {
+              "label": "100,000 GOLD SEEKERS (MOST FOUND NOTHING)",
+              "value_text": "BROKE",
+              "ratio": 0.14,
+              "color": "DARK"
+            },
+            {
+              "label": "MERCHANTS SELLING SHOVELS & SALOONS",
+              "value_text": "MILLIONS $",
+              "ratio": 1.0,
+              "color": "RED"
+            }
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Biểu đồ so sánh người đào vàng tay trắng và người bán xẻng"
+        },
+        {
+          "stt_id": "03.3_00m42s_sticker_wyatt_earp",
+          "type": "STICKER",
+          "t0": 41.8,
+          "t1": 50.2,
+          "x": 1040,
+          "y": 130,
+          "w": 520,
+          "h": 560,
+          "rot": 2.0,
+          "caption": "WYATT EARP • NOME SALOON OWNER (1899)",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/stickers_cutout/03.3_00m42s_sticker_wyatt_earp.png",
+          "search_query": "Wyatt Earp portrait historical photograph",
+          "wiki_titles": [
+            "Wyatt Earp"
+          ],
+          "sfx": "sticker_pop_soft.wav",
+          "sfx_reason": "Bật nhân vật huyền thoại Wyatt Earp mở quán rượu ở Nome",
+          "source_origin": "Wikimedia Commons: WyattEarp2.jpg (Historical portrait of Wyatt Earp, owner of Dexter Saloon in Nome, 1899)",
+          "label": "WYATT EARP • NOME SALOON OWNER (1899)"
+        },
+        {
+          "stt_id": "03.4_00m47s_stamp_wyatt_earp_reveal",
+          "type": "STAMP",
+          "t0": 47.2,
+          "t1": 50.2,
+          "x": 200,
+          "y": 560,
+          "w": 460,
+          "h": 115,
+          "rot": -5.0,
+          "text": "SURPRISED? WYATT EARP!",
+          "radar_ring": true,
+          "sfx": "rubber_stamp.wav",
+          "sfx_reason": "Đóng dấu bất ngờ tên tuổi Wyatt Earp"
+        },
+        {
+          "stt_id": "03.5_00m50s_polaroid_juneau_fairbanks_gold",
+          "type": "POLAROID",
+          "t0": 50.4,
+          "t1": 61.4,
+          "x": 100,
+          "y": 140,
+          "w": 740,
+          "h": 490,
+          "rot": -1.8,
+          "caption": "ALASKA GOLD STRIKES: JUNEAU • FAIRBANKS • NOME",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/03.5_00m50s_polaroid_juneau_fairbanks_gold.jpg",
+          "search_query": "Nome Alaska gold rush beach mining 1900 tents historical photo",
+          "wiki_titles": [
+            "Nome Gold Rush",
+            "Fairbanks Gold Rush"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Hiện cảnh đãi vàng ngay trên bãi biển Nome",
+          "source_origin": "Wikipedia (Nome Gold Rush): Nome_prospectors,1900.jpg"
+        },
+        {
+          "stt_id": "03.6_00m54s_polaroid_nome_beach_miners",
+          "type": "POLAROID",
+          "t0": 54.0,
+          "t1": 61.4,
+          "x": 960,
+          "y": 140,
+          "w": 760,
+          "h": 490,
+          "rot": 1.6,
+          "caption": "GOLD LYING RIGHT ON THE BEACH IN NOME",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/03.6_00m54s_polaroid_nome_beach_miners.jpg",
+          "search_query": "gold miners on the beach at Nome Alaska 1900 photograph",
+          "wiki_titles": [
+            "Nome, Alaska"
+          ],
+          "sfx": "marker_swipe.wav",
+          "sfx_reason": "Bổ sung ảnh bãi biển Nome ngập lều đãi vàng",
+          "source_origin": "Wikimedia Commons: Mining operation on the beach, Nome, Alaska, ca 1900 (HESTER 322).jpeg"
+        },
+        {
+          "stt_id": "03.7_00m58s_headline_icebox_full_treasure",
+          "type": "HEADLINE",
+          "t0": 57.8,
+          "t1": 61.4,
+          "x": 540,
+          "y": 680,
+          "w": 840,
+          "h": 180,
+          "rot": 0.0,
+          "prefix": "Seward's Icebox proved to be:",
+          "highlight": "AN ICEBOX FULL OF TREASURE",
+          "sfx": "low_boom.wav",
+          "sfx_reason": "Chốt luận điểm chiếc tủ đá chứa đầy kho báu"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.0,
+        "toScale": 1.05,
+        "fromX": 10,
+        "toX": -16,
+        "fromY": 0,
+        "toY": -6
+      }
+    },
+    {
+      "id": "sc_04",
+      "title": "MÙA ĐÔNG 1925: CUỘC ĐUA HUYẾT THANH 700 DẶM QUA BÃO TUYẾT -50°F",
+      "t0": 61.5,
+      "t1": 87.5,
+      "scene_motif": "MOTIF_3_CARTOGRAPHIC_3D_FLYOVER",
+      "camera_move": "MAP_FLYOVER_TRACK",
+      "seam_transition": "ZOOM_THROUGH",
+      "bg_mode": "PARCHMENT_MAP",
+      "era_label": "WINTER 1925 • THE GREAT MERCY RUN TO NOME",
+      "source_footnote": "Source: U.S. Public Health Service Telegrams (January 1925)",
+      "hud_ticker": {
+        "label": "BLIZZARD TEMP",
+        "value": "-50°F (-45°C)"
+      },
+      "beats": [
+        {
+          "stt_id": "04.1_01m01s_polaroid_nome_winter_1925",
+          "type": "POLAROID",
+          "t0": 61.6,
+          "t1": 70.4,
+          "x": 110,
+          "y": 140,
+          "w": 720,
+          "h": 480,
+          "rot": -1.5,
+          "caption": "WINTER 1925 • DIPHTHERIA EPIDEMIC THREATENS NOME CHILDREN",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/04.1_01m01s_polaroid_nome_winter_1925.jpg",
+          "search_query": "1925 serum run to Nome sled dogs winter historical photo",
+          "wiki_titles": [
+            "1925 serum run to Nome"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Mở cảnh mùa đông 1925 dịch bạch hầu ở Nome",
+          "source_origin": "Wikimedia Commons: Gunnar_Kaasen_with_Balto.jpg (Winter 1925 Diphtheria Serum Run to Nome)"
+        },
+        {
+          "stt_id": "04.2_01m05s_headline_diphtheria_outbreak",
+          "type": "HEADLINE",
+          "t0": 65.2,
+          "t1": 70.4,
+          "x": 930,
+          "y": 160,
+          "w": 820,
+          "h": 200,
+          "rot": 0.0,
+          "prefix": "Deadly epidemic strikes isolated Nome:",
+          "highlight": "CHILDREN DYING OF DIPHTHERIA",
+          "sfx": "red_pen_scratch.wav",
+          "sfx_reason": "Nhấn mạnh nguy cơ tử vong ở trẻ em thị trấn Nome"
+        },
+        {
+          "stt_id": "04.3_01m08s_counter_700_miles_away",
+          "type": "NUMBER_COUNTER",
+          "t0": 68.4,
+          "t1": 74.2,
+          "x": 930,
+          "y": 430,
+          "w": 760,
+          "h": 170,
+          "rot": 0.0,
+          "label": "NEAREST ANTITOXIN SERUM",
+          "target_text": "674 MILES AWAY • -50°F",
+          "sfx": "counter_tick_loop.wav",
+          "sfx_reason": "Đếm khoảng cách gần 700 dặm trong cái lạnh -50 độ"
+        },
+        {
+          "stt_id": "04.4_01m11s_polaroid_serum_run_route_map",
+          "type": "POLAROID",
+          "t0": 70.8,
+          "t1": 78.2,
+          "x": 110,
+          "y": 140,
+          "w": 740,
+          "h": 500,
+          "rot": 1.2,
+          "caption": "NO ROADS • NO PLANES COULD FLY • 674-MILE DOG SLED RELAY",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/04.4_01m11s_polaroid_serum_run_route_map.jpg",
+          "search_query": "1925 serum run to Nome map Nenana to Nome route",
+          "wiki_titles": [
+            "IIditarod Trail",
+            "1925 serum run to Nome"
+          ],
+          "sfx": "map_whoosh.wav",
+          "sfx_reason": "Bay máy quay trên bản đồ đường chạy huyết thanh Nenana - Nome",
+          "source_origin": "Wikipedia (1925 serum run to Nome): Iditarod_Trail_BLM_map.jpg (674-mile Nenana to Nome relay route)"
+        },
+        {
+          "stt_id": "04.5_01m15s_note_no_plane_50_below",
+          "type": "DETECTIVE_TAPE_NOTE",
+          "t0": 74.5,
+          "t1": 78.2,
+          "x": 930,
+          "y": 200,
+          "w": 780,
+          "h": 170,
+          "rot": -1.5,
+          "title": "EXTREME CONDITIONS",
+          "text": "OPEN-COCKPIT PLANES FROZE SOLID AT -50°F • ONLY DOGS COULD RUN",
+          "sfx": "typewriter.wav",
+          "sfx_reason": "Ghi chú máy bay không thể cất cánh ở -50 độ"
+        },
+        {
+          "stt_id": "04.6_01m18s_video_sled_dogs_blizzard",
+          "type": "VIDEO_CLIP",
+          "t0": 78.4,
+          "t1": 87.4,
+          "x": 100,
+          "y": 130,
+          "w": 820,
+          "h": 520,
+          "rot": -1.2,
+          "caption": "20 MUSHERS & 150 SLED DOGS • 5.5 DAYS NON-STOP",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/04.6_01m18s_video_sled_dogs_blizzard.mp4",
+          "search_query": "1925 serum run Nome sled dogs archival footage snow",
+          "wiki_titles": [
+            "1925 serum run to Nome"
+          ],
+          "sfx": "map_whoosh.wav",
+          "sfx_reason": "Video tư liệu đàn chó kéo xe lao xuyên bão tuyết",
+          "source_origin": "Wikimedia Commons Archival Film (1925): Balto and Gunner Kaasen - February 2, 1925, Nome, Alaska.webm"
+        },
+        {
+          "stt_id": "04.7_01m21s_waffle_150_dogs_relay",
+          "type": "WAFFLE_100_ARRAY",
+          "t0": 81.2,
+          "t1": 87.4,
+          "x": 980,
+          "y": 140,
+          "w": 780,
+          "h": 280,
+          "rot": 0.0,
+          "percent": 100,
+          "title": "20 MUSHERS & 150 SLED DOGS IN RELAY",
+          "sub": "674 MILES COMPLETED IN JUST 5.5 DAYS (RECORD TIME)",
+          "sfx": "counter_tick_loop.wav",
+          "sfx_reason": "Ma trận lực lượng 20 người điều khiển và 150 chú chó kéo xe"
+        },
+        {
+          "stt_id": "04.8_01m24s_stamp_town_saved",
+          "type": "STAMP",
+          "t0": 84.6,
+          "t1": 87.4,
+          "x": 1080,
+          "y": 500,
+          "w": 460,
+          "h": 115,
+          "rot": -6.0,
+          "text": "NOME SAVED IN 5.5 DAYS",
+          "radar_ring": true,
+          "sfx": "rubber_stamp.wav",
+          "sfx_reason": "Đóng dấu giải cứu thành công thị trấn Nome"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.02,
+        "toScale": 1.08,
+        "fromX": -18,
+        "toX": 18,
+        "fromY": -8,
+        "toY": 8
+      }
+    },
+    {
+      "id": "sc_05",
+      "title": "SỰ THẬT LỊCH SỬ: BALTO (55 DẶM) VS ANH HÙNG THẬT SỰ TOGO (260 DẶM)",
+      "t0": 87.5,
+      "t1": 103.0,
+      "scene_motif": "MOTIF_5_DATA_STORY_PROGRESSION",
+      "camera_move": "DRAMATIC_PULL_BACK",
+      "seam_transition": "INVERSE_ZOOM_ARRIVAL",
+      "bg_mode": "CREAM_GRID",
+      "era_label": "1925 • BALTO VS. TOGO: THE DATA TRUTH",
+      "source_footnote": "Source: Leonhard Seppala Sled Log (260 Miles vs. 55 Miles)",
+      "hud_ticker": {
+        "label": "TRUE HERO DISTANCE",
+        "value": "TOGO: 260+ MILES"
+      },
+      "beats": [
+        {
+          "stt_id": "05.1_01m27s_polaroid_balto_central_park",
+          "type": "POLAROID",
+          "t0": 87.6,
+          "t1": 94.4,
+          "x": 110,
+          "y": 140,
+          "w": 720,
+          "h": 490,
+          "rot": -1.8,
+          "caption": "BALTO • RAN FINAL STRETCH & GOT CENTRAL PARK STATUE",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/05.1_01m27s_polaroid_balto_central_park.jpg",
+          "search_query": "Balto Gunnar Kaasen 1925 statue Central Park historical photo",
+          "wiki_titles": [
+            "Balto"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Hiện hình ảnh Balto và tượng đài ở Central Park",
+          "source_origin": "Wikimedia Commons: Balto_memorial_in_Central_Park.jpg (Central Park NYC Statue)"
+        },
+        {
+          "stt_id": "05.2_01m30s_callout_central_park_statue",
+          "type": "HANDWRITTEN_CALLOUT",
+          "t0": 90.6,
+          "t1": 94.4,
+          "x": 920,
+          "y": 220,
+          "w": 720,
+          "h": 180,
+          "rot": -2.0,
+          "text": "Balto got the Central Park statue for the last 55 miles...",
+          "arrow_dir": "DOWN_LEFT",
+          "sfx": "marker_swipe.wav",
+          "sfx_reason": "Ghi chú viết tay chỉ vào Balto"
+        },
+        {
+          "stt_id": "05.3_01m34s_sticker_togo_seppala",
+          "type": "STICKER",
+          "t0": 94.5,
+          "t1": 102.9,
+          "x": 110,
+          "y": 130,
+          "w": 640,
+          "h": 540,
+          "rot": 1.5,
+          "caption": "TOGO & LEONHARD SEPPALA • THE REAL HERO",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/stickers_cutout/05.3_01m34s_sticker_togo_seppala.png",
+          "search_query": "Togo sled dog Leonhard Seppala 1925 historical photograph",
+          "wiki_titles": [
+            "Togo (dog)",
+            "Leonhard Seppala"
+          ],
+          "sfx": "sticker_pop_soft.wav",
+          "sfx_reason": "Bật hình ảnh người hùng thực sự: chú chó Togo",
+          "source_origin": "Wikipedia (Togo (dog)): Leonhard_Seppala_with_dogs.jpg (Lead dog Togo & Leonhard Seppala, 1925)",
+          "label": "TOGO & LEONHARD SEPPALA • THE REAL HERO"
+        },
+        {
+          "stt_id": "05.4_01m36s_bars_togo_vs_balto_distance",
+          "type": "ROUGH_EDGE_BARS",
+          "t0": 96.6,
+          "t1": 102.9,
+          "x": 860,
+          "y": 150,
+          "w": 880,
+          "h": 310,
+          "rot": 0.0,
+          "title": "DISTANCE RUN IN THE 1925 SERUM RELAY",
+          "bars": [
+            {
+              "label": "BALTO (FINAL STRETCH ONLY)",
+              "value_text": "55 MILES",
+              "ratio": 0.21,
+              "color": "DARK"
+            },
+            {
+              "label": "TOGO (REAL HERO • 5X FARTHER!)",
+              "value_text": "260+ MILES",
+              "ratio": 1.0,
+              "color": "RED"
+            }
+          ],
+          "sfx": "counter_tick_loop.wav",
+          "sfx_reason": "Biểu đồ vạch trần Togo chạy hơn 260 dặm — gấp 5 lần Balto"
+        },
+        {
+          "stt_id": "05.5_01m39s_stamp_sorry_balto",
+          "type": "STAMP",
+          "t0": 99.6,
+          "t1": 102.9,
+          "x": 1020,
+          "y": 520,
+          "w": 480,
+          "h": 115,
+          "rot": -5.0,
+          "text": "SORRY, BALTO! TOGO RAN 5X",
+          "radar_ring": true,
+          "sfx": "rubber_stamp.wav",
+          "sfx_reason": "Đóng dấu chốt câu thoại Sorry Balto"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.0,
+        "toScale": 1.06,
+        "fromX": 12,
+        "toX": -14,
+        "fromY": 0,
+        "toY": -10
+      }
+    },
+    {
+      "id": "sc_06",
+      "title": "THÁNG 6/1942: NHẬT BẢN ĐỔ BỘ ATTU & KISKA — TRẬN CHIẾN ĐẪM MÁU TRÊN ĐẤT MỸ",
+      "t0": 103.0,
+      "t1": 126.2,
+      "scene_motif": "MOTIF_2_BROLL_KINETIC_OVERDRIVE",
+      "camera_move": "KEN_BURNS_PUSH",
+      "seam_transition": "CUT_THE_CURVE_LEFT",
+      "bg_mode": "DARK_CLIMAX",
+      "era_label": "JUNE 1942 • WWII INVASION OF AMERICAN SOIL",
+      "source_footnote": "Source: U.S. Army Center of Military History • Aleutian Islands Campaign",
+      "hud_ticker": {
+        "label": "OCCUPIED ISLANDS",
+        "value": "ATTU & KISKA (1942)"
+      },
+      "beats": [
+        {
+          "stt_id": "06.1_01m43s_video_ww2_aleutian_combat",
+          "type": "VIDEO_CLIP",
+          "t0": 103.1,
+          "t1": 114.0,
+          "x": 100,
+          "y": 140,
+          "w": 820,
+          "h": 520,
+          "rot": -1.2,
+          "caption": "JUNE 1942 • JAPANESE FORCES INVADE ATTU & KISKA",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/06.1_01m43s_video_ww2_aleutian_combat.mp4",
+          "search_query": "Aleutian Islands Campaign Attu Kiska 1942 1943 archival footage",
+          "wiki_titles": [
+            "Aleutian Islands campaign",
+            "Battle of Attu"
+          ],
+          "sfx": "low_boom.wav",
+          "sfx_reason": "Đảo sang nền Đen Cao Trào khi Thế chiến II nổ ra tại Alaska",
+          "source_origin": "Wikimedia Commons Archival Motion (WWII Aleutians): A6M2-N_Rufes_Holtz_Bay_1942.jpg & Battle of Attu 1943"
+        },
+        {
+          "stt_id": "06.2_01m46s_headline_japan_attacks_alaska",
+          "type": "HEADLINE",
+          "t0": 106.0,
+          "t1": 114.0,
+          "x": 980,
+          "y": 150,
+          "w": 820,
+          "h": 210,
+          "rot": 0.0,
+          "prefix": "June 1942 — The forgotten front:",
+          "highlight": "JAPAN OCCUPIES ATTU & KISKA FOR 1 YEAR",
+          "sfx": "marker_swipe.wav",
+          "sfx_reason": "Bút dạ nhấn mạnh Nhật chiếm đóng 2 đảo Attu và Kiska suốt 1 năm"
+        },
+        {
+          "stt_id": "06.3_01m50s_red_circle_aleutian_islands",
+          "type": "RED_INK_CIRCLE",
+          "t0": 110.0,
+          "t1": 114.0,
+          "x": 300,
+          "y": 260,
+          "w": 360,
+          "h": 200,
+          "rot": -3.0,
+          "label": "OCCUPIED U.S. SOIL!",
+          "src": "2_KHO_NGUYEN_LIEU/dung_chung_toan_kenh/fx_overlays/red_ink_circle.png",
+          "sfx": "red_pen_scratch.wav",
+          "sfx_reason": "Khoanh đỏ vị trí 2 đảo bị chiếm đóng"
+        },
+        {
+          "stt_id": "06.4_01m54s_polaroid_japanese_occupation_attu",
+          "type": "POLAROID",
+          "t0": 114.2,
+          "t1": 120.5,
+          "x": 100,
+          "y": 140,
+          "w": 760,
+          "h": 490,
+          "rot": 1.5,
+          "caption": "ONLY WWII FOREIGN OCCUPATION OF NORTH AMERICA",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/06.4_01m54s_polaroid_japanese_occupation_attu.jpg",
+          "search_query": "Japanese occupation of Attu Kiska Alaska 1942 WWII photograph",
+          "wiki_titles": [
+            "Japanese occupation of Attu",
+            "Japanese occupation of Kiska"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Tư liệu lần duy nhất trong Thế chiến II đất Bắc Mỹ bị quân địch chiếm",
+          "source_origin": "Wikipedia (Japanese occupation of Kiska): JapaneseKiska.jpg (Imperial Japanese forces raising battle flag on Alaskan soil, June 1942)"
+        },
+        {
+          "stt_id": "06.5_01m57s_note_only_time_in_ww2",
+          "type": "DETECTIVE_TAPE_NOTE",
+          "t0": 117.0,
+          "t1": 120.5,
+          "x": 940,
+          "y": 220,
+          "w": 800,
+          "h": 170,
+          "rot": -1.5,
+          "title": "HISTORICAL SHOCK",
+          "text": "THE ONLY TIME IN WWII THAT ENEMY TROOPS HELD NORTH AMERICAN SOIL",
+          "sfx": "typewriter.wav",
+          "sfx_reason": "Ghi chú cú sốc lịch sử Thế chiến II"
+        },
+        {
+          "stt_id": "06.6_02m00s_polaroid_battle_of_attu_troops",
+          "type": "POLAROID",
+          "t0": 120.7,
+          "t1": 126.1,
+          "x": 100,
+          "y": 140,
+          "w": 760,
+          "h": 490,
+          "rot": -1.6,
+          "caption": "MAY 1943 • RETAKING ATTU IN FREEZING FOG & MUD",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/06.6_02m00s_polaroid_battle_of_attu_troops.jpg",
+          "search_query": "Battle of Attu 1943 US soldiers snow mud historical photograph",
+          "wiki_titles": [
+            "Battle of Attu"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Hiện trận chiến tái chiếm đảo Attu đẫm máu",
+          "source_origin": "Wikipedia (Battle of Attu): Mortar-attu-1943.jpg (U.S. soldiers in freezing mud on Attu Island, May 1943)"
+        },
+        {
+          "stt_id": "06.7_02m03s_counter_attu_casualties",
+          "type": "NUMBER_COUNTER",
+          "t0": 123.0,
+          "t1": 126.1,
+          "x": 940,
+          "y": 240,
+          "w": 780,
+          "h": 180,
+          "rot": 0.0,
+          "label": "COST TO RETAKE ATTU",
+          "target_text": "549 U.S. LIVES LOST",
+          "sfx": "low_boom.wav",
+          "sfx_reason": "Con số hàng trăm binh sĩ Mỹ hy sinh tại đảo Attu",
+          "target_number": 549,
+          "prefix": "",
+          "suffix": " U.S. LIVES LOST",
+          "caption": "HEAVY TOLL TO RETAKE ATTU ISLAND (MAY 1943)"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.01,
+        "toScale": 1.09,
+        "fromX": 0,
+        "toX": -16,
+        "fromY": -4,
+        "toY": -12
+      }
+    },
+    {
+      "id": "sc_07",
+      "title": "CHIẾN DỊCH COTTAGE TẠI KISKA: 34.000 QUÂN ĐỔ BỘ VÀO ĐẢO TRỐNG",
+      "t0": 126.2,
+      "t1": 137.8,
+      "scene_motif": "MOTIF_4_EVIDENCE_SPLIT_COLLISION",
+      "camera_move": "DESK_PAN_ZOOM",
+      "seam_transition": "ZOOM_THROUGH",
+      "bg_mode": "CREAM_GRID",
+      "era_label": "AUGUST 1943 • THE GHOSTS OF KISKA ISLAND",
+      "source_footnote": "Source: Operation Cottage After-Action Report (August 15, 1943)",
+      "hud_ticker": {
+        "label": "ALLIED LANDING FORCE",
+        "value": "34,000 SOLDIERS"
+      },
+      "beats": [
+        {
+          "stt_id": "07.1_02m06s_polaroid_kiska_landing_34k",
+          "type": "POLAROID",
+          "t0": 126.3,
+          "t1": 137.7,
+          "x": 100,
+          "y": 140,
+          "w": 740,
+          "h": 490,
+          "rot": -1.5,
+          "caption": "AUGUST 1943 • 34,000 TROOPS STORM KISKA ISLAND",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/07.1_02m06s_polaroid_kiska_landing_34k.jpg",
+          "search_query": "Operation Cottage Kiska landing 1943 soldiers historical photo",
+          "wiki_titles": [
+            "Operation Cottage"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Hiện lực lượng 34.000 quân đổ bộ lên đảo Kiska",
+          "source_origin": "Wikipedia (Operation Cottage): US_landings_on_Kiska.jpg (August 1943 Allied landing on Kiska Island)"
+        },
+        {
+          "stt_id": "07.2_02m09s_torn_split_34k_vs_0_japanese",
+          "type": "TORN_PAPER_SPLIT",
+          "t0": 128.4,
+          "t1": 132.4,
+          "x": 915,
+          "y": 0,
+          "w": 90,
+          "h": 1080,
+          "rot": 0.0,
+          "sfx": "paper_rip_split.wav",
+          "sfx_reason": "Xé đôi màn hình đối chiếu 34.000 quân Đồng minh vs 0 quân Nhật"
+        },
+        {
+          "stt_id": "07.3_02m11s_headline_nobody_there",
+          "type": "HEADLINE",
+          "t0": 129.4,
+          "t1": 137.7,
+          "x": 1020,
+          "y": 160,
+          "w": 780,
+          "h": 220,
+          "rot": 0.0,
+          "prefix": "34,000 soldiers stormed the beach and found:",
+          "highlight": "NOBODY THERE • SLIPPED AWAY IN THE FOG",
+          "strikethrough": "FIERCE JAPANESE GARRISON",
+          "sfx": "red_pen_scratch.wav",
+          "sfx_reason": "Gạch bỏ đồn trú Nhật — quân Nhật đã rút êm trong sương mù 2 tuần trước"
+        },
+        {
+          "stt_id": "07.4_02m14s_stamp_escaped_in_fog",
+          "type": "STAMP",
+          "t0": 134.5,
+          "t1": 137.7,
+          "x": 1080,
+          "y": 460,
+          "w": 460,
+          "h": 115,
+          "rot": -5.0,
+          "text": "GONE 2 WEEKS EARLIER!",
+          "radar_ring": true,
+          "sfx": "rubber_stamp.wav",
+          "sfx_reason": "Đóng dấu cuộc rút lui bí mật trong sương mù"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.04,
+        "toScale": 1.0,
+        "fromX": -10,
+        "toX": 10,
+        "fromY": -6,
+        "toY": 0
+      }
+    },
+    {
+      "id": "sc_08",
+      "title": "SIÊU CAO TỐC ALASKA 1.700 DẶM TRONG 8 THÁNG & TIỂU BANG THỨ 49 (1959)",
+      "t0": 137.8,
+      "t1": 150.73,
+      "scene_motif": "MOTIF_3_CARTOGRAPHIC_3D_FLYOVER",
+      "camera_move": "MAP_FLYOVER_TRACK",
+      "seam_transition": "INVERSE_ZOOM_ARRIVAL",
+      "bg_mode": "PARCHMENT_MAP",
+      "era_label": "1942–1959 • THE ALASKA HIGHWAY & 49TH STATE",
+      "source_footnote": "Source: U.S. Army Corps of Engineers (Alcan Highway, 1942) • 1959 Statehood Act",
+      "hud_ticker": {
+        "label": "STATEHOOD STATUS",
+        "value": "1959 • 49TH U.S. STATE"
+      },
+      "beats": [
+        {
+          "stt_id": "08.1_02m18s_video_alaska_highway_bulldozers",
+          "type": "VIDEO_CLIP",
+          "t0": 137.9,
+          "t1": 146.4,
+          "x": 100,
+          "y": 140,
+          "w": 820,
+          "h": 520,
+          "rot": -1.2,
+          "caption": "1942 • U.S. ARMY ENGINEERS CARVE THE ALASKA HIGHWAY",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/08.1_02m18s_video_alaska_highway_bulldozers.mp4",
+          "search_query": "Alaska Highway construction 1942 US Army bulldozers archival footage",
+          "wiki_titles": [
+            "Alaska Highway"
+          ],
+          "sfx": "map_whoosh.wav",
+          "sfx_reason": "Băng tư liệu công binh Mỹ mở đường xuyên rừng nguyên sinh",
+          "source_origin": "Wikimedia Commons Archival Motion (1942 Alcan Highway): Building a bridge on the Alaska Highway & Slims River Bridge 1942"
+        },
+        {
+          "stt_id": "08.2_02m21s_counter_1700_miles_8_months",
+          "type": "NUMBER_COUNTER",
+          "t0": 141.0,
+          "t1": 144.2,
+          "x": 980,
+          "y": 150,
+          "w": 780,
+          "h": 180,
+          "rot": 0.0,
+          "label": "BUILT IN JUST 8 MONTHS",
+          "target_text": "1,700 MILES OF HIGHWAY",
+          "sfx": "counter_tick_loop.wav",
+          "sfx_reason": "Đếm kỷ lục 1.700 dặm đường cao tốc hoàn thành trong 8 tháng",
+          "target_number": 1700,
+          "prefix": "",
+          "suffix": " MILES OF HIGHWAY",
+          "caption": "BUILT THROUGH WILDERNESS IN JUST 8 MONTHS (1942)"
+        },
+        {
+          "stt_id": "08.3_02m26s_polaroid_alaska_49th_state_1959",
+          "type": "POLAROID",
+          "t0": 146.6,
+          "t1": 150.7,
+          "x": 110,
+          "y": 140,
+          "w": 760,
+          "h": 490,
+          "rot": 1.4,
+          "caption": "JANUARY 3, 1959 • ALASKA BECOMES THE 49TH U.S. STATE",
+          "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/08.3_02m26s_polaroid_alaska_49th_state_1959.jpg",
+          "search_query": "Eisenhower 49 star flag Alaska statehood 1959 historical photo",
+          "wiki_titles": [
+            "Alaska Statehood Act"
+          ],
+          "sfx": "paper_slide.wav",
+          "sfx_reason": "Tư liệu Tổng thống Eisenhower và lá cờ 49 ngôi sao năm 1959",
+          "source_origin": "Wikimedia Commons: Anchorage_Times_statehood_edition.jpg (WE ARE IN - 64-20 Vote Makes Alaska 49th State)"
+        },
+        {
+          "stt_id": "08.4_02m28s_stamp_49th_state",
+          "type": "STAMP",
+          "t0": 148.2,
+          "t1": 150.7,
+          "x": 980,
+          "y": 360,
+          "w": 520,
+          "h": 120,
+          "rot": -5.0,
+          "text": "1959: THE 49TH STATE",
+          "radar_ring": true,
+          "sfx": "rubber_stamp.wav",
+          "sfx_reason": "Đóng dấu kết thúc Phần 3: Tiểu bang thứ 49"
+        }
+      ],
+      "camera": {
+        "fromScale": 1.0,
+        "toScale": 1.07,
+        "fromX": -14,
+        "toX": 14,
+        "fromY": 0,
+        "toY": -10
+      }
+    }
+  ],
+  "subtitles": [
+    {
+      "t0": 0.4,
+      "t1": 6.8,
+      "en": "And then America forgot about it. For 17 years, Alaska had no real government at all.",
+      "vi": "Và rồi nước Mỹ quên bẵng nó. Suốt 17 năm, Alaska hoàn toàn không có một chính quyền thực sự nào."
+    },
+    {
+      "t0": 7.8,
+      "t1": 15.3,
+      "en": "Then in 1896, someone found gold. Not in Alaska, just across the border in Canada's Klondike.",
+      "vi": "Rồi năm 1896, người ta tìm thấy vàng. Không phải ở Alaska, mà ngay bên kia biên giới tại vùng Klondike của Canada."
+    },
+    {
+      "t0": 15.8,
+      "t1": 21.7,
+      "en": "But the fastest way in was through Alaska. 100,000 people dropped everything and headed north.",
+      "vi": "Nhưng đường vào nhanh nhất lại đi xuyên qua Alaska. 100.000 người vứt bỏ tất cả để lao về phương Bắc."
+    },
+    {
+      "t0": 21.7,
+      "t1": 27.6,
+      "en": "To cross the border, each person had to carry a full year of supplies, about a ton.",
+      "vi": "Để qua biên giới, mỗi người buộc phải mang theo đủ một năm lương thực, nặng khoảng một tấn."
+    },
+    {
+      "t0": 28.3,
+      "t1": 36.9,
+      "en": "So they climbed a frozen mountain pass in a single line, 1,500 steps carved into the ice, up and down 30 or 40 times.",
+      "vi": "Họ nối đuôi nhau leo qua đèo núi đóng băng, 1.500 bậc thang đục thẳng vào băng giá, lên xuống tới 30–40 lần."
+    },
+    {
+      "t0": 38.0,
+      "t1": 43.1,
+      "en": "Most never found gold. The people who got rich were the ones selling the shovels.",
+      "vi": "Hầu hết chẳng bao giờ tìm thấy vàng. Những kẻ thực sự giàu to lại là những người đi bán xẻng."
+    },
+    {
+      "t0": 43.1,
+      "t1": 49.8,
+      "en": "One saloon owner in the town of Nome was a retired lawman you might have heard of. Surprised? Wyatt Earp.",
+      "vi": "Một chủ quán rượu ở thị trấn Nome là cựu cảnh sát trưởng lừng danh mà có thể bạn từng nghe tên. Ngạc nhiên chưa? Wyatt Earp!"
+    },
+    {
+      "t0": 50.4,
+      "t1": 61.1,
+      "en": "Because by then gold had turned up in Alaska itself — in Juneau, in Fairbanks, and in Nome, where it was lying right on the beach. The icebox was full of treasure.",
+      "vi": "Bởi lúc đó vàng đã lộ diện ngay tại Alaska — ở Juneau, Fairbanks, và tại Nome, nơi vàng nằm lộ thiên ngay trên bãi biển. Chiếc tủ đá hóa ra chứa đầy kho báu."
+    },
+    {
+      "t0": 62.0,
+      "t1": 70.1,
+      "en": "In the winter of 1925, Alaska gave the world a different kind of story. In the town of Nome, children began to die of diphtheria.",
+      "vi": "Mùa đông năm 1925, Alaska mang đến cho thế giới một câu chuyện khác hẳn. Tại thị trấn Nome, trẻ em bắt đầu tử vong vì dịch bạch hầu."
+    },
+    {
+      "t0": 70.8,
+      "t1": 77.8,
+      "en": "The medicine was almost 700 miles away. No road, no plane that could fly, 50 degrees below zero.",
+      "vi": "Thuốc kháng độc tố nằm cách đó gần 700 dặm. Không đường sá, không máy bay nào cất cánh nổi giữa cái lạnh âm 50 độ."
+    },
+    {
+      "t0": 78.3,
+      "t1": 87.2,
+      "en": "So 20 men and 150 sled dogs ran it in a relay through a blizzard in 5 and a half days. The town was saved.",
+      "vi": "Thế là 20 người điều khiển cùng 150 chú chó kéo xe đã chạy tiếp sức xuyên bão tuyết trong 5 ngày rưỡi. Thị trấn được cứu sống."
+    },
+    {
+      "t0": 88.0,
+      "t1": 94.0,
+      "en": "A dog named Balto ran the final stretch and became world famous. There's a statue of him in New York Central Park.",
+      "vi": "Chú chó Balto chạy chặng cuối cùng và trở nên nổi tiếng khắp thế giới, được dựng tượng ngay tại Công viên Trung tâm New York."
+    },
+    {
+      "t0": 94.4,
+      "t1": 102.5,
+      "en": "But the real hero was a dog named Togo who ran more than 250 miles, almost five times farther. Sorry, Balto.",
+      "vi": "Nhưng người hùng thực sự là chú chó tên Togo đã chạy hơn 250 dặm, xa gấp gần 5 lần. Xin lỗi nhé, Balto."
+    },
+    {
+      "t0": 103.6,
+      "t1": 113.4,
+      "en": "Then came the war. In June 1942, Japan attacked Alaska. Its troops landed on two islands, Attu and Kiska, and held them for about a year.",
+      "vi": "Rồi chiến tranh ập đến. Tháng 6 năm 1942, Nhật Bản tấn công Alaska, đổ bộ lên hai đảo Attu và Kiska và chiếm giữ suốt gần một năm."
+    },
+    {
+      "t0": 114.1,
+      "t1": 119.9,
+      "en": "It was the only time in the Second World War that enemy soldiers occupied American soil in North America.",
+      "vi": "Đó là lần duy nhất trong Thế chiến thứ hai quân đội kẻ thù chiếm đóng lãnh thổ nước Mỹ tại lục địa Bắc Mỹ."
+    },
+    {
+      "t0": 120.8,
+      "t1": 126.0,
+      "en": "Taking Attu back cost hundreds of American lives in one of the hardest battles of the Pacific.",
+      "vi": "Cuộc tái chiếm đảo Attu đã cướp đi sinh mạng của hàng trăm lính Mỹ trong một trong những trận đánh khốc liệt nhất Thái Bình Dương."
+    },
+    {
+      "t0": 126.6,
+      "t1": 137.3,
+      "en": "Then came Kiska. 34,000 soldiers stormed the island and found nobody there. The Japanese had slipped away two weeks earlier, hidden by the fog.",
+      "vi": "Tiếp đến là đảo Kiska. 34.000 binh sĩ ồ ạt đổ bộ lên đảo nhưng không thấy một bóng người. Quân Nhật đã rút êm từ hai tuần trước dưới màn sương mù dày đặc."
+    },
+    {
+      "t0": 138.3,
+      "t1": 150.7,
+      "en": "Suddenly, Washington understood how exposed Alaska was. In just 8 months, American soldiers built a highway 1,700 miles long through pure wilderness. In 1959, it became the 49th state.",
+      "vi": "Đột nhiên, Washington bừng tỉnh trước sự mong manh và dễ tổn thương của Alaska. Chỉ trong 8 tháng, công binh Mỹ đã mở tuyến cao tốc dài 1.700 dặm xuyên rừng hoang. Năm 1959, Alaska chính thức trở thành tiểu bang thứ 49."
+    }
+  ]
+}

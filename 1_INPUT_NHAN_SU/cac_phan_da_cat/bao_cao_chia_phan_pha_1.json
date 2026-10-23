@@ -1,0 +1,65 @@
+{
+  "source_audio": "1_INPUT_NHAN_SU/The Worst Deal in History- The Full Story of Alaska.mp3",
+  "source_script": "1_INPUT_NHAN_SU/The Worst Deal in History- The Full Story of Alaska.md",
+  "total_duration_sec": 631.44,
+  "similarity_score_pct": 94.9,
+  "total_parts": 4,
+  "parts": [
+    {
+      "part_id": "phan_01",
+      "time_range_mmss": "00:00 -> 02:25",
+      "global_t0": 0.0,
+      "global_t1": 145.21,
+      "duration_sec": 145.21,
+      "word_count": 340,
+      "paragraph_count": 8,
+      "opening_phrase": "Imagine selling your house for $7 and then finding...",
+      "closing_phrase": "...hunt for them. Thousands died from violence and disease.",
+      "text_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_01/phan_01_kich_ban.txt",
+      "voice_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_01/phan_01_voice.mp3",
+      "timestamps_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_01/phan_01_timestamps.json"
+    },
+    {
+      "part_id": "phan_02",
+      "time_range_mmss": "02:25 -> 05:04",
+      "global_t0": 145.21,
+      "global_t1": 304.47,
+      "duration_sec": 159.26,
+      "word_count": 403,
+      "paragraph_count": 10,
+      "opening_phrase": "In 1799, Thesar handed the whole territory to a...",
+      "closing_phrase": "...Friday, October 6th was followed by Friday, October 18th.",
+      "text_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_02/phan_02_kich_ban.txt",
+      "voice_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_02/phan_02_voice.mp3",
+      "timestamps_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_02/phan_02_timestamps.json"
+    },
+    {
+      "part_id": "phan_03",
+      "time_range_mmss": "05:04 -> 07:35",
+      "global_t0": 304.47,
+      "global_t1": 455.2,
+      "duration_sec": 150.73,
+      "word_count": 384,
+      "paragraph_count": 9,
+      "opening_phrase": "Two Fridays in a row. And then America forgot...",
+      "closing_phrase": "...longer forgotten. In 1959, it became the 49th state.",
+      "text_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_03/phan_03_kich_ban.txt",
+      "voice_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_03/phan_03_voice.mp3",
+      "timestamps_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_03/phan_03_timestamps.json"
+    },
+    {
+      "part_id": "phan_04",
+      "time_range_mmss": "07:35 -> 10:31",
+      "global_t0": 455.2,
+      "global_t1": 631.44,
+      "duration_sec": 176.24,
+      "word_count": 452,
+      "paragraph_count": 10,
+      "opening_phrase": "Its flag, eight gold stars on a blue sky,...",
+      "closing_phrase": "...Alaska? Tell us what you think in the comments.",
+      "text_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_04/phan_04_kich_ban.txt",
+      "voice_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_04/phan_04_voice.mp3",
+      "timestamps_file": "1_INPUT_NHAN_SU/cac_phan_da_cat/phan_04/phan_04_timestamps.json"
+    }
+  ]
+}

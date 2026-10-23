@@ -1,0 +1,99 @@
+[
+  {
+    "stt_id": "01_00m00s_polaroid_alaska_check",
+    "time_range": "00:00.8 -> 00:10.3",
+    "type": "polaroid",
+    "wiki_titles": ["Alaska Purchase"],
+    "search_query": "Alaska Purchase check 7.2 million dollars",
+    "expected_subject": "Tấm séc 7.2 triệu USD Mỹ trả cho Nga mua Alaska (1868)"
+  },
+  {
+    "stt_id": "02_00m11s_polaroid_alaska_gold_mine",
+    "time_range": "00:11.0 -> 00:21.7",
+    "type": "polaroid",
+    "wiki_titles": ["Nome Gold Rush", "Fairbanks Gold Rush"],
+    "search_query": "Alaska gold mining historical photograph",
+    "expected_subject": "Tư liệu lịch sử khai thác mỏ vàng & tài nguyên tại Alaska"
+  },
+  {
+    "stt_id": "03_00m22s_polaroid_seward_icebox_cartoon",
+    "time_range": "00:22.5 -> 00:35.6",
+    "type": "polaroid",
+    "wiki_titles": ["Treaty with Russia (1867)", "History of Alaska"],
+    "search_query": "Alaska Purchase cartoon 1867 Seward",
+    "expected_subject": "Tranh biếm họa / tư liệu chế giễu thương vụ mua 'Tủ đá Alaska' (Seward's Icebox)"
+  },
+  {
+    "stt_id": "04_00m36s_polaroid_beringia_bridge_map",
+    "time_range": "00:36.6 -> 00:59.7",
+    "type": "polaroid",
+    "wiki_titles": ["Beringia"],
+    "search_query": "Bering Land Bridge map",
+    "expected_subject": "Bản đồ cầu đất liền Beringia nối châu Á và Bắc Mỹ 15,000 năm trước"
+  },
+  {
+    "stt_id": "05_01m00s_sticker_woolly_mammoth_hunters",
+    "time_range": "01:00.5 -> 01:10.7",
+    "type": "sticker",
+    "wiki_titles": ["Peopling of the Americas", "Woolly mammoth"],
+    "search_query": "Woolly mammoth Charles R Knight",
+    "expected_subject": "Sticker tách nền đàn thú cổ đại & những con người đầu tiên vượt cầu đất Beringia"
+  },
+  {
+    "stt_id": "06_01m12s_polaroid_inupiat_tlingit_natives",
+    "time_range": "01:11.5 -> 01:31.3",
+    "type": "polaroid",
+    "wiki_titles": ["Indigenous peoples of Alaska", "Iñupiat"],
+    "search_query": "Inupiat Edward Curtis Alaska native",
+    "expected_subject": "Ảnh tư liệu người bản địa Alaska (Inupiat, Yupik, Unangan, Tlingit)"
+  },
+  {
+    "stt_id": "07_01m32s_polaroid_st_peter_ship_1741",
+    "time_range": "01:32.6 -> 01:36.5",
+    "type": "polaroid",
+    "wiki_titles": ["Second Kamchatka Expedition"],
+    "search_query": "Vitus Bering ship St Peter 1741",
+    "expected_subject": "Tàu thám hiểm của đoàn Vitus Bering tiến về phía đông Siberia năm 1741"
+  },
+  {
+    "stt_id": "08_01m36s_sticker_vitus_bering",
+    "time_range": "01:36.6 -> 01:46.9",
+    "type": "sticker",
+    "wiki_titles": ["Vitus Bering"],
+    "search_query": "Vitus Bering portrait",
+    "expected_subject": "Sticker tách nền chân dung Thuyền trưởng Vitus Bering (1741)"
+  },
+  {
+    "stt_id": "09_01m47s_polaroid_bering_island_wreck",
+    "time_range": "01:47.7 -> 01:59.9",
+    "type": "polaroid",
+    "wiki_titles": ["Bering Island", "Commander Islands"],
+    "search_query": "Bering Island Commander Islands historical",
+    "expected_subject": "Đảo băng giá Bering nơi con tàu bị đắm và thủy thủ đoàn sống sót qua mùa đông"
+  },
+  {
+    "stt_id": "10_02m01s_sticker_sea_otter_soft_gold",
+    "time_range": "02:01.1 -> 02:11.6",
+    "type": "sticker",
+    "wiki_titles": ["Sea otter", "Maritime fur trade"],
+    "search_query": "Sea otter Enhydra lutris",
+    "expected_subject": "Sticker tách nền Rái cá biển Alaska — 'Vàng mềm' (Soft Gold) đắt giá tại Trung Hoa"
+  },
+  {
+    "stt_id": "11_02m12s_video_aleutian_sea_hunters",
+    "time_range": "02:12.3 -> 02:18.9",
+    "type": "video_clip",
+    "search_query": "Alaska Aleutian Islands historical archival footage",
+    "clip_start_sec": 12,
+    "clip_duration_sec": 4.0,
+    "expected_subject": "Đoạn video tư liệu 4s cảnh vùng biển và các đảo Alaska thời kỳ săn lông thú"
+  },
+  {
+    "stt_id": "12_02m19s_polaroid_unangan_aleut_hunters",
+    "time_range": "02:19.4 -> 02:25.2",
+    "type": "polaroid",
+    "wiki_titles": ["Aleuts", "Maritime fur trade"],
+    "search_query": "Aleutian hunters baidarka Russian America",
+    "expected_subject": "Tư liệu lịch sử người bản địa Unangan (Aleut) bị cưỡng bức săn rái cá cho người Nga"
+  }
+]

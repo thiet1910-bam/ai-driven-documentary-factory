@@ -1,0 +1,173 @@
+[
+  {
+    "stt_id": "01.1_00m00s_polaroid_forgotten_sitka_outpost",
+    "time_range": "0.0s - 7.4s",
+    "type": "polaroid",
+    "expected_subject": "SITKA OUTPOST • FORGOTTEN BY WASHINGTON",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.1_00m00s_polaroid_forgotten_sitka_outpost.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: The town of Sitka, Alaska, circa 1886.jpg (W. H. Case))",
+    "source_origin": "Wikimedia Commons: The town of Sitka, Alaska, circa 1886.jpg (W. H. Case)"
+  },
+  {
+    "stt_id": "01.4_00m07s_polaroid_klondike_gold_pan_1896",
+    "time_range": "7.6s - 17.7s",
+    "type": "polaroid",
+    "expected_subject": "AUGUST 1896 • GOLD DISCOVERED IN KLONDIKE",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.4_00m07s_polaroid_klondike_gold_pan_1896.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Five prospectors panning for gold in a creek, Alaska, 1897 (LAROCHE 193).jpeg)",
+    "source_origin": "Wikimedia Commons: Five prospectors panning for gold in a creek, Alaska, 1897 (LAROCHE 193).jpeg"
+  },
+  {
+    "stt_id": "01.5_00m11s_polaroid_klondike_border_map",
+    "time_range": "10.4s - 17.7s",
+    "type": "polaroid",
+    "expected_subject": "CANADA'S KLONDIKE • GATEWAY THROUGH ALASKA",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.5_00m11s_polaroid_klondike_border_map.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Map Showing Routes From San Francisco To Alaska And The Klondike (1897, David Rumsey Collection))",
+    "source_origin": "Wikimedia Commons: Map Showing Routes From San Francisco To Alaska And The Klondike (1897, David Rumsey Collection)"
+  },
+  {
+    "stt_id": "02.2_00m20s_polaroid_one_ton_supplies",
+    "time_range": "20.2s - 27.6s",
+    "type": "polaroid",
+    "expected_subject": "MANDATORY BORDER RULE: 1 TON OF SUPPLIES PER PERSON",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/02.2_00m20s_polaroid_one_ton_supplies.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Sleds and supplies at the summit of Chilkoot Pass, ca 1898 (CURTIS 1837).jpeg)",
+    "source_origin": "Wikimedia Commons: Sleds and supplies at the summit of Chilkoot Pass, ca 1898 (CURTIS 1837).jpeg"
+  },
+  {
+    "stt_id": "02.4_00m27s_video_chilkoot_pass_climbers",
+    "time_range": "27.8s - 37.4s",
+    "type": "video_clip",
+    "expected_subject": "CHILKOOT PASS • SINGLE LINE UP THE FROZEN MOUNTAIN",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/02.4_00m27s_video_chilkoot_pass_climbers.mp4",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons Archival Motion (2 Shots): ChilkootPass_steps.jpg & Line of Klondikers ascending Chilkoot Pass, 1898 (HEGG 378))",
+    "source_origin": "Wikimedia Commons Archival Motion (2 Shots): ChilkootPass_steps.jpg & Line of Klondikers ascending Chilkoot Pass, 1898 (HEGG 378)"
+  },
+  {
+    "stt_id": "03.3_00m42s_sticker_wyatt_earp",
+    "time_range": "41.8s - 50.2s",
+    "type": "sticker",
+    "expected_subject": "WYATT EARP • NOME SALOON OWNER (1899)",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/stickers_cutout/03.3_00m42s_sticker_wyatt_earp.png",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: WyattEarp2.jpg (Historical portrait of Wyatt Earp, owner of Dexter Saloon in Nome, 1899))",
+    "source_origin": "Wikimedia Commons: WyattEarp2.jpg (Historical portrait of Wyatt Earp, owner of Dexter Saloon in Nome, 1899)"
+  },
+  {
+    "stt_id": "03.5_00m50s_polaroid_juneau_fairbanks_gold",
+    "time_range": "50.4s - 61.4s",
+    "type": "polaroid",
+    "expected_subject": "ALASKA GOLD STRIKES: JUNEAU • FAIRBANKS • NOME",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/03.5_00m50s_polaroid_juneau_fairbanks_gold.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikipedia (Nome Gold Rush): Nome_prospectors,1900.jpg)",
+    "source_origin": "Wikipedia (Nome Gold Rush): Nome_prospectors,1900.jpg"
+  },
+  {
+    "stt_id": "03.6_00m54s_polaroid_nome_beach_miners",
+    "time_range": "54.0s - 61.4s",
+    "type": "polaroid",
+    "expected_subject": "GOLD LYING RIGHT ON THE BEACH IN NOME",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/03.6_00m54s_polaroid_nome_beach_miners.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Mining operation on the beach, Nome, Alaska, ca 1900 (HESTER 322).jpeg)",
+    "source_origin": "Wikimedia Commons: Mining operation on the beach, Nome, Alaska, ca 1900 (HESTER 322).jpeg"
+  },
+  {
+    "stt_id": "04.1_01m01s_polaroid_nome_winter_1925",
+    "time_range": "61.6s - 70.4s",
+    "type": "polaroid",
+    "expected_subject": "WINTER 1925 • DIPHTHERIA EPIDEMIC THREATENS NOME CHILDREN",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/04.1_01m01s_polaroid_nome_winter_1925.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Gunnar_Kaasen_with_Balto.jpg (Winter 1925 Diphtheria Serum Run to Nome))",
+    "source_origin": "Wikimedia Commons: Gunnar_Kaasen_with_Balto.jpg (Winter 1925 Diphtheria Serum Run to Nome)"
+  },
+  {
+    "stt_id": "04.4_01m11s_polaroid_serum_run_route_map",
+    "time_range": "70.8s - 78.2s",
+    "type": "polaroid",
+    "expected_subject": "NO ROADS • NO PLANES COULD FLY • 674-MILE DOG SLED RELAY",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/04.4_01m11s_polaroid_serum_run_route_map.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikipedia (1925 serum run to Nome): Iditarod_Trail_BLM_map.jpg (674-mile Nenana to Nome relay route))",
+    "source_origin": "Wikipedia (1925 serum run to Nome): Iditarod_Trail_BLM_map.jpg (674-mile Nenana to Nome relay route)"
+  },
+  {
+    "stt_id": "04.6_01m18s_video_sled_dogs_blizzard",
+    "time_range": "78.4s - 87.4s",
+    "type": "video_clip",
+    "expected_subject": "20 MUSHERS & 150 SLED DOGS • 5.5 DAYS NON-STOP",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/04.6_01m18s_video_sled_dogs_blizzard.mp4",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons Archival Film (1925): Balto and Gunner Kaasen - February 2, 1925, Nome, Alaska.webm)",
+    "source_origin": "Wikimedia Commons Archival Film (1925): Balto and Gunner Kaasen - February 2, 1925, Nome, Alaska.webm"
+  },
+  {
+    "stt_id": "05.1_01m27s_polaroid_balto_central_park",
+    "time_range": "87.6s - 94.4s",
+    "type": "polaroid",
+    "expected_subject": "BALTO • RAN FINAL STRETCH & GOT CENTRAL PARK STATUE",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/05.1_01m27s_polaroid_balto_central_park.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Balto_memorial_in_Central_Park.jpg (Central Park NYC Statue))",
+    "source_origin": "Wikimedia Commons: Balto_memorial_in_Central_Park.jpg (Central Park NYC Statue)"
+  },
+  {
+    "stt_id": "05.3_01m34s_sticker_togo_seppala",
+    "time_range": "94.5s - 102.9s",
+    "type": "sticker",
+    "expected_subject": "TOGO & LEONHARD SEPPALA • THE REAL HERO",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/stickers_cutout/05.3_01m34s_sticker_togo_seppala.png",
+    "status": "ĐÃ XÁC MINH 100% (Wikipedia (Togo (dog)): Leonhard_Seppala_with_dogs.jpg (Lead dog Togo & Leonhard Seppala, 1925))",
+    "source_origin": "Wikipedia (Togo (dog)): Leonhard_Seppala_with_dogs.jpg (Lead dog Togo & Leonhard Seppala, 1925)"
+  },
+  {
+    "stt_id": "06.1_01m43s_video_ww2_aleutian_combat",
+    "time_range": "103.1s - 114.0s",
+    "type": "video_clip",
+    "expected_subject": "JUNE 1942 • JAPANESE FORCES INVADE ATTU & KISKA",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/06.1_01m43s_video_ww2_aleutian_combat.mp4",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons Archival Motion (WWII Aleutians): A6M2-N_Rufes_Holtz_Bay_1942.jpg & Battle of Attu 1943)",
+    "source_origin": "Wikimedia Commons Archival Motion (WWII Aleutians): A6M2-N_Rufes_Holtz_Bay_1942.jpg & Battle of Attu 1943"
+  },
+  {
+    "stt_id": "06.4_01m54s_polaroid_japanese_occupation_attu",
+    "time_range": "114.2s - 120.5s",
+    "type": "polaroid",
+    "expected_subject": "ONLY WWII FOREIGN OCCUPATION OF NORTH AMERICA",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/06.4_01m54s_polaroid_japanese_occupation_attu.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikipedia (Japanese occupation of Kiska): JapaneseKiska.jpg (Imperial Japanese forces raising battle flag on Alaskan soil, June 1942))",
+    "source_origin": "Wikipedia (Japanese occupation of Kiska): JapaneseKiska.jpg (Imperial Japanese forces raising battle flag on Alaskan soil, June 1942)"
+  },
+  {
+    "stt_id": "06.6_02m00s_polaroid_battle_of_attu_troops",
+    "time_range": "120.7s - 126.1s",
+    "type": "polaroid",
+    "expected_subject": "MAY 1943 • RETAKING ATTU IN FREEZING FOG & MUD",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/06.6_02m00s_polaroid_battle_of_attu_troops.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikipedia (Battle of Attu): Mortar-attu-1943.jpg (U.S. soldiers in freezing mud on Attu Island, May 1943))",
+    "source_origin": "Wikipedia (Battle of Attu): Mortar-attu-1943.jpg (U.S. soldiers in freezing mud on Attu Island, May 1943)"
+  },
+  {
+    "stt_id": "07.1_02m06s_polaroid_kiska_landing_34k",
+    "time_range": "126.3s - 137.7s",
+    "type": "polaroid",
+    "expected_subject": "AUGUST 1943 • 34,000 TROOPS STORM KISKA ISLAND",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/07.1_02m06s_polaroid_kiska_landing_34k.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikipedia (Operation Cottage): US_landings_on_Kiska.jpg (August 1943 Allied landing on Kiska Island))",
+    "source_origin": "Wikipedia (Operation Cottage): US_landings_on_Kiska.jpg (August 1943 Allied landing on Kiska Island)"
+  },
+  {
+    "stt_id": "08.1_02m18s_video_alaska_highway_bulldozers",
+    "time_range": "137.9s - 146.4s",
+    "type": "video_clip",
+    "expected_subject": "1942 • U.S. ARMY ENGINEERS CARVE THE ALASKA HIGHWAY",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/video_footage/08.1_02m18s_video_alaska_highway_bulldozers.mp4",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons Archival Motion (1942 Alcan Highway): Building a bridge on the Alaska Highway & Slims River Bridge 1942)",
+    "source_origin": "Wikimedia Commons Archival Motion (1942 Alcan Highway): Building a bridge on the Alaska Highway & Slims River Bridge 1942"
+  },
+  {
+    "stt_id": "08.3_02m26s_polaroid_alaska_49th_state_1959",
+    "time_range": "146.6s - 150.7s",
+    "type": "polaroid",
+    "expected_subject": "JANUARY 3, 1959 • ALASKA BECOMES THE 49TH U.S. STATE",
+    "selected_path": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/08.3_02m26s_polaroid_alaska_49th_state_1959.jpg",
+    "status": "ĐÃ XÁC MINH 100% (Wikimedia Commons: Anchorage_Times_statehood_edition.jpg (WE ARE IN - 64-20 Vote Makes Alaska 49th State))",
+    "source_origin": "Wikimedia Commons: Anchorage_Times_statehood_edition.jpg (WE ARE IN - 64-20 Vote Makes Alaska 49th State)"
+  }
+]

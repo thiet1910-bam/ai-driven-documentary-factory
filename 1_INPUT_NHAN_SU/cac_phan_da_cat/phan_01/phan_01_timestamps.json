@@ -1,0 +1,2389 @@
+{
+  "part_id": "phan_01",
+  "global_t0": 0.0,
+  "global_t1": 145.21,
+  "duration": 145.21,
+  "word_count": 340,
+  "words": [
+    {
+      "word": ".,",
+      "start": 0.85,
+      "end": 1.65,
+      "global_start": 0.85,
+      "global_end": 1.65
+    },
+    {
+      "word": "Imagine",
+      "start": 1.65,
+      "end": 1.65,
+      "global_start": 1.65,
+      "global_end": 1.65
+    },
+    {
+      "word": "selling",
+      "start": 1.65,
+      "end": 2.13,
+      "global_start": 1.65,
+      "global_end": 2.13
+    },
+    {
+      "word": "your",
+      "start": 2.13,
+      "end": 2.37,
+      "global_start": 2.13,
+      "global_end": 2.37
+    },
+    {
+      "word": "house",
+      "start": 2.37,
+      "end": 2.73,
+      "global_start": 2.37,
+      "global_end": 2.73
+    },
+    {
+      "word": "for",
+      "start": 2.73,
+      "end": 3.11,
+      "global_start": 2.73,
+      "global_end": 3.11
+    },
+    {
+      "word": "$7",
+      "start": 3.11,
+      "end": 3.59,
+      "global_start": 3.11,
+      "global_end": 3.59
+    },
+    {
+      "word": "and",
+      "start": 4.51,
+      "end": 5.01,
+      "global_start": 4.51,
+      "global_end": 5.01
+    },
+    {
+      "word": "then",
+      "start": 5.01,
+      "end": 5.15,
+      "global_start": 5.01,
+      "global_end": 5.15
+    },
+    {
+      "word": "finding",
+      "start": 5.15,
+      "end": 5.59,
+      "global_start": 5.15,
+      "global_end": 5.59
+    },
+    {
+      "word": "out",
+      "start": 5.59,
+      "end": 5.85,
+      "global_start": 5.59,
+      "global_end": 5.85
+    },
+    {
+      "word": "there",
+      "start": 5.85,
+      "end": 6.03,
+      "global_start": 5.85,
+      "global_end": 6.03
+    },
+    {
+      "word": "was",
+      "start": 6.03,
+      "end": 6.21,
+      "global_start": 6.03,
+      "global_end": 6.21
+    },
+    {
+      "word": "a",
+      "start": 6.21,
+      "end": 6.31,
+      "global_start": 6.21,
+      "global_end": 6.31
+    },
+    {
+      "word": "gold",
+      "start": 6.31,
+      "end": 6.65,
+      "global_start": 6.31,
+      "global_end": 6.65
+    },
+    {
+      "word": "mine",
+      "start": 6.65,
+      "end": 6.99,
+      "global_start": 6.65,
+      "global_end": 6.99
+    },
+    {
+      "word": "in",
+      "start": 6.99,
+      "end": 7.13,
+      "global_start": 6.99,
+      "global_end": 7.13
+    },
+    {
+      "word": "the",
+      "start": 7.13,
+      "end": 7.21,
+      "global_start": 7.13,
+      "global_end": 7.21
+    },
+    {
+      "word": "basement.",
+      "start": 7.21,
+      "end": 7.49,
+      "global_start": 7.21,
+      "global_end": 7.49
+    },
+    {
+      "word": "That",
+      "start": 8.57,
+      "end": 8.57,
+      "global_start": 8.57,
+      "global_end": 8.57
+    },
+    {
+      "word": "is",
+      "start": 8.57,
+      "end": 8.87,
+      "global_start": 8.57,
+      "global_end": 8.87
+    },
+    {
+      "word": "exactly",
+      "start": 8.87,
+      "end": 9.39,
+      "global_start": 8.87,
+      "global_end": 9.39
+    },
+    {
+      "word": "what",
+      "start": 9.39,
+      "end": 9.77,
+      "global_start": 9.39,
+      "global_end": 9.77
+    },
+    {
+      "word": "Russia",
+      "start": 9.77,
+      "end": 10.03,
+      "global_start": 9.77,
+      "global_end": 10.03
+    },
+    {
+      "word": "did.",
+      "start": 10.03,
+      "end": 10.27,
+      "global_start": 10.03,
+      "global_end": 10.27
+    },
+    {
+      "word": "Except",
+      "start": 10.99,
+      "end": 11.19,
+      "global_start": 10.99,
+      "global_end": 11.19
+    },
+    {
+      "word": "the",
+      "start": 11.19,
+      "end": 11.37,
+      "global_start": 11.19,
+      "global_end": 11.37
+    },
+    {
+      "word": "house",
+      "start": 11.37,
+      "end": 11.65,
+      "global_start": 11.37,
+      "global_end": 11.65
+    },
+    {
+      "word": "was",
+      "start": 11.65,
+      "end": 12.09,
+      "global_start": 11.65,
+      "global_end": 12.09
+    },
+    {
+      "word": "Alaska",
+      "start": 12.09,
+      "end": 12.69,
+      "global_start": 12.09,
+      "global_end": 12.69
+    },
+    {
+      "word": "and",
+      "start": 13.41,
+      "end": 13.51,
+      "global_start": 13.41,
+      "global_end": 13.51
+    },
+    {
+      "word": "the",
+      "start": 13.51,
+      "end": 13.61,
+      "global_start": 13.51,
+      "global_end": 13.61
+    },
+    {
+      "word": "basement",
+      "start": 13.61,
+      "end": 13.97,
+      "global_start": 13.61,
+      "global_end": 13.97
+    },
+    {
+      "word": "had",
+      "start": 13.97,
+      "end": 14.17,
+      "global_start": 13.97,
+      "global_end": 14.17
+    },
+    {
+      "word": "gold,",
+      "start": 14.17,
+      "end": 14.55,
+      "global_start": 14.17,
+      "global_end": 14.55
+    },
+    {
+      "word": "oil,",
+      "start": 15.15,
+      "end": 15.41,
+      "global_start": 15.15,
+      "global_end": 15.41
+    },
+    {
+      "word": "and",
+      "start": 15.99,
+      "end": 16.09,
+      "global_start": 15.99,
+      "global_end": 16.09
+    },
+    {
+      "word": "a",
+      "start": 16.09,
+      "end": 16.21,
+      "global_start": 16.09,
+      "global_end": 16.21
+    },
+    {
+      "word": "few",
+      "start": 16.21,
+      "end": 16.41,
+      "global_start": 16.21,
+      "global_end": 16.41
+    },
+    {
+      "word": "hundred",
+      "start": 16.41,
+      "end": 16.75,
+      "global_start": 16.41,
+      "global_end": 16.75
+    },
+    {
+      "word": "billion",
+      "start": 16.75,
+      "end": 17.31,
+      "global_start": 16.75,
+      "global_end": 17.31
+    },
+    {
+      "word": "dollar.",
+      "start": 17.31,
+      "end": 17.79,
+      "global_start": 17.31,
+      "global_end": 17.79
+    },
+    {
+      "word": "The",
+      "start": 18.01,
+      "end": 18.79,
+      "global_start": 18.01,
+      "global_end": 18.79
+    },
+    {
+      "word": "price",
+      "start": 18.79,
+      "end": 19.15,
+      "global_start": 18.79,
+      "global_end": 19.15
+    },
+    {
+      "word": "2",
+      "start": 19.15,
+      "end": 20.31,
+      "global_start": 19.15,
+      "global_end": 20.31
+    },
+    {
+      "word": "cents",
+      "start": 20.31,
+      "end": 20.83,
+      "global_start": 20.31,
+      "global_end": 20.83
+    },
+    {
+      "word": "an",
+      "start": 20.83,
+      "end": 21.23,
+      "global_start": 20.83,
+      "global_end": 21.23
+    },
+    {
+      "word": "acre.",
+      "start": 21.23,
+      "end": 21.69,
+      "global_start": 21.23,
+      "global_end": 21.69
+    },
+    {
+      "word": "And",
+      "start": 22.47,
+      "end": 22.75,
+      "global_start": 22.47,
+      "global_end": 22.75
+    },
+    {
+      "word": "the",
+      "start": 22.75,
+      "end": 22.81,
+      "global_start": 22.75,
+      "global_end": 22.81
+    },
+    {
+      "word": "funny",
+      "start": 22.81,
+      "end": 23.07,
+      "global_start": 22.81,
+      "global_end": 23.07
+    },
+    {
+      "word": "part,",
+      "start": 23.07,
+      "end": 23.29,
+      "global_start": 23.07,
+      "global_end": 23.29
+    },
+    {
+      "word": "Americans",
+      "start": 23.85,
+      "end": 24.33,
+      "global_start": 23.85,
+      "global_end": 24.33
+    },
+    {
+      "word": "thought",
+      "start": 24.33,
+      "end": 24.73,
+      "global_start": 24.33,
+      "global_end": 24.73
+    },
+    {
+      "word": "they",
+      "start": 24.73,
+      "end": 24.97,
+      "global_start": 24.73,
+      "global_end": 24.97
+    },
+    {
+      "word": "were",
+      "start": 24.97,
+      "end": 25.15,
+      "global_start": 24.97,
+      "global_end": 25.15
+    },
+    {
+      "word": "the",
+      "start": 25.15,
+      "end": 25.23,
+      "global_start": 25.15,
+      "global_end": 25.23
+    },
+    {
+      "word": "ones",
+      "start": 25.23,
+      "end": 25.39,
+      "global_start": 25.23,
+      "global_end": 25.39
+    },
+    {
+      "word": "getting",
+      "start": 25.39,
+      "end": 25.69,
+      "global_start": 25.39,
+      "global_end": 25.69
+    },
+    {
+      "word": "robbed.",
+      "start": 25.69,
+      "end": 26.09,
+      "global_start": 25.69,
+      "global_end": 26.09
+    },
+    {
+      "word": "They",
+      "start": 26.73,
+      "end": 26.83,
+      "global_start": 26.73,
+      "global_end": 26.83
+    },
+    {
+      "word": "called",
+      "start": 26.83,
+      "end": 26.99,
+      "global_start": 26.83,
+      "global_end": 26.99
+    },
+    {
+      "word": "it",
+      "start": 26.99,
+      "end": 27.15,
+      "global_start": 26.99,
+      "global_end": 27.15
+    },
+    {
+      "word": "an",
+      "start": 27.15,
+      "end": 27.29,
+      "global_start": 27.15,
+      "global_end": 27.29
+    },
+    {
+      "word": "ice",
+      "start": 27.29,
+      "end": 27.51,
+      "global_start": 27.29,
+      "global_end": 27.51
+    },
+    {
+      "word": "box,",
+      "start": 27.51,
+      "end": 27.79,
+      "global_start": 27.51,
+      "global_end": 27.79
+    },
+    {
+      "word": "a",
+      "start": 28.33,
+      "end": 28.43,
+      "global_start": 28.33,
+      "global_end": 28.43
+    },
+    {
+      "word": "frozen",
+      "start": 28.43,
+      "end": 28.83,
+      "global_start": 28.43,
+      "global_end": 28.83
+    },
+    {
+      "word": "wasteland,",
+      "start": 28.83,
+      "end": 29.37,
+      "global_start": 28.83,
+      "global_end": 29.37
+    },
+    {
+      "word": "a",
+      "start": 29.91,
+      "end": 30.01,
+      "global_start": 29.91,
+      "global_end": 30.01
+    },
+    {
+      "word": "polar",
+      "start": 30.01,
+      "end": 30.35,
+      "global_start": 30.01,
+      "global_end": 30.35
+    },
+    {
+      "word": "bear",
+      "start": 30.35,
+      "end": 30.63,
+      "global_start": 30.35,
+      "global_end": 30.63
+    },
+    {
+      "word": "garden.",
+      "start": 30.63,
+      "end": 31.09,
+      "global_start": 30.63,
+      "global_end": 31.09
+    },
+    {
+      "word": "They",
+      "start": 31.87,
+      "end": 32.07,
+      "global_start": 31.87,
+      "global_end": 32.07
+    },
+    {
+      "word": "had",
+      "start": 32.07,
+      "end": 32.19,
+      "global_start": 32.07,
+      "global_end": 32.19
+    },
+    {
+      "word": "no",
+      "start": 32.19,
+      "end": 32.33,
+      "global_start": 32.19,
+      "global_end": 32.33
+    },
+    {
+      "word": "idea",
+      "start": 32.33,
+      "end": 32.69,
+      "global_start": 32.33,
+      "global_end": 32.69
+    },
+    {
+      "word": "they",
+      "start": 32.89,
+      "end": 32.91,
+      "global_start": 32.89,
+      "global_end": 32.91
+    },
+    {
+      "word": "had",
+      "start": 32.91,
+      "end": 33.05,
+      "global_start": 32.91,
+      "global_end": 33.05
+    },
+    {
+      "word": "just",
+      "start": 33.05,
+      "end": 33.15,
+      "global_start": 33.05,
+      "global_end": 33.15
+    },
+    {
+      "word": "made",
+      "start": 33.15,
+      "end": 33.37,
+      "global_start": 33.15,
+      "global_end": 33.37
+    },
+    {
+      "word": "one",
+      "start": 33.63,
+      "end": 33.65,
+      "global_start": 33.63,
+      "global_end": 33.65
+    },
+    {
+      "word": "of",
+      "start": 33.65,
+      "end": 33.75,
+      "global_start": 33.65,
+      "global_end": 33.75
+    },
+    {
+      "word": "the",
+      "start": 33.75,
+      "end": 33.87,
+      "global_start": 33.75,
+      "global_end": 33.87
+    },
+    {
+      "word": "greatest",
+      "start": 33.87,
+      "end": 34.31,
+      "global_start": 33.87,
+      "global_end": 34.31
+    },
+    {
+      "word": "deals",
+      "start": 34.31,
+      "end": 34.69,
+      "global_start": 34.31,
+      "global_end": 34.69
+    },
+    {
+      "word": "in",
+      "start": 34.69,
+      "end": 35.03,
+      "global_start": 34.69,
+      "global_end": 35.03
+    },
+    {
+      "word": "history.",
+      "start": 35.03,
+      "end": 35.59,
+      "global_start": 35.03,
+      "global_end": 35.59
+    },
+    {
+      "word": "This",
+      "start": 36.57,
+      "end": 36.77,
+      "global_start": 36.57,
+      "global_end": 36.77
+    },
+    {
+      "word": "is",
+      "start": 36.77,
+      "end": 37.17,
+      "global_start": 36.77,
+      "global_end": 37.17
+    },
+    {
+      "word": "the",
+      "start": 37.31,
+      "end": 37.31,
+      "global_start": 37.31,
+      "global_end": 37.31
+    },
+    {
+      "word": "story",
+      "start": 37.31,
+      "end": 37.71,
+      "global_start": 37.31,
+      "global_end": 37.71
+    },
+    {
+      "word": "of",
+      "start": 37.71,
+      "end": 37.99,
+      "global_start": 37.71,
+      "global_end": 37.99
+    },
+    {
+      "word": "Alaska.",
+      "start": 37.99,
+      "end": 38.51,
+      "global_start": 37.99,
+      "global_end": 38.51
+    },
+    {
+      "word": "And",
+      "start": 39.59,
+      "end": 39.67,
+      "global_start": 39.59,
+      "global_end": 39.67
+    },
+    {
+      "word": "it",
+      "start": 39.67,
+      "end": 39.77,
+      "global_start": 39.67,
+      "global_end": 39.77
+    },
+    {
+      "word": "starts",
+      "start": 39.77,
+      "end": 39.99,
+      "global_start": 39.77,
+      "global_end": 39.99
+    },
+    {
+      "word": "long",
+      "start": 39.99,
+      "end": 40.29,
+      "global_start": 39.99,
+      "global_end": 40.29
+    },
+    {
+      "word": "before",
+      "start": 40.29,
+      "end": 40.61,
+      "global_start": 40.29,
+      "global_end": 40.61
+    },
+    {
+      "word": "Russia,",
+      "start": 40.61,
+      "end": 41.05,
+      "global_start": 40.61,
+      "global_end": 41.05
+    },
+    {
+      "word": "long",
+      "start": 41.79,
+      "end": 41.95,
+      "global_start": 41.79,
+      "global_end": 41.95
+    },
+    {
+      "word": "before",
+      "start": 41.95,
+      "end": 42.27,
+      "global_start": 41.95,
+      "global_end": 42.27
+    },
+    {
+      "word": "America.",
+      "start": 42.27,
+      "end": 42.69,
+      "global_start": 42.27,
+      "global_end": 42.69
+    },
+    {
+      "word": "It",
+      "start": 43.57,
+      "end": 43.69,
+      "global_start": 43.57,
+      "global_end": 43.69
+    },
+    {
+      "word": "starts",
+      "start": 43.69,
+      "end": 44.07,
+      "global_start": 43.69,
+      "global_end": 44.07
+    },
+    {
+      "word": "with",
+      "start": 44.07,
+      "end": 44.59,
+      "global_start": 44.07,
+      "global_end": 44.59
+    },
+    {
+      "word": "a",
+      "start": 44.59,
+      "end": 44.81,
+      "global_start": 44.59,
+      "global_end": 44.81
+    },
+    {
+      "word": "bridge",
+      "start": 44.81,
+      "end": 45.21,
+      "global_start": 44.81,
+      "global_end": 45.21
+    },
+    {
+      "word": "that",
+      "start": 45.21,
+      "end": 45.73,
+      "global_start": 45.21,
+      "global_end": 45.73
+    },
+    {
+      "word": "no",
+      "start": 45.73,
+      "end": 45.97,
+      "global_start": 45.73,
+      "global_end": 45.97
+    },
+    {
+      "word": "longer",
+      "start": 45.97,
+      "end": 46.23,
+      "global_start": 45.97,
+      "global_end": 46.23
+    },
+    {
+      "word": "exists.",
+      "start": 46.23,
+      "end": 46.61,
+      "global_start": 46.23,
+      "global_end": 46.61
+    },
+    {
+      "word": "More",
+      "start": 47.77,
+      "end": 48.33,
+      "global_start": 47.77,
+      "global_end": 48.33
+    },
+    {
+      "word": "than",
+      "start": 48.33,
+      "end": 48.51,
+      "global_start": 48.33,
+      "global_end": 48.51
+    },
+    {
+      "word": "15,000",
+      "start": 48.51,
+      "end": 48.99,
+      "global_start": 48.51,
+      "global_end": 48.99
+    },
+    {
+      "word": "15,000",
+      "start": 48.99,
+      "end": 49.57,
+      "global_start": 48.99,
+      "global_end": 49.57
+    },
+    {
+      "word": "years",
+      "start": 49.57,
+      "end": 49.81,
+      "global_start": 49.57,
+      "global_end": 49.81
+    },
+    {
+      "word": "ago,",
+      "start": 49.81,
+      "end": 50.15,
+      "global_start": 49.81,
+      "global_end": 50.15
+    },
+    {
+      "word": "the",
+      "start": 50.47,
+      "end": 50.53,
+      "global_start": 50.47,
+      "global_end": 50.53
+    },
+    {
+      "word": "oceans",
+      "start": 50.53,
+      "end": 50.95,
+      "global_start": 50.53,
+      "global_end": 50.95
+    },
+    {
+      "word": "were",
+      "start": 50.95,
+      "end": 51.43,
+      "global_start": 50.95,
+      "global_end": 51.43
+    },
+    {
+      "word": "lower.",
+      "start": 51.43,
+      "end": 51.75,
+      "global_start": 51.43,
+      "global_end": 51.75
+    },
+    {
+      "word": "And",
+      "start": 52.41,
+      "end": 52.53,
+      "global_start": 52.41,
+      "global_end": 52.53
+    },
+    {
+      "word": "between",
+      "start": 52.53,
+      "end": 52.95,
+      "global_start": 52.53,
+      "global_end": 52.95
+    },
+    {
+      "word": "Asia",
+      "start": 53.31,
+      "end": 53.55,
+      "global_start": 53.31,
+      "global_end": 53.55
+    },
+    {
+      "word": "and",
+      "start": 53.55,
+      "end": 53.73,
+      "global_start": 53.55,
+      "global_end": 53.73
+    },
+    {
+      "word": "North",
+      "start": 53.73,
+      "end": 53.95,
+      "global_start": 53.73,
+      "global_end": 53.95
+    },
+    {
+      "word": "America,",
+      "start": 53.95,
+      "end": 54.37,
+      "global_start": 53.95,
+      "global_end": 54.37
+    },
+    {
+      "word": "there",
+      "start": 55.09,
+      "end": 55.09,
+      "global_start": 55.09,
+      "global_end": 55.09
+    },
+    {
+      "word": "was",
+      "start": 55.09,
+      "end": 55.21,
+      "global_start": 55.09,
+      "global_end": 55.21
+    },
+    {
+      "word": "land,",
+      "start": 55.21,
+      "end": 55.53,
+      "global_start": 55.21,
+      "global_end": 55.53
+    },
+    {
+      "word": "a",
+      "start": 56.13,
+      "end": 56.43,
+      "global_start": 56.13,
+      "global_end": 56.43
+    },
+    {
+      "word": "bridge",
+      "start": 56.43,
+      "end": 56.75,
+      "global_start": 56.43,
+      "global_end": 56.75
+    },
+    {
+      "word": "of",
+      "start": 56.75,
+      "end": 57.09,
+      "global_start": 56.75,
+      "global_end": 57.09
+    },
+    {
+      "word": "grass",
+      "start": 57.09,
+      "end": 57.41,
+      "global_start": 57.09,
+      "global_end": 57.41
+    },
+    {
+      "word": "and",
+      "start": 57.41,
+      "end": 57.77,
+      "global_start": 57.41,
+      "global_end": 57.77
+    },
+    {
+      "word": "ice,",
+      "start": 57.77,
+      "end": 58.09,
+      "global_start": 57.77,
+      "global_end": 58.09
+    },
+    {
+      "word": "hundreds",
+      "start": 58.53,
+      "end": 58.83,
+      "global_start": 58.53,
+      "global_end": 58.83
+    },
+    {
+      "word": "of",
+      "start": 58.83,
+      "end": 59.03,
+      "global_start": 58.83,
+      "global_end": 59.03
+    },
+    {
+      "word": "miles",
+      "start": 59.03,
+      "end": 59.25,
+      "global_start": 59.03,
+      "global_end": 59.25
+    },
+    {
+      "word": "wide.",
+      "start": 59.25,
+      "end": 59.73,
+      "global_start": 59.25,
+      "global_end": 59.73
+    },
+    {
+      "word": "People",
+      "start": 60.55,
+      "end": 60.77,
+      "global_start": 60.55,
+      "global_end": 60.77
+    },
+    {
+      "word": "walked",
+      "start": 60.77,
+      "end": 61.11,
+      "global_start": 60.77,
+      "global_end": 61.11
+    },
+    {
+      "word": "across",
+      "start": 61.11,
+      "end": 61.35,
+      "global_start": 61.11,
+      "global_end": 61.35
+    },
+    {
+      "word": "it,",
+      "start": 61.35,
+      "end": 61.61,
+      "global_start": 61.35,
+      "global_end": 61.61
+    },
+    {
+      "word": "following",
+      "start": 62.07,
+      "end": 62.39,
+      "global_start": 62.07,
+      "global_end": 62.39
+    },
+    {
+      "word": "the",
+      "start": 62.39,
+      "end": 62.65,
+      "global_start": 62.39,
+      "global_end": 62.65
+    },
+    {
+      "word": "animals",
+      "start": 62.65,
+      "end": 62.97,
+      "global_start": 62.65,
+      "global_end": 62.97
+    },
+    {
+      "word": "they",
+      "start": 62.97,
+      "end": 63.15,
+      "global_start": 62.97,
+      "global_end": 63.15
+    },
+    {
+      "word": "hunted.",
+      "start": 63.15,
+      "end": 63.41,
+      "global_start": 63.15,
+      "global_end": 63.41
+    },
+    {
+      "word": "Surprised,",
+      "start": 64.27,
+      "end": 64.75,
+      "global_start": 64.27,
+      "global_end": 64.75
+    },
+    {
+      "word": "they",
+      "start": 65.43,
+      "end": 65.77,
+      "global_start": 65.43,
+      "global_end": 65.77
+    },
+    {
+      "word": "were",
+      "start": 65.77,
+      "end": 65.91,
+      "global_start": 65.77,
+      "global_end": 65.91
+    },
+    {
+      "word": "the",
+      "start": 65.91,
+      "end": 66.03,
+      "global_start": 65.91,
+      "global_end": 66.03
+    },
+    {
+      "word": "first",
+      "start": 66.03,
+      "end": 66.33,
+      "global_start": 66.03,
+      "global_end": 66.33
+    },
+    {
+      "word": "humans",
+      "start": 66.33,
+      "end": 66.77,
+      "global_start": 66.33,
+      "global_end": 66.77
+    },
+    {
+      "word": "to",
+      "start": 66.77,
+      "end": 67.03,
+      "global_start": 66.77,
+      "global_end": 67.03
+    },
+    {
+      "word": "ever",
+      "start": 67.03,
+      "end": 67.41,
+      "global_start": 67.03,
+      "global_end": 67.41
+    },
+    {
+      "word": "set",
+      "start": 67.41,
+      "end": 67.71,
+      "global_start": 67.41,
+      "global_end": 67.71
+    },
+    {
+      "word": "foot",
+      "start": 67.71,
+      "end": 68.03,
+      "global_start": 67.71,
+      "global_end": 68.03
+    },
+    {
+      "word": "in",
+      "start": 68.03,
+      "end": 68.25,
+      "global_start": 68.03,
+      "global_end": 68.25
+    },
+    {
+      "word": "the",
+      "start": 68.25,
+      "end": 68.35,
+      "global_start": 68.25,
+      "global_end": 68.35
+    },
+    {
+      "word": "Americas.",
+      "start": 68.35,
+      "end": 68.71,
+      "global_start": 68.35,
+      "global_end": 68.71
+    },
+    {
+      "word": "Some",
+      "start": 69.67,
+      "end": 69.95,
+      "global_start": 69.67,
+      "global_end": 69.95
+    },
+    {
+      "word": "kept",
+      "start": 69.95,
+      "end": 70.13,
+      "global_start": 69.95,
+      "global_end": 70.13
+    },
+    {
+      "word": "moving",
+      "start": 70.13,
+      "end": 70.37,
+      "global_start": 70.13,
+      "global_end": 70.37
+    },
+    {
+      "word": "south.",
+      "start": 70.37,
+      "end": 70.65,
+      "global_start": 70.37,
+      "global_end": 70.65
+    },
+    {
+      "word": "Others",
+      "start": 71.47,
+      "end": 71.65,
+      "global_start": 71.47,
+      "global_end": 71.65
+    },
+    {
+      "word": "stayed.",
+      "start": 71.65,
+      "end": 71.95,
+      "global_start": 71.65,
+      "global_end": 71.95
+    },
+    {
+      "word": "They",
+      "start": 72.51,
+      "end": 72.95,
+      "global_start": 72.51,
+      "global_end": 72.95
+    },
+    {
+      "word": "became",
+      "start": 72.95,
+      "end": 73.25,
+      "global_start": 72.95,
+      "global_end": 73.25
+    },
+    {
+      "word": "the",
+      "start": 73.25,
+      "end": 73.47,
+      "global_start": 73.25,
+      "global_end": 73.47
+    },
+    {
+      "word": "Inupiat,",
+      "start": 73.47,
+      "end": 74.03,
+      "global_start": 73.47,
+      "global_end": 74.03
+    },
+    {
+      "word": "the",
+      "start": 74.55,
+      "end": 74.63,
+      "global_start": 74.55,
+      "global_end": 74.63
+    },
+    {
+      "word": "Eupic,",
+      "start": 74.63,
+      "end": 74.95,
+      "global_start": 74.63,
+      "global_end": 74.95
+    },
+    {
+      "word": "the",
+      "start": 75.55,
+      "end": 75.63,
+      "global_start": 75.55,
+      "global_end": 75.63
+    },
+    {
+      "word": "Yunongan,",
+      "start": 75.63,
+      "end": 75.99,
+      "global_start": 75.63,
+      "global_end": 75.99
+    },
+    {
+      "word": "the",
+      "start": 76.69,
+      "end": 76.81,
+      "global_start": 76.69,
+      "global_end": 76.81
+    },
+    {
+      "word": "Tlingit,",
+      "start": 76.81,
+      "end": 77.17,
+      "global_start": 76.81,
+      "global_end": 77.17
+    },
+    {
+      "word": "the",
+      "start": 77.77,
+      "end": 77.85,
+      "global_start": 77.77,
+      "global_end": 77.85
+    },
+    {
+      "word": "Aabaskan.",
+      "start": 77.85,
+      "end": 78.43,
+      "global_start": 77.85,
+      "global_end": 78.43
+    },
+    {
+      "word": "They",
+      "start": 79.08,
+      "end": 79.39,
+      "global_start": 79.08,
+      "global_end": 79.39
+    },
+    {
+      "word": "even",
+      "start": 79.39,
+      "end": 79.73,
+      "global_start": 79.39,
+      "global_end": 79.73
+    },
+    {
+      "word": "gave",
+      "start": 79.73,
+      "end": 79.91,
+      "global_start": 79.73,
+      "global_end": 79.91
+    },
+    {
+      "word": "the",
+      "start": 79.91,
+      "end": 80.13,
+      "global_start": 79.91,
+      "global_end": 80.13
+    },
+    {
+      "word": "land",
+      "start": 80.13,
+      "end": 80.41,
+      "global_start": 80.13,
+      "global_end": 80.41
+    },
+    {
+      "word": "its",
+      "start": 80.41,
+      "end": 80.65,
+      "global_start": 80.41,
+      "global_end": 80.65
+    },
+    {
+      "word": "name.",
+      "start": 80.65,
+      "end": 81.03,
+      "global_start": 80.65,
+      "global_end": 81.03
+    },
+    {
+      "word": "Alaska",
+      "start": 81.75,
+      "end": 82.15,
+      "global_start": 81.75,
+      "global_end": 82.15
+    },
+    {
+      "word": "comes",
+      "start": 82.15,
+      "end": 82.65,
+      "global_start": 82.15,
+      "global_end": 82.65
+    },
+    {
+      "word": "from",
+      "start": 82.65,
+      "end": 82.85,
+      "global_start": 82.65,
+      "global_end": 82.85
+    },
+    {
+      "word": "a",
+      "start": 82.85,
+      "end": 82.97,
+      "global_start": 82.85,
+      "global_end": 82.97
+    },
+    {
+      "word": "native",
+      "start": 82.97,
+      "end": 83.19,
+      "global_start": 82.97,
+      "global_end": 83.19
+    },
+    {
+      "word": "word",
+      "start": 83.19,
+      "end": 83.45,
+      "global_start": 83.19,
+      "global_end": 83.45
+    },
+    {
+      "word": "that",
+      "start": 83.45,
+      "end": 83.61,
+      "global_start": 83.45,
+      "global_end": 83.61
+    },
+    {
+      "word": "means",
+      "start": 83.61,
+      "end": 83.83,
+      "global_start": 83.61,
+      "global_end": 83.83
+    },
+    {
+      "word": "the",
+      "start": 83.83,
+      "end": 84.43,
+      "global_start": 83.83,
+      "global_end": 84.43
+    },
+    {
+      "word": "great",
+      "start": 84.43,
+      "end": 84.75,
+      "global_start": 84.43,
+      "global_end": 84.75
+    },
+    {
+      "word": "land.",
+      "start": 84.75,
+      "end": 85.27,
+      "global_start": 84.75,
+      "global_end": 85.27
+    },
+    {
+      "word": "For",
+      "start": 85.97,
+      "end": 86.29,
+      "global_start": 85.97,
+      "global_end": 86.29
+    },
+    {
+      "word": "thousands",
+      "start": 86.29,
+      "end": 86.67,
+      "global_start": 86.29,
+      "global_end": 86.67
+    },
+    {
+      "word": "of",
+      "start": 86.67,
+      "end": 86.87,
+      "global_start": 86.67,
+      "global_end": 86.87
+    },
+    {
+      "word": "years,",
+      "start": 86.87,
+      "end": 87.15,
+      "global_start": 86.87,
+      "global_end": 87.15
+    },
+    {
+      "word": "it",
+      "start": 87.47,
+      "end": 87.75,
+      "global_start": 87.47,
+      "global_end": 87.75
+    },
+    {
+      "word": "belonged",
+      "start": 87.75,
+      "end": 88.03,
+      "global_start": 87.75,
+      "global_end": 88.03
+    },
+    {
+      "word": "to",
+      "start": 88.03,
+      "end": 88.41,
+      "global_start": 88.03,
+      "global_end": 88.41
+    },
+    {
+      "word": "them",
+      "start": 88.41,
+      "end": 88.59,
+      "global_start": 88.41,
+      "global_end": 88.59
+    },
+    {
+      "word": "and",
+      "start": 89.37,
+      "end": 89.53,
+      "global_start": 89.37,
+      "global_end": 89.53
+    },
+    {
+      "word": "the",
+      "start": 89.53,
+      "end": 89.63,
+      "global_start": 89.53,
+      "global_end": 89.63
+    },
+    {
+      "word": "rest",
+      "start": 89.63,
+      "end": 89.75,
+      "global_start": 89.63,
+      "global_end": 89.75
+    },
+    {
+      "word": "of",
+      "start": 89.75,
+      "end": 89.89,
+      "global_start": 89.75,
+      "global_end": 89.89
+    },
+    {
+      "word": "the",
+      "start": 89.89,
+      "end": 89.99,
+      "global_start": 89.89,
+      "global_end": 89.99
+    },
+    {
+      "word": "world",
+      "start": 89.99,
+      "end": 90.27,
+      "global_start": 89.99,
+      "global_end": 90.27
+    },
+    {
+      "word": "didn't",
+      "start": 90.27,
+      "end": 90.79,
+      "global_start": 90.27,
+      "global_end": 90.79
+    },
+    {
+      "word": "know",
+      "start": 90.79,
+      "end": 90.95,
+      "global_start": 90.79,
+      "global_end": 90.95
+    },
+    {
+      "word": "it",
+      "start": 90.95,
+      "end": 91.03,
+      "global_start": 90.95,
+      "global_end": 91.03
+    },
+    {
+      "word": "existed.",
+      "start": 91.03,
+      "end": 91.33,
+      "global_start": 91.03,
+      "global_end": 91.33
+    },
+    {
+      "word": "Then",
+      "start": 92.59,
+      "end": 92.91,
+      "global_start": 92.59,
+      "global_end": 92.91
+    },
+    {
+      "word": "in",
+      "start": 93.15,
+      "end": 93.51,
+      "global_start": 93.15,
+      "global_end": 93.51
+    },
+    {
+      "word": "1741,",
+      "start": 93.51,
+      "end": 94.55,
+      "global_start": 93.51,
+      "global_end": 94.55
+    },
+    {
+      "word": "a",
+      "start": 95.17,
+      "end": 95.25,
+      "global_start": 95.17,
+      "global_end": 95.25
+    },
+    {
+      "word": "ship",
+      "start": 95.25,
+      "end": 95.45,
+      "global_start": 95.25,
+      "global_end": 95.45
+    },
+    {
+      "word": "appeared.",
+      "start": 95.45,
+      "end": 95.81,
+      "global_start": 95.45,
+      "global_end": 95.81
+    },
+    {
+      "word": "Its",
+      "start": 96.59,
+      "end": 96.87,
+      "global_start": 96.59,
+      "global_end": 96.87
+    },
+    {
+      "word": "captain",
+      "start": 96.87,
+      "end": 97.19,
+      "global_start": 96.87,
+      "global_end": 97.19
+    },
+    {
+      "word": "was",
+      "start": 97.19,
+      "end": 97.59,
+      "global_start": 97.19,
+      "global_end": 97.59
+    },
+    {
+      "word": "Vitus",
+      "start": 97.59,
+      "end": 98.05,
+      "global_start": 97.59,
+      "global_end": 98.05
+    },
+    {
+      "word": "Bearing,",
+      "start": 98.05,
+      "end": 98.41,
+      "global_start": 98.05,
+      "global_end": 98.41
+    },
+    {
+      "word": "a",
+      "start": 98.97,
+      "end": 99.07,
+      "global_start": 98.97,
+      "global_end": 99.07
+    },
+    {
+      "word": "Danish",
+      "start": 99.07,
+      "end": 99.35,
+      "global_start": 99.07,
+      "global_end": 99.35
+    },
+    {
+      "word": "explorer",
+      "start": 99.35,
+      "end": 99.81,
+      "global_start": 99.35,
+      "global_end": 99.81
+    },
+    {
+      "word": "working",
+      "start": 99.81,
+      "end": 100.27,
+      "global_start": 99.81,
+      "global_end": 100.27
+    },
+    {
+      "word": "for",
+      "start": 100.27,
+      "end": 100.47,
+      "global_start": 100.27,
+      "global_end": 100.47
+    },
+    {
+      "word": "the",
+      "start": 100.47,
+      "end": 100.55,
+      "global_start": 100.47,
+      "global_end": 100.55
+    },
+    {
+      "word": "Russian",
+      "start": 100.55,
+      "end": 100.81,
+      "global_start": 100.55,
+      "global_end": 100.81
+    },
+    {
+      "word": "Empire.",
+      "start": 100.81,
+      "end": 101.19,
+      "global_start": 100.81,
+      "global_end": 101.19
+    },
+    {
+      "word": "His",
+      "start": 101.95,
+      "end": 102.17,
+      "global_start": 101.95,
+      "global_end": 102.17
+    },
+    {
+      "word": "mission,",
+      "start": 102.17,
+      "end": 102.45,
+      "global_start": 102.17,
+      "global_end": 102.45
+    },
+    {
+      "word": "find",
+      "start": 103.07,
+      "end": 103.33,
+      "global_start": 103.07,
+      "global_end": 103.33
+    },
+    {
+      "word": "out",
+      "start": 103.33,
+      "end": 103.55,
+      "global_start": 103.33,
+      "global_end": 103.55
+    },
+    {
+      "word": "what",
+      "start": 103.55,
+      "end": 103.75,
+      "global_start": 103.55,
+      "global_end": 103.75
+    },
+    {
+      "word": "lies",
+      "start": 103.75,
+      "end": 103.97,
+      "global_start": 103.75,
+      "global_end": 103.97
+    },
+    {
+      "word": "east",
+      "start": 103.97,
+      "end": 104.41,
+      "global_start": 103.97,
+      "global_end": 104.41
+    },
+    {
+      "word": "of",
+      "start": 104.41,
+      "end": 104.55,
+      "global_start": 104.41,
+      "global_end": 104.55
+    },
+    {
+      "word": "Siberia.",
+      "start": 104.55,
+      "end": 105.15,
+      "global_start": 104.55,
+      "global_end": 105.15
+    },
+    {
+      "word": "He",
+      "start": 105.61,
+      "end": 106.11,
+      "global_start": 105.61,
+      "global_end": 106.11
+    },
+    {
+      "word": "found",
+      "start": 106.11,
+      "end": 106.45,
+      "global_start": 106.11,
+      "global_end": 106.45
+    },
+    {
+      "word": "Alaska.",
+      "start": 106.45,
+      "end": 106.87,
+      "global_start": 106.45,
+      "global_end": 106.87
+    },
+    {
+      "word": "Bearing",
+      "start": 107.69,
+      "end": 108.25,
+      "global_start": 107.69,
+      "global_end": 108.25
+    },
+    {
+      "word": "never",
+      "start": 108.25,
+      "end": 108.43,
+      "global_start": 108.25,
+      "global_end": 108.43
+    },
+    {
+      "word": "made",
+      "start": 108.43,
+      "end": 108.61,
+      "global_start": 108.43,
+      "global_end": 108.61
+    },
+    {
+      "word": "it",
+      "start": 108.61,
+      "end": 108.73,
+      "global_start": 108.61,
+      "global_end": 108.73
+    },
+    {
+      "word": "home.",
+      "start": 108.73,
+      "end": 108.93,
+      "global_start": 108.73,
+      "global_end": 108.93
+    },
+    {
+      "word": "He",
+      "start": 109.59,
+      "end": 109.69,
+      "global_start": 109.59,
+      "global_end": 109.69
+    },
+    {
+      "word": "died",
+      "start": 109.69,
+      "end": 109.89,
+      "global_start": 109.69,
+      "global_end": 109.89
+    },
+    {
+      "word": "on",
+      "start": 109.89,
+      "end": 110.07,
+      "global_start": 109.89,
+      "global_end": 110.07
+    },
+    {
+      "word": "the",
+      "start": 110.07,
+      "end": 110.15,
+      "global_start": 110.07,
+      "global_end": 110.15
+    },
+    {
+      "word": "way",
+      "start": 110.15,
+      "end": 110.27,
+      "global_start": 110.15,
+      "global_end": 110.27
+    },
+    {
+      "word": "back,",
+      "start": 110.27,
+      "end": 110.63,
+      "global_start": 110.27,
+      "global_end": 110.63
+    },
+    {
+      "word": "shipwrecked",
+      "start": 110.89,
+      "end": 111.05,
+      "global_start": 110.89,
+      "global_end": 111.05
+    },
+    {
+      "word": "shipwrecked",
+      "start": 111.05,
+      "end": 111.37,
+      "global_start": 111.05,
+      "global_end": 111.37
+    },
+    {
+      "word": "on",
+      "start": 111.37,
+      "end": 111.43,
+      "global_start": 111.37,
+      "global_end": 111.43
+    },
+    {
+      "word": "a",
+      "start": 111.43,
+      "end": 111.51,
+      "global_start": 111.43,
+      "global_end": 111.51
+    },
+    {
+      "word": "frozen",
+      "start": 111.51,
+      "end": 111.83,
+      "global_start": 111.51,
+      "global_end": 111.83
+    },
+    {
+      "word": "island.",
+      "start": 111.83,
+      "end": 112.17,
+      "global_start": 111.83,
+      "global_end": 112.17
+    },
+    {
+      "word": "But",
+      "start": 112.81,
+      "end": 113.21,
+      "global_start": 112.81,
+      "global_end": 113.21
+    },
+    {
+      "word": "his",
+      "start": 113.21,
+      "end": 113.35,
+      "global_start": 113.21,
+      "global_end": 113.35
+    },
+    {
+      "word": "crew",
+      "start": 113.35,
+      "end": 113.69,
+      "global_start": 113.35,
+      "global_end": 113.69
+    },
+    {
+      "word": "survived",
+      "start": 113.69,
+      "end": 114.19,
+      "global_start": 113.69,
+      "global_end": 114.19
+    },
+    {
+      "word": "the",
+      "start": 114.19,
+      "end": 114.47,
+      "global_start": 114.19,
+      "global_end": 114.47
+    },
+    {
+      "word": "winter,",
+      "start": 114.47,
+      "end": 114.73,
+      "global_start": 114.47,
+      "global_end": 114.73
+    },
+    {
+      "word": "built",
+      "start": 115.33,
+      "end": 115.45,
+      "global_start": 115.33,
+      "global_end": 115.45
+    },
+    {
+      "word": "a",
+      "start": 115.45,
+      "end": 115.61,
+      "global_start": 115.45,
+      "global_end": 115.61
+    },
+    {
+      "word": "new",
+      "start": 115.61,
+      "end": 115.75,
+      "global_start": 115.61,
+      "global_end": 115.75
+    },
+    {
+      "word": "boat",
+      "start": 115.75,
+      "end": 116.01,
+      "global_start": 115.75,
+      "global_end": 116.01
+    },
+    {
+      "word": "from",
+      "start": 116.01,
+      "end": 116.21,
+      "global_start": 116.01,
+      "global_end": 116.21
+    },
+    {
+      "word": "the",
+      "start": 116.21,
+      "end": 116.33,
+      "global_start": 116.21,
+      "global_end": 116.33
+    },
+    {
+      "word": "wreck,",
+      "start": 116.33,
+      "end": 116.53,
+      "global_start": 116.33,
+      "global_end": 116.53
+    },
+    {
+      "word": "and",
+      "start": 117.01,
+      "end": 117.09,
+      "global_start": 117.01,
+      "global_end": 117.09
+    },
+    {
+      "word": "sailed",
+      "start": 117.09,
+      "end": 117.41,
+      "global_start": 117.09,
+      "global_end": 117.41
+    },
+    {
+      "word": "home",
+      "start": 117.41,
+      "end": 117.77,
+      "global_start": 117.41,
+      "global_end": 117.77
+    },
+    {
+      "word": "with",
+      "start": 117.77,
+      "end": 117.97,
+      "global_start": 117.77,
+      "global_end": 117.97
+    },
+    {
+      "word": "something",
+      "start": 117.97,
+      "end": 118.37,
+      "global_start": 117.97,
+      "global_end": 118.37
+    },
+    {
+      "word": "that",
+      "start": 118.37,
+      "end": 118.59,
+      "global_start": 118.37,
+      "global_end": 118.59
+    },
+    {
+      "word": "changed",
+      "start": 118.59,
+      "end": 119.13,
+      "global_start": 118.59,
+      "global_end": 119.13
+    },
+    {
+      "word": "everything.",
+      "start": 119.13,
+      "end": 119.91,
+      "global_start": 119.13,
+      "global_end": 119.91
+    },
+    {
+      "word": "Sea",
+      "start": 121.11,
+      "end": 121.47,
+      "global_start": 121.11,
+      "global_end": 121.47
+    },
+    {
+      "word": "otter",
+      "start": 121.47,
+      "end": 122.23,
+      "global_start": 121.47,
+      "global_end": 122.23
+    },
+    {
+      "word": "The",
+      "start": 122.89,
+      "end": 123.21,
+      "global_start": 122.89,
+      "global_end": 123.21
+    },
+    {
+      "word": "softest,",
+      "start": 123.21,
+      "end": 123.89,
+      "global_start": 123.21,
+      "global_end": 123.89
+    },
+    {
+      "word": "thickest",
+      "start": 124.05,
+      "end": 124.49,
+      "global_start": 124.05,
+      "global_end": 124.49
+    },
+    {
+      "word": "fur",
+      "start": 124.49,
+      "end": 124.69,
+      "global_start": 124.49,
+      "global_end": 124.69
+    },
+    {
+      "word": "in",
+      "start": 124.69,
+      "end": 124.91,
+      "global_start": 124.69,
+      "global_end": 124.91
+    },
+    {
+      "word": "the",
+      "start": 124.91,
+      "end": 125.05,
+      "global_start": 124.91,
+      "global_end": 125.05
+    },
+    {
+      "word": "world.",
+      "start": 125.05,
+      "end": 125.45,
+      "global_start": 125.05,
+      "global_end": 125.45
+    },
+    {
+      "word": "In",
+      "start": 126.29,
+      "end": 126.55,
+      "global_start": 126.29,
+      "global_end": 126.55
+    },
+    {
+      "word": "China,",
+      "start": 126.55,
+      "end": 126.87,
+      "global_start": 126.55,
+      "global_end": 126.87
+    },
+    {
+      "word": "a",
+      "start": 127.27,
+      "end": 127.33,
+      "global_start": 127.27,
+      "global_end": 127.33
+    },
+    {
+      "word": "single",
+      "start": 127.33,
+      "end": 127.65,
+      "global_start": 127.33,
+      "global_end": 127.65
+    },
+    {
+      "word": "pelt",
+      "start": 127.65,
+      "end": 128.07,
+      "global_start": 127.65,
+      "global_end": 128.07
+    },
+    {
+      "word": "was",
+      "start": 128.07,
+      "end": 128.31,
+      "global_start": 128.07,
+      "global_end": 128.31
+    },
+    {
+      "word": "worth",
+      "start": 128.31,
+      "end": 128.53,
+      "global_start": 128.31,
+      "global_end": 128.53
+    },
+    {
+      "word": "a",
+      "start": 128.53,
+      "end": 128.65,
+      "global_start": 128.53,
+      "global_end": 128.65
+    },
+    {
+      "word": "fortune.",
+      "start": 128.65,
+      "end": 129.13,
+      "global_start": 128.65,
+      "global_end": 129.13
+    },
+    {
+      "word": "Russians",
+      "start": 130.05,
+      "end": 130.29,
+      "global_start": 130.05,
+      "global_end": 130.29
+    },
+    {
+      "word": "called",
+      "start": 130.29,
+      "end": 130.57,
+      "global_start": 130.29,
+      "global_end": 130.57
+    },
+    {
+      "word": "it",
+      "start": 130.57,
+      "end": 130.77,
+      "global_start": 130.57,
+      "global_end": 130.77
+    },
+    {
+      "word": "soft",
+      "start": 130.77,
+      "end": 131.17,
+      "global_start": 130.77,
+      "global_end": 131.17
+    },
+    {
+      "word": "gold.",
+      "start": 131.17,
+      "end": 131.59,
+      "global_start": 131.17,
+      "global_end": 131.59
+    },
+    {
+      "word": "And",
+      "start": 132.33,
+      "end": 132.47,
+      "global_start": 132.33,
+      "global_end": 132.47
+    },
+    {
+      "word": "the",
+      "start": 132.47,
+      "end": 132.59,
+      "global_start": 132.47,
+      "global_end": 132.59
+    },
+    {
+      "word": "rush",
+      "start": 132.59,
+      "end": 132.87,
+      "global_start": 132.59,
+      "global_end": 132.87
+    },
+    {
+      "word": "was",
+      "start": 132.87,
+      "end": 133.19,
+      "global_start": 132.87,
+      "global_end": 133.19
+    },
+    {
+      "word": "on.",
+      "start": 133.19,
+      "end": 133.53,
+      "global_start": 133.19,
+      "global_end": 133.53
+    },
+    {
+      "word": "Serious.",
+      "start": 134.17,
+      "end": 134.69,
+      "global_start": 134.17,
+      "global_end": 134.69
+    },
+    {
+      "word": "Russian",
+      "start": 135.35,
+      "end": 135.67,
+      "global_start": 135.35,
+      "global_end": 135.67
+    },
+    {
+      "word": "hunters",
+      "start": 135.67,
+      "end": 136.07,
+      "global_start": 135.67,
+      "global_end": 136.07
+    },
+    {
+      "word": "poured",
+      "start": 136.07,
+      "end": 136.53,
+      "global_start": 136.07,
+      "global_end": 136.53
+    },
+    {
+      "word": "across",
+      "start": 136.53,
+      "end": 137.09,
+      "global_start": 136.53,
+      "global_end": 137.09
+    },
+    {
+      "word": "the",
+      "start": 137.09,
+      "end": 137.37,
+      "global_start": 137.09,
+      "global_end": 137.37
+    },
+    {
+      "word": "sea",
+      "start": 137.37,
+      "end": 137.63,
+      "global_start": 137.37,
+      "global_end": 137.63
+    },
+    {
+      "word": "island",
+      "start": 137.63,
+      "end": 138.27,
+      "global_start": 137.63,
+      "global_end": 138.27
+    },
+    {
+      "word": "by",
+      "start": 138.27,
+      "end": 138.57,
+      "global_start": 138.27,
+      "global_end": 138.57
+    },
+    {
+      "word": "island.",
+      "start": 138.57,
+      "end": 138.95,
+      "global_start": 138.57,
+      "global_end": 138.95
+    },
+    {
+      "word": "They",
+      "start": 139.41,
+      "end": 139.83,
+      "global_start": 139.41,
+      "global_end": 139.83
+    },
+    {
+      "word": "forced",
+      "start": 139.83,
+      "end": 140.11,
+      "global_start": 139.83,
+      "global_end": 140.11
+    },
+    {
+      "word": "the",
+      "start": 140.11,
+      "end": 140.31,
+      "global_start": 140.11,
+      "global_end": 140.31
+    },
+    {
+      "word": "native",
+      "start": 140.31,
+      "end": 140.57,
+      "global_start": 140.31,
+      "global_end": 140.57
+    },
+    {
+      "word": "Unangan",
+      "start": 140.57,
+      "end": 140.99,
+      "global_start": 140.57,
+      "global_end": 140.99
+    },
+    {
+      "word": "people",
+      "start": 140.99,
+      "end": 141.31,
+      "global_start": 140.99,
+      "global_end": 141.31
+    },
+    {
+      "word": "to",
+      "start": 141.31,
+      "end": 141.51,
+      "global_start": 141.31,
+      "global_end": 141.51
+    },
+    {
+      "word": "hunt",
+      "start": 141.51,
+      "end": 141.71,
+      "global_start": 141.51,
+      "global_end": 141.71
+    },
+    {
+      "word": "for",
+      "start": 141.71,
+      "end": 141.97,
+      "global_start": 141.71,
+      "global_end": 141.97
+    },
+    {
+      "word": "them.",
+      "start": 141.97,
+      "end": 142.11,
+      "global_start": 141.97,
+      "global_end": 142.11
+    },
+    {
+      "word": "Thousands",
+      "start": 142.59,
+      "end": 143.11,
+      "global_start": 142.59,
+      "global_end": 143.11
+    },
+    {
+      "word": "died",
+      "start": 143.11,
+      "end": 143.51,
+      "global_start": 143.11,
+      "global_end": 143.51
+    },
+    {
+      "word": "from",
+      "start": 143.51,
+      "end": 143.81,
+      "global_start": 143.51,
+      "global_end": 143.81
+    },
+    {
+      "word": "violence",
+      "start": 143.81,
+      "end": 144.21,
+      "global_start": 143.81,
+      "global_end": 144.21
+    },
+    {
+      "word": "and",
+      "start": 144.21,
+      "end": 144.55,
+      "global_start": 144.21,
+      "global_end": 144.55
+    },
+    {
+      "word": "disease.",
+      "start": 144.55,
+      "end": 144.89,
+      "global_start": 144.55,
+      "global_end": 144.89
+    }
+  ]
+}
