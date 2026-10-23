@@ -133,6 +133,29 @@ def build_sfx_overlay_wav(storyboard, duration_sec, sfx_dir, out_wav_path):
                 if 0 <= idx < total_samples:
                     mix_buffer[idx] += s * 0.42
 
+    # V2.0: 3-Layer Soundscape (Synthesize subtle cinematic drone & dynamic scene swell envelope)
+    scene_boundaries = [float(sc.get("t0", 0.0)) for sc in storyboard.get("scenes", [])]
+    for i in range(total_samples):
+        t_sec = i / float(sample_rate)
+        # Dynamic volume envelope: swell at intro (0..4s), outro (last 5s), and +/-1.2s around every scene transition
+        env = 0.032
+        if t_sec < 4.5:
+            env = 0.068 * (t_sec / 4.5)
+        elif t_sec > duration_sec - 5.0:
+            env = 0.072 * max(0.0, (duration_sec - t_sec) / 5.0)
+        else:
+            for sb_t in scene_boundaries:
+                dist = abs(t_sec - sb_t)
+                if dist < 1.4:
+                    env = max(env, 0.064 * (1.0 - dist / 1.4))
+        # Warm C-minor cinematic bass pad (65.4Hz + 98.0Hz + 130.8Hz)
+        drone = (
+            0.55 * math.sin(2.0 * math.pi * 65.41 * t_sec)
+            + 0.30 * math.sin(2.0 * math.pi * 98.00 * t_sec)
+            + 0.15 * math.sin(2.0 * math.pi * 130.81 * t_sec)
+        )
+        mix_buffer[i] += drone * env
+
     os.makedirs(os.path.dirname(os.path.abspath(out_wav_path)), exist_ok=True)
     with wave.open(out_wav_path, "wb") as wf:
         wf.setnchannels(1)
@@ -558,6 +581,234 @@ def render_red_ink_overlay(beat, img_cache):
     return card
 
 
+def render_fullbleed_media(beat, img_cache, elapsed=0.0):
+    src = beat.get("src", "")
+    canvas = Image.new("RGBA", (WIDTH, HEIGHT), (10, 12, 16, 255))
+    if src.lower().endswith(".mp4"):
+        vframes = get_video_frames(src, WIDTH, HEIGHT)
+        if vframes:
+            fidx = int(elapsed * 15) % len(vframes)
+            canvas.paste(vframes[fidx].convert("RGBA"), (0, 0))
+    else:
+        cache_key = ("FULLBLEED", src, WIDTH, HEIGHT)
+        if cache_key not in img_cache:
+            if os.path.exists(src):
+                try:
+                    im = Image.open(src).convert("RGB")
+                    im = ImageOps.fit(im, (WIDTH, HEIGHT), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+                    img_cache[cache_key] = im.convert("RGBA")
+                except Exception:
+                    img_cache[cache_key] = None
+            else:
+                img_cache[cache_key] = None
+        if img_cache.get(cache_key) is not None:
+            canvas.paste(img_cache[cache_key], (0, 0))
+
+    draw = ImageDraw.Draw(canvas)
+    cap = beat.get("caption", "")
+    if cap:
+        font_cap = get_font(18, bold=True, mono=True)
+        bb = draw.textbbox((0, 0), f"📍 {cap[:68]}", font=font_cap)
+        tw = (bb[2] - bb[0]) + 36
+        draw.rounded_rectangle([58, HEIGHT - 190, 58 + tw, HEIGHT - 146], radius=4, fill=(12, 14, 18, 228))
+        draw.rectangle([58, HEIGHT - 190, 64, HEIGHT - 146], fill=(245, 197, 24, 255))
+        draw.text((76, HEIGHT - 178), f"📍 {cap[:68]}", fill=(248, 250, 252, 255), font=font_cap)
+    return canvas
+
+
+def render_map_route_overlay(beat, progress=1.0):
+    canvas = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(canvas)
+    fx, fy = int(beat.get("from_x", 420)), int(beat.get("from_y", 640))
+    tx, ty = int(beat.get("to_x", 1380)), int(beat.get("to_y", 320))
+    mx = (fx + tx) // 2
+    my = min(fy, ty) - 110
+    steps = max(4, int(36 * min(1.0, progress * 1.4)))
+    pts = []
+    for s in range(steps + 1):
+        u = (s / 36.0)
+        px = int((1 - u) ** 2 * fx + 2 * (1 - u) * u * mx + u ** 2 * tx)
+        py = int((1 - u) ** 2 * fy + 2 * (1 - u) * u * my + u ** 2 * ty)
+        pts.append((px, py))
+    for i in range(0, len(pts) - 1, 2):
+        draw.line([pts[i], pts[i + 1]], fill=(0, 0, 0, 175), width=11)
+        draw.line([pts[i], pts[i + 1]], fill=(217, 35, 24, 255), width=7)
+
+    draw.ellipse([fx - 16, fy - 16, fx + 16, fy + 16], fill=(217, 35, 24, 80), outline=(245, 197, 24, 255), width=3)
+    draw.ellipse([fx - 8, fy - 8, fx + 8, fy + 8], fill=(217, 35, 24, 255))
+    draw.ellipse([tx - 22, ty - 22, tx + 22, ty + 22], fill=(217, 35, 24, 95), outline=(245, 197, 24, 255), width=4)
+    draw.ellipse([tx - 10, ty - 10, tx + 10, ty + 10], fill=(245, 197, 24, 255))
+
+    font_lbl = get_font(16, bold=True)
+    font_dist = get_font(28, bold=True)
+    from_lbl = str(beat.get("from_label", "START"))[:28]
+    to_lbl = str(beat.get("to_label", "TARGET"))[:28]
+    dist_lbl = str(beat.get("distance_label", beat.get("label", "EXPEDITION ROUTE")))[:36]
+
+    draw.rounded_rectangle([fx - 75, fy + 20, fx + 125, fy + 54], radius=4, fill=(20, 22, 29, 240), outline=(245, 197, 24, 255), width=2)
+    draw.text((fx - 63, fy + 28), from_lbl, fill=(248, 250, 252, 255), font=font_lbl)
+
+    draw.rounded_rectangle([tx - 85, ty - 56, tx + 135, ty - 20], radius=4, fill=(217, 35, 24, 245), outline=(255, 255, 255, 255), width=2)
+    draw.text((tx - 73, ty - 47), to_lbl, fill=(255, 255, 255, 255), font=font_lbl)
+
+    dbb = draw.textbbox((0, 0), dist_lbl, font=font_dist)
+    dtw = (dbb[2] - dbb[0]) + 40
+    draw.rounded_rectangle([mx - dtw // 2, my - 24, mx + dtw // 2, my + 26], radius=6, fill=(16, 18, 24, 242), outline=(245, 197, 24, 255), width=3)
+    draw.text((mx - dtw // 2 + 20, my - 13), dist_lbl, fill=(245, 197, 24, 255), font=font_dist)
+    return canvas
+
+
+def render_spotlight_xray(beat):
+    canvas = Image.new("RGBA", (WIDTH, HEIGHT), (6, 8, 12, 168))
+    draw = ImageDraw.Draw(canvas)
+    bx, by = int(beat.get("x", 480)), int(beat.get("y", 220))
+    bw, bh = int(beat.get("w", 640)), int(beat.get("h", 360))
+    draw.rounded_rectangle([bx, by, bx + bw, by + bh], radius=6, fill=(0, 0, 0, 0), outline=(245, 197, 24, 255), width=4)
+    lbl = str(beat.get("label") or beat.get("highlight") or beat.get("caption") or "ARCHIVE FOCUS")[:44]
+    font_t = get_font(22, bold=True)
+    bb = draw.textbbox((0, 0), lbl, font=font_t)
+    tw = (bb[2] - bb[0]) + 28
+    ty0 = max(24, by - 44)
+    draw.rounded_rectangle([bx, ty0, bx + tw, ty0 + 38], radius=4, fill=(245, 197, 24, 255))
+    draw.text((bx + 14, ty0 + 7), lbl, fill=(16, 16, 16, 255), font=font_t)
+    return canvas
+
+
+def render_timeline_scroller(beat):
+    w, h = int(beat.get("w", 1480)), int(beat.get("h", 440))
+    card = Image.new("RGBA", (w + 24, h + 24), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(card)
+    draw.rounded_rectangle([10, 12, w + 14, h + 16], radius=8, fill=(0, 0, 0, 130))
+    draw.rounded_rectangle([4, 4, w + 8, h + 8], radius=8, fill=(16, 18, 24, 248), outline=(245, 197, 24, 255), width=3)
+
+    font_hdr = get_font(22, bold=True)
+    font_yr_big = get_font(44, bold=True)
+    font_yr_sm = get_font(30, bold=True)
+    font_ev = get_font(14, bold=True, mono=True)
+
+    events = beat.get("events", [
+        {"year": "1867", "title": "U.S. PURCHASE"},
+        {"year": "1896", "title": "KLONDIKE GOLD"},
+        {"year": "1925", "title": "SERUM RUN"},
+        {"year": "1942", "title": "WWII FRONT"},
+        {"year": "1959", "title": "49TH STATE"}
+    ])
+    active_year = str(beat.get("active_year", events[-1]["year"]))
+    draw.text((36, 28), str(beat.get("title", "HISTORICAL CHRONOLOGY"))[:58], fill=(245, 197, 24, 255), font=font_hdr)
+    draw.text((w - 260, 30), f"ACTIVE ERA: {active_year}", fill=(203, 213, 225, 255), font=font_ev)
+
+    mid_y = h // 2 + 12
+    draw.line([(90, mid_y), (w - 90, mid_y)], fill=(71, 85, 105, 255), width=5)
+
+    n = max(1, len(events))
+    for i, ev in enumerate(events):
+        cx = 120 + int((i / float(max(1, n - 1))) * (w - 240))
+        yr_str = str(ev.get("year", ""))
+        t_str = str(ev.get("title", ""))[:24]
+        is_act = (yr_str == active_year)
+        f_yr = font_yr_big if is_act else font_yr_sm
+        y_col = (245, 197, 24, 255) if is_act else (148, 163, 184, 255)
+        ybb = draw.textbbox((0, 0), yr_str, font=f_yr)
+        ytw = ybb[2] - ybb[0]
+        draw.text((cx - ytw // 2, mid_y - (72 if is_act else 54)), yr_str, fill=y_col, font=f_yr)
+
+        r = 14 if is_act else 9
+        dot_fill = (217, 35, 24, 255) if is_act else (51, 65, 85, 255)
+        dot_out = (245, 197, 24, 255) if is_act else (100, 116, 139, 255)
+        draw.ellipse([cx - r, mid_y - r, cx + r, mid_y + r], fill=dot_fill, outline=dot_out, width=3)
+
+        tbb = draw.textbbox((0, 0), t_str, font=font_ev)
+        ttw = tbb[2] - tbb[0]
+        if is_act:
+            draw.rounded_rectangle([cx - ttw // 2 - 10, mid_y + 24, cx + ttw // 2 + 10, mid_y + 56], radius=4, fill=(184, 29, 19, 230), outline=(245, 197, 24, 255), width=2)
+        draw.text((cx - ttw // 2, mid_y + 30), t_str, fill=(255, 255, 255, 255) if is_act else (148, 163, 184, 255), font=font_ev)
+
+    sub_txt = str(beat.get("sub") or beat.get("caption") or "")[:88]
+    if sub_txt:
+        sbb = draw.textbbox((0, 0), sub_txt, font=font_ev)
+        stw = sbb[2] - sbb[0]
+        draw.text(((w - stw) // 2, h - 42), sub_txt, fill=(226, 232, 240, 255), font=font_ev)
+    return card
+
+
+def render_svg_line_chart(beat, progress=1.0):
+    w, h = int(beat.get("w", 1280)), int(beat.get("h", 520))
+    card = Image.new("RGBA", (w + 24, h + 24), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(card)
+    draw.rounded_rectangle([10, 12, w + 14, h + 16], radius=8, fill=(0, 0, 0, 130))
+    draw.rounded_rectangle([4, 4, w + 8, h + 8], radius=8, fill=(16, 18, 24, 248), outline=(63, 70, 89, 255), width=3)
+    draw.rectangle([4, 4, w + 8, 12], fill=(217, 35, 24, 255))
+
+    font_t = get_font(32, bold=True)
+    font_pk = get_font(28, bold=True)
+    font_lbl = get_font(15, bold=True, mono=True)
+    font_val = get_font(20, bold=True)
+
+    draw.text((34, 26), str(beat.get("title", "DATA TRAJECTORY"))[:54], fill=(255, 255, 255, 255), font=font_t)
+    pk = str(beat.get("peak_note", ""))[:32]
+    if pk:
+        pbb = draw.textbbox((0, 0), pk, font=font_pk)
+        draw.text((w - 30 - (pbb[2] - pbb[0]), 28), pk, fill=(245, 197, 24, 255), font=font_pk)
+
+    pts = beat.get("points", [
+        {"label": "1880", "value": 15, "value_text": "15"},
+        {"label": "1896", "value": 45, "value_text": "45"},
+        {"label": "1900", "value": 100, "value_text": "100"}
+    ])
+    max_v = max([float(p.get("value", 1)) for p in pts] + [1.0])
+    x0, x1 = 76, w - 76
+    y0, y1 = 110, h - 85
+    draw.line([(x0 - 20, y1), (x1 + 20, y1)], fill=(71, 85, 105, 255), width=2)
+
+    coords = []
+    for i, p in enumerate(pts):
+        px = x0 + int((i / float(max(1, len(pts) - 1))) * (x1 - x0))
+        py = y1 - int((float(p.get("value", 0)) / max_v) * (y1 - y0))
+        coords.append((px, py, str(p.get("label", "")), str(p.get("value_text", p.get("value", "")))))
+
+    vis_cnt = max(2, int(round(len(coords) * min(1.0, progress * 1.4))))
+    vis_coords = coords[:vis_cnt]
+    if len(vis_coords) >= 2:
+        poly = [(c[0], c[1]) for c in vis_coords]
+        area = [(vis_coords[0][0], y1)] + poly + [(vis_coords[-1][0], y1)]
+        draw.polygon(area, fill=(217, 35, 24, 52))
+        draw.line(poly, fill=(217, 35, 24, 255), width=6)
+
+    for i, (px, py, lbl, vtxt) in enumerate(vis_coords):
+        r = 10 if i == len(coords) - 1 else 7
+        col = (217, 35, 24, 255) if i == len(coords) - 1 else (245, 197, 24, 255)
+        draw.ellipse([px - r, py - r, px + r, py + r], fill=col, outline=(255, 255, 255, 255), width=2)
+        vbb = draw.textbbox((0, 0), vtxt, font=font_val)
+        draw.text((px - (vbb[2] - vbb[0]) // 2, py - 32), vtxt, fill=(245, 197, 24, 255), font=font_val)
+        lbb = draw.textbbox((0, 0), lbl, font=font_lbl)
+        draw.text((px - (lbb[2] - lbb[0]) // 2, y1 + 12), lbl, fill=(203, 213, 225, 255), font=font_lbl)
+
+    sub_txt = str(beat.get("sub") or beat.get("caption") or "")[:84]
+    if sub_txt:
+        draw.text((34, h - 38), sub_txt, fill=(148, 163, 184, 255), font=font_lbl)
+    return card
+
+
+def render_red_string_link(beat):
+    canvas = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(canvas)
+    fx, fy = int(beat.get("from_x", 450)), int(beat.get("from_y", 200))
+    tx, ty = int(beat.get("to_x", 1250)), int(beat.get("to_y", 240))
+    mx, my = (fx + tx) // 2, (fy + ty) // 2 + 28
+    draw.line([(fx, fy + 6), (mx, my + 6), (tx, ty + 6)], fill=(0, 0, 0, 110), width=5)
+    draw.line([(fx, fy), (mx, my), (tx, ty)], fill=(217, 35, 24, 255), width=5)
+    draw.ellipse([fx - 9, fy - 9, fx + 9, fy + 9], fill=(217, 35, 24, 255), outline=(74, 8, 4, 255), width=2)
+    draw.ellipse([tx - 9, ty - 9, tx + 9, ty + 9], fill=(217, 35, 24, 255), outline=(74, 8, 4, 255), width=2)
+    lbl = str(beat.get("label", ""))[:36]
+    if lbl:
+        font_l = get_font(14, bold=True, mono=True)
+        bb = draw.textbbox((0, 0), lbl, font=font_l)
+        tw = (bb[2] - bb[0]) + 24
+        draw.rounded_rectangle([mx - tw // 2, my - 16, mx + tw // 2, my + 16], radius=3, fill=(254, 243, 190, 248), outline=(184, 29, 19, 255), width=2)
+        draw.text((mx - tw // 2 + 12, my - 8), lbl, fill=(184, 29, 19, 255), font=font_l)
+    return canvas
+
+
 def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None):
     ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
     with open(storyboard_path, encoding="utf-8") as f:
@@ -662,8 +913,12 @@ def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None)
             active_scene = scenes[-1]
 
         is_dark = False
+        is_cinema_world = False
         if active_scene:
-            is_dark = (active_scene.get("bg_mode") == "DARK_CLIMAX") or (
+            w_type = active_scene.get("world_type") or active_scene.get("scene_motif") or ""
+            is_cinema_world = w_type in ("WORLD_2_CINEMA_FULLBLEED", "MOTIF_2_BROLL_KINETIC_OVERDRIVE")
+            is_data_world = w_type in ("WORLD_4_DATA_STAGE", "MOTIF_5_DATA_STORY_PROGRESSION")
+            is_dark = (active_scene.get("bg_mode") == "DARK_CLIMAX") or is_data_world or (
                 active_scene.get("dark_climax_from") and t >= float(active_scene.get("dark_climax_from"))
             )
 
@@ -671,15 +926,31 @@ def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None)
         draw = ImageDraw.Draw(frame)
 
         if active_scene:
+            # Render Full-Bleed background beats first so HUD & foreground beats sit on top
+            for beat in active_scene.get("beats", []):
+                bt0 = float(beat.get("t0", 0.0))
+                bt1 = float(beat.get("t1", active_scene.get("t1", duration)))
+                if t < bt0 or t > bt1:
+                    continue
+                if beat.get("full_bleed") and beat.get("type") in ("POLAROID", "VIDEO_CLIP"):
+                    fb_card = render_fullbleed_media(beat, img_cache, t - bt0)
+                    frame.paste(fb_card, (0, 0), fb_card)
+
+            if is_cinema_world:
+                draw.rectangle([0, 0, WIDTH, 82], fill=(5, 6, 8, 255))
+                draw.line([(0, 82), (WIDTH, 82)], fill=(245, 197, 24, 90), width=2)
+                draw.rectangle([0, HEIGHT - 82, WIDTH, HEIGHT], fill=(5, 6, 8, 255))
+                draw.line([(0, HEIGHT - 82), (WIDTH, HEIGHT - 82)], fill=(245, 197, 24, 90), width=2)
+
             # 1. Top-Left Era Anchor (Gu 1)
             era_lbl = active_scene.get("era_label")
             if era_lbl:
                 ebb = draw.textbbox((0, 0), era_lbl[:64], font=font_era)
                 ew = (ebb[2] - ebb[0]) + 32
-                ebg = (24, 26, 34, 230) if is_dark else (250, 246, 235, 225)
-                ecol = (245, 197, 24, 255) if is_dark else (43, 35, 27, 255)
+                ebg = (24, 26, 34, 230) if (is_dark or is_cinema_world) else (250, 246, 235, 225)
+                ecol = (245, 197, 24, 255) if (is_dark or is_cinema_world) else (43, 35, 27, 255)
                 draw.rounded_rectangle([56, 34, 56 + ew, 80], radius=3, fill=ebg)
-                draw.rectangle([56, 34, 62, 80], fill=(245, 197, 24, 255) if is_dark else (217, 35, 24, 255))
+                draw.rectangle([56, 34, 62, 80], fill=(245, 197, 24, 255) if (is_dark or is_cinema_world) else (217, 35, 24, 255))
                 draw.text((74, 43), era_lbl[:64], fill=ecol, font=font_era)
 
             # 2. Top-Right Torn-Paper HUD Ticker (Gu 2)
@@ -707,13 +978,23 @@ def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None)
             # 3. Bottom-Left Archival Source Footnote (Gu 2)
             src_fn = active_scene.get("source_footnote")
             if src_fn:
-                scol = (156, 163, 175, 230) if is_dark else (87, 80, 70, 230)
+                scol = (156, 163, 175, 230) if (is_dark or is_cinema_world) else (87, 80, 70, 230)
                 draw.text((56, HEIGHT - 28), str(src_fn)[:95], fill=scol, font=font_src)
 
-            for beat in active_scene.get("beats", []):
+            def _beat_layer_order(b):
+                bt = b.get("type", "POLAROID")
+                if bt in ("POLAROID", "VIDEO_CLIP"):
+                    return 0
+                if bt == "SPOTLIGHT_XRAY":
+                    return 1
+                return 2
+
+            for beat in sorted(active_scene.get("beats", []), key=_beat_layer_order):
                 bt0 = float(beat.get("t0", 0.0))
                 bt1 = float(beat.get("t1", active_scene.get("t1", duration)))
                 if t < bt0 or t > bt1:
+                    continue
+                if beat.get("full_bleed") and beat.get("type") in ("POLAROID", "VIDEO_CLIP"):
                     continue
 
                 elapsed = t - bt0
@@ -729,7 +1010,7 @@ def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None)
                     card = render_sticker_card(beat, img_cache)
                     frame.paste(card, (bx, by + y_offset), card)
                 elif btype in ("HEADLINE", "KINETIC_TEXT"):
-                    card = render_headline_card(beat, min(1.0, elapsed / 0.45), dark_mode=is_dark)
+                    card = render_headline_card(beat, min(1.0, elapsed / 0.45), dark_mode=(is_dark or is_cinema_world))
                     frame.paste(card, (bx, by + y_offset), card)
                 elif btype == "NUMBER_COUNTER":
                     card = render_number_counter(beat, elapsed)
@@ -764,8 +1045,23 @@ def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None)
                     card = render_rough_bars(beat, elapsed / max(0.5, bt1 - bt0))
                     frame.paste(card, (bx, by + y_offset), card)
                 elif btype == "HANDWRITTEN_CALLOUT":
-                    card = render_handwritten_callout(beat, dark_mode=is_dark)
+                    card = render_handwritten_callout(beat, dark_mode=(is_dark or is_cinema_world))
                     frame.paste(card, (bx, by), card)
+                elif btype == "MAP_ROUTE":
+                    card = render_map_route_overlay(beat, elapsed / max(0.5, bt1 - bt0))
+                    frame.paste(card, (0, 0), card)
+                elif btype == "SPOTLIGHT_XRAY":
+                    card = render_spotlight_xray(beat)
+                    frame.paste(card, (0, 0), card)
+                elif btype == "TIMELINE_SCROLLER":
+                    card = render_timeline_scroller(beat)
+                    frame.paste(card, (bx, by + y_offset), card)
+                elif btype == "SVG_LINE_CHART":
+                    card = render_svg_line_chart(beat, elapsed / max(0.5, bt1 - bt0))
+                    frame.paste(card, (bx, by + y_offset), card)
+                elif btype == "RED_STRING_LINK":
+                    card = render_red_string_link(beat)
+                    frame.paste(card, (0, 0), card)
                 elif btype == "SVG_RED_ARROW":
                     card = render_svg_arrow(beat)
                     frame.paste(card, (bx, by), card)
@@ -810,6 +1106,43 @@ def render_part_mp4(storyboard_path, voice_path, out_mp4_path, max_seconds=None)
         prog_w = int((t / max(0.1, duration)) * WIDTH)
         draw.rectangle([0, HEIGHT - 6, WIDTH, HEIGHT], fill=(0, 0, 0, 90))
         draw.rectangle([0, HEIGHT - 6, prog_w, HEIGHT], fill=(184, 29, 19, 255))
+
+        # V2.0 True Velocity-Matched Seam Engine (ZOOM_THROUGH, INVERSE_ZOOM, CUT_THE_CURVE_LEFT, RACK_FOCUS_BLUR)
+        if active_scene:
+            sc_t0 = float(active_scene.get("t0", 0.0))
+            sc_t1 = float(active_scene.get("t1", duration))
+            seam = active_scene.get("seam_transition", "ZOOM_THROUGH")
+            dt_in = t - sc_t0
+            dt_out = sc_t1 - t
+            if dt_in < 0.36 and sc_t0 > 0.2:
+                p_in = max(0.0, min(1.0, dt_in / 0.36))
+                eased_in = 1.0 - math.pow(1.0 - p_in, 3)
+                if seam == "ZOOM_THROUGH":
+                    sc_f = 0.84 + 0.16 * eased_in
+                    nw, nh = int(WIDTH * sc_f), int(HEIGHT * sc_f)
+                    small = frame.resize((nw, nh), Image.Resampling.BILINEAR)
+                    bg_blur = frame.filter(ImageFilter.GaussianBlur(max(1, int((1.0 - eased_in) * 8))))
+                    bg_blur.paste(small, ((WIDTH - nw) // 2, (HEIGHT - nh) // 2))
+                    frame = bg_blur
+                elif seam == "INVERSE_ZOOM":
+                    sc_f = 1.22 - 0.22 * eased_in
+                    nw, nh = int(WIDTH * sc_f), int(HEIGHT * sc_f)
+                    big = frame.resize((nw, nh), Image.Resampling.BILINEAR)
+                    frame = big.crop(((nw - WIDTH) // 2, (nh - HEIGHT) // 2, (nw - WIDTH) // 2 + WIDTH, (nh - HEIGHT) // 2 + HEIGHT))
+                elif seam in ("CUT_THE_CURVE_LEFT", "RACK_FOCUS_BLUR"):
+                    blur_r = max(0, int((1.0 - eased_in) * 10))
+                    if blur_r > 0:
+                        frame = frame.filter(ImageFilter.GaussianBlur(blur_r))
+            elif dt_out < 0.26 and sc_t1 < duration - 0.2:
+                p_out = max(0.0, min(1.0, 1.0 - dt_out / 0.26))
+                eased_out = p_out * p_out * p_out
+                if seam == "ZOOM_THROUGH":
+                    sc_f = 1.0 + 0.18 * eased_out
+                    nw, nh = int(WIDTH * sc_f), int(HEIGHT * sc_f)
+                    big = frame.resize((nw, nh), Image.Resampling.BILINEAR)
+                    frame = big.crop(((nw - WIDTH) // 2, (nh - HEIGHT) // 2, (nw - WIDTH) // 2 + WIDTH, (nh - HEIGHT) // 2 + HEIGHT))
+                    if eased_out > 0.3:
+                        frame = frame.filter(ImageFilter.GaussianBlur(max(1, int(eased_out * 7))))
 
         proc.stdin.write(frame.convert("RGB").tobytes())
 

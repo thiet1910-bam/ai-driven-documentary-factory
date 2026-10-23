@@ -641,14 +641,117 @@
       letter-spacing: 1px;
     }
 
-    /* 9. V2.0 DARK CLIMAX BACKGROUND INVERT */
-    body.dark-climax-active .paper-bg {
+    /* 9. V2.0 DARK CLIMAX & 5 VISUAL WORLDS (MULTI-WORLD ENGINE) */
+    body.dark-climax-active .paper-bg,
+    body.world-data-stage .paper-bg {
       filter: invert(0.92) hue-rotate(180deg) brightness(0.22) contrast(1.35) !important;
     }
-    body.dark-climax-active .desk-grid {
+    body.dark-climax-active .desk-grid,
+    body.world-data-stage .desk-grid {
       background-image:
         linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px) !important;
+    }
+    body.world-cinema-fullbleed .desk-grid,
+    body.world-cinema-fullbleed .compass-watermark,
+    body.world-full-map .desk-grid,
+    body.world-full-map .compass-watermark {
+      opacity: 0 !important;
+    }
+    #cinema-letterbox-top, #cinema-letterbox-bottom {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 0px;
+      background: #050608;
+      z-index: 68;
+      pointer-events: none;
+      transition: height 0.25s ease;
+    }
+    #cinema-letterbox-top { top: 0; border-bottom: 1.5px solid rgba(245, 197, 24, 0.28); }
+    #cinema-letterbox-bottom { bottom: 0; border-top: 1.5px solid rgba(245, 197, 24, 0.28); }
+    body.world-cinema-fullbleed #cinema-letterbox-top,
+    body.world-cinema-fullbleed #cinema-letterbox-bottom {
+      height: 82px;
+    }
+    .fullbleed-media-card {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      background: #0a0c10;
+    }
+    .fullbleed-media-card img,
+    .fullbleed-media-card video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: contrast(1.08) saturate(0.92);
+    }
+    .fullbleed-caption-badge {
+      position: absolute;
+      left: 58px;
+      bottom: 145px;
+      background: rgba(12, 14, 18, 0.88);
+      border-left: 6px solid var(--accent-gold);
+      color: #f8fafc;
+      font-family: 'Courier Prime', monospace;
+      font-weight: 700;
+      font-size: 18px;
+      padding: 8px 18px;
+      border-radius: 4px;
+      box-shadow: 0 10px 26px rgba(0,0,0,0.65);
+      letter-spacing: 0.6px;
+      z-index: 5;
+    }
+    .timeline-scroller-card {
+      width: 100%;
+      height: 100%;
+      background: rgba(16, 18, 24, 0.96);
+      border: 3px solid var(--accent-gold);
+      border-radius: 8px;
+      padding: 26px 36px;
+      box-shadow: 0 22px 48px rgba(0,0,0,0.65);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+    .svg-line-chart-card {
+      width: 100%;
+      height: 100%;
+      background: rgba(16, 18, 24, 0.96);
+      border: 3px solid #3f4659;
+      border-top: 6px solid var(--accent-red);
+      border-radius: 8px;
+      padding: 22px 32px;
+      box-shadow: 0 22px 48px rgba(0,0,0,0.65);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .spotlight-xray-box {
+      width: 100%;
+      height: 100%;
+      border: 4px solid var(--accent-gold);
+      border-radius: 6px;
+      box-shadow: 0 0 0 2400px rgba(6, 8, 12, 0.68), 0 0 32px rgba(245, 197, 24, 0.55);
+      position: relative;
+      pointer-events: none;
+    }
+    .spotlight-xray-tag {
+      position: absolute;
+      top: -42px;
+      left: 0;
+      background: var(--accent-gold);
+      color: #111;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px;
+      letter-spacing: 1.4px;
+      padding: 3px 14px;
+      border-radius: 4px;
+      white-space: nowrap;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.5);
     }
 
     /* 10. V2.0 TORN_PAPER_SPLIT, WAFFLE_100_ARRAY, ROUGH_EDGE_BARS, HANDWRITTEN_CALLOUT */
@@ -1124,6 +1227,10 @@
           <div id="stage-layer"></div>
         </div>
 
+        <!-- V2.0 CINEMA LETTERBOX BARS (ACTIVE IN WORLD_2_CINEMA_FULLBLEED) -->
+        <div id="cinema-letterbox-top"></div>
+        <div id="cinema-letterbox-bottom"></div>
+
         <!-- V2.0 SCENE-LEVEL HUD ANCHORS -->
         <div id="hud-era-anchor">1867 • ALASKA PURCHASE</div>
         <div id="hud-corner-ticker">
@@ -1447,26 +1554,55 @@
           el.style.display = 'none';
 
           const btype = beat.type || 'POLAROID';
+          if (beat.full_bleed) {
+            el.style.left = '0px';
+            el.style.top = '0px';
+            el.style.width = '1920px';
+            el.style.height = '1080px';
+            el.style.zIndex = 12;
+          } else if (btype === 'POLAROID' || btype === 'VIDEO_CLIP') {
+            el.style.zIndex = 20;
+          } else {
+            el.style.zIndex = 40 + (zCounter % 20);
+          }
           if (btype === 'POLAROID') {
-            el.innerHTML = `
-              <div class="polaroid-card">
-                <div class="polaroid-pin"></div>
-                <div class="polaroid-media">
+            if (beat.full_bleed) {
+              el.innerHTML = `
+                <div class="fullbleed-media-card">
                   <img src="${beat.src}" alt="${beat.caption || ''}" />
+                  ${beat.caption ? `<div class="fullbleed-caption-badge">📍 ${beat.caption}</div>` : ''}
                 </div>
-                <div class="polaroid-caption">${beat.caption || ''}</div>
-              </div>
-            `;
+              `;
+            } else {
+              el.innerHTML = `
+                <div class="polaroid-card">
+                  <div class="polaroid-pin"></div>
+                  <div class="polaroid-media">
+                    <img src="${beat.src}" alt="${beat.caption || ''}" />
+                  </div>
+                  <div class="polaroid-caption">${beat.caption || ''}</div>
+                </div>
+              `;
+            }
           } else if (btype === 'VIDEO_CLIP') {
-            el.innerHTML = `
-              <div class="polaroid-card">
-                <div class="polaroid-pin"></div>
-                <div class="polaroid-media">
+            if (beat.full_bleed) {
+              el.innerHTML = `
+                <div class="fullbleed-media-card">
                   <video src="${beat.src}" muted loop playsinline preload="auto"></video>
+                  ${beat.caption ? `<div class="fullbleed-caption-badge">🎞️ ${beat.caption}</div>` : ''}
                 </div>
-                <div class="polaroid-caption">🎞️ ${beat.caption || ''}</div>
-              </div>
-            `;
+              `;
+            } else {
+              el.innerHTML = `
+                <div class="polaroid-card">
+                  <div class="polaroid-pin"></div>
+                  <div class="polaroid-media">
+                    <video src="${beat.src}" muted loop playsinline preload="auto"></video>
+                  </div>
+                  <div class="polaroid-caption">🎞️ ${beat.caption || ''}</div>
+                </div>
+              `;
+            }
           } else if (btype === 'STICKER') {
             el.innerHTML = `
               <div class="sticker-card">
@@ -1579,6 +1715,135 @@
                   <path d="M42 2 C36 18, 24 28, 12 38 M12 38 L24 36 M12 38 L16 26" stroke="#d92318" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
+            `;
+          } else if (btype === 'MAP_ROUTE') {
+            el.style.left = '0px';
+            el.style.top = '0px';
+            el.style.width = '1920px';
+            el.style.height = '1080px';
+            el.style.pointerEvents = 'none';
+            const fx = Number(beat.from_x ?? 420);
+            const fy = Number(beat.from_y ?? 640);
+            const tx = Number(beat.to_x ?? 1380);
+            const ty = Number(beat.to_y ?? 320);
+            const mx = Math.round((fx + tx) / 2);
+            const my = Math.round(Math.min(fy, ty) - 110);
+            const dPath = `M ${fx} ${fy} Q ${mx} ${my} ${tx} ${ty}`;
+            const distLbl = beat.distance_label || beat.label || 'EXPEDITION ROUTE';
+            const fromLbl = beat.from_label || 'START';
+            const toLbl = beat.to_label || 'TARGET';
+            el.innerHTML = `
+              <svg width="1920" height="1080" viewBox="0 0 1920 1080" style="position:absolute;inset:0;overflow:visible;">
+                <path d="${dPath}" fill="none" stroke="rgba(0,0,0,0.65)" stroke-width="11" stroke-linecap="round" />
+                <path class="map-route-path" d="${dPath}" fill="none" stroke="#d92318" stroke-width="7" stroke-dasharray="18 12" stroke-linecap="round" />
+                <circle cx="${fx}" cy="${fy}" r="16" fill="rgba(217,35,24,0.28)" stroke="#f5c518" stroke-width="3" />
+                <circle cx="${fx}" cy="${fy}" r="8" fill="#d92318" />
+                <circle cx="${tx}" cy="${ty}" r="22" fill="rgba(217,35,24,0.34)" stroke="#f5c518" stroke-width="3.5" />
+                <circle cx="${tx}" cy="${ty}" r="10" fill="#f5c518" />
+              </svg>
+              <div style="position:absolute;left:${fx - 70}px;top:${fy + 22}px;background:#14161d;color:#f8fafc;border:2px solid #f5c518;font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;padding:4px 12px;border-radius:4px;box-shadow:0 8px 18px rgba(0,0,0,0.6);">${fromLbl}</div>
+              <div style="position:absolute;left:${tx - 80}px;top:${ty - 54}px;background:#d92318;color:#fff;border:2px solid #fff;font-family:'Oswald',sans-serif;font-weight:700;font-size:17px;padding:5px 14px;border-radius:4px;box-shadow:0 8px 18px rgba(0,0,0,0.65);">🎯 ${toLbl}</div>
+              <div style="position:absolute;left:${mx - 130}px;top:${my - 18}px;background:rgba(16,18,24,0.94);color:#f5c518;border:2.5px solid #f5c518;font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:1.5px;padding:6px 20px;border-radius:6px;box-shadow:0 12px 28px rgba(0,0,0,0.7);">${distLbl}</div>
+            `;
+          } else if (btype === 'SPOTLIGHT_XRAY') {
+            el.style.zIndex = 26;
+            const lbl = beat.label || beat.highlight || beat.caption || 'ARCHIVE FOCUS';
+            el.innerHTML = `
+              <div class="spotlight-xray-box">
+                <div class="spotlight-xray-tag">🔍 ${lbl}</div>
+              </div>
+            `;
+          } else if (btype === 'TIMELINE_SCROLLER') {
+            const events = beat.events || [
+              { year: '1867', title: 'U.S. PURCHASE ($7.2M)' },
+              { year: '1896', title: 'KLONDIKE GOLD RUSH' },
+              { year: '1925', title: 'NOME SERUM RUN' },
+              { year: '1942', title: 'WWII ALEUTIAN FRONT' },
+              { year: '1959', title: '49TH U.S. STATE' }
+            ];
+            const activeYear = String(beat.active_year || events[events.length - 1].year);
+            const nodesHtml = events.map(ev => {
+              const isAct = String(ev.year) === activeYear;
+              return `
+                <div style="display:flex;flex-direction:column;align-items:center;gap:10px;flex:1;position:relative;z-index:2;">
+                  <div style="font-family:'Bebas Neue',sans-serif;font-size:${isAct ? '54px' : '36px'};color:${isAct ? '#f5c518' : '#94a3b8'};line-height:1;">${ev.year}</div>
+                  <div style="width:${isAct ? '26px' : '16px'};height:${isAct ? '26px' : '16px'};border-radius:50%;background:${isAct ? '#d92318' : '#334155'};border:3px solid ${isAct ? '#f5c518' : '#64748b'};box-shadow:${isAct ? '0 0 20px rgba(245,197,24,0.8)' : 'none'};"></div>
+                  <div style="font-family:'Courier Prime',monospace;font-weight:700;font-size:${isAct ? '16px' : '13px'};color:${isAct ? '#ffffff' : '#94a3b8'};text-align:center;max-width:210px;background:${isAct ? 'rgba(217,35,24,0.28)' : 'transparent'};padding:4px 8px;border-radius:4px;border:${isAct ? '1px solid #d92318' : 'none'};">${ev.title}</div>
+                </div>
+              `;
+            }).join('');
+            el.innerHTML = `
+              <div class="timeline-scroller-card">
+                <div style="display:flex;justify-content:space-between;align-items:center;">
+                  <span style="font-family:'Oswald',sans-serif;font-size:22px;color:#f5c518;letter-spacing:1.2px;">⏱️ ${beat.title || 'HISTORICAL CHRONOLOGY'}</span>
+                  <span style="font-family:'Courier Prime',monospace;font-size:15px;color:#cbd5e1;">ACTIVE ERA: ${activeYear}</span>
+                </div>
+                <div style="position:relative;display:flex;align-items:center;justify-content:space-between;margin:28px 0;">
+                  <div style="position:absolute;left:6%;right:6%;top:54%;height:5px;background:#334155;z-index:1;"></div>
+                  ${nodesHtml}
+                </div>
+                <div style="font-family:'Courier Prime',monospace;font-weight:700;font-size:16px;color:#e2e8f0;text-align:center;">${beat.sub || beat.caption || ''}</div>
+              </div>
+            `;
+          } else if (btype === 'SVG_LINE_CHART') {
+            const pts = beat.points || [
+              { label: '1880', value: 15 },
+              { label: '1896', value: 35 },
+              { label: '1898', value: 95 },
+              { label: '1925', value: 60 },
+              { label: '1942', value: 100 }
+            ];
+            const maxV = Math.max(...pts.map(p => Number(p.value) || 1), 1);
+            const svgW = (Number(beat.w) || 1100) - 90;
+            const svgH = (Number(beat.h) || 460) - 150;
+            const coords = pts.map((p, i) => {
+              const px = Math.round(40 + (i / Math.max(1, pts.length - 1)) * (svgW - 80));
+              const py = Math.round(svgH - 25 - ((Number(p.value) || 0) / maxV) * (svgH - 65));
+              return { px, py, label: p.label, val: p.value, text: p.value_text || String(p.value) };
+            });
+            const polyPts = coords.map(c => `${c.px},${c.py}`).join(' ');
+            const areaPts = `${coords[0].px},${svgH - 25} ${polyPts} ${coords[coords.length - 1].px},${svgH - 25}`;
+            const dotsHtml = coords.map((c, i) => `
+              <circle cx="${c.px}" cy="${c.py}" r="${i === coords.length - 1 ? 10 : 6}" fill="${i === coords.length - 1 ? '#d92318' : '#f5c518'}" stroke="#fff" stroke-width="2.5" />
+              <text x="${c.px}" y="${c.py - 16}" text-anchor="middle" fill="#f5c518" font-family="Bebas Neue" font-size="24">${c.text}</text>
+              <text x="${c.px}" y="${svgH + 4}" text-anchor="middle" fill="#cbd5e1" font-family="Courier Prime" font-weight="700" font-size="14">${c.label}</text>
+            `).join('');
+            el.innerHTML = `
+              <div class="svg-line-chart-card">
+                <div style="display:flex;justify-content:space-between;align-items:baseline;">
+                  <span style="font-family:'Bebas Neue',sans-serif;font-size:40px;color:#fff;letter-spacing:1.5px;">📈 ${beat.title || 'DATA TRAJECTORY'}</span>
+                  <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#f5c518;">${beat.peak_note || ''}</span>
+                </div>
+                <svg width="${svgW}" height="${svgH + 16}" viewBox="0 0 ${svgW} ${svgH + 16}">
+                  <line x1="30" y1="${svgH - 25}" x2="${svgW - 20}" y2="${svgH - 25}" stroke="#475569" stroke-width="2" />
+                  <polygon points="${areaPts}" fill="rgba(217, 35, 24, 0.22)" />
+                  <polyline points="${polyPts}" fill="none" stroke="#d92318" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                  ${dotsHtml}
+                </svg>
+                <div style="font-family:'Courier Prime',monospace;font-weight:700;font-size:15px;color:#94a3b8;">${beat.sub || beat.caption || ''}</div>
+              </div>
+            `;
+          } else if (btype === 'RED_STRING_LINK') {
+            el.style.left = '0px';
+            el.style.top = '0px';
+            el.style.width = '1920px';
+            el.style.height = '1080px';
+            el.style.pointerEvents = 'none';
+            el.style.zIndex = 58;
+            const fx = Number(beat.from_x ?? 450);
+            const fy = Number(beat.from_y ?? 200);
+            const tx = Number(beat.to_x ?? 1250);
+            const ty = Number(beat.to_y ?? 240);
+            const mx = Math.round((fx + tx) / 2);
+            const my = Math.round((fy + ty) / 2 + 28);
+            el.innerHTML = `
+              <svg width="1920" height="1080" viewBox="0 0 1920 1080" style="position:absolute;inset:0;">
+                <path d="M ${fx} ${fy + 6} Q ${mx} ${my + 8} ${tx} ${ty + 6}" fill="none" stroke="rgba(0,0,0,0.45)" stroke-width="5" />
+                <path d="M ${fx} ${fy} Q ${mx} ${my} ${tx} ${ty}" fill="none" stroke="#d92318" stroke-width="4.5" />
+                <circle cx="${fx}" cy="${fy}" r="9" fill="#d92318" stroke="#4a0804" stroke-width="2" />
+                <circle cx="${tx}" cy="${ty}" r="9" fill="#d92318" stroke="#4a0804" stroke-width="2" />
+              </svg>
+              ${beat.label ? `<div style="position:absolute;left:${mx - 95}px;top:${my - 16}px;background:#fef3be;color:#b81d13;border:2px solid #b81d13;font-family:'Courier Prime',monospace;font-weight:700;font-size:14px;padding:3px 10px;border-radius:3px;transform:rotate(-2deg);box-shadow:0 6px 14px rgba(0,0,0,0.4);">${beat.label}</div>` : ''}
             `;
           }
 
@@ -1868,9 +2133,16 @@
         const curY = cam.fromY + (cam.toY - cam.fromY) * scProg;
         document.getElementById('camera-rig').style.transform = `translate(${curX.toFixed(1)}px, ${curY.toFixed(1)}px) scale(${curScale.toFixed(4)})`;
 
-        // V2.0 Background Mode (DARK_CLIMAX support)
-        const isDarkClimax = activeScene.bg_mode === 'DARK_CLIMAX' || (activeScene.dark_climax_from && currentTime >= activeScene.dark_climax_from);
+        // V2.0 Background Mode & 5 Visual Worlds Support
+        const wType = activeScene.world_type || activeScene.scene_motif || '';
+        const isWorldMap = wType === 'WORLD_1_FULL_MAP' || wType === 'MOTIF_3_CARTOGRAPHIC_3D_FLYOVER';
+        const isWorldCinema = wType === 'WORLD_2_CINEMA_FULLBLEED' || wType === 'MOTIF_2_BROLL_KINETIC_OVERDRIVE';
+        const isWorldData = wType === 'WORLD_4_DATA_STAGE' || wType === 'MOTIF_5_DATA_STORY_PROGRESSION';
+        const isDarkClimax = activeScene.bg_mode === 'DARK_CLIMAX' || isWorldData || (activeScene.dark_climax_from && currentTime >= activeScene.dark_climax_from);
         document.body.classList.toggle('dark-climax-active', Boolean(isDarkClimax));
+        document.body.classList.toggle('world-full-map', Boolean(isWorldMap));
+        document.body.classList.toggle('world-cinema-fullbleed', Boolean(isWorldCinema));
+        document.body.classList.toggle('world-data-stage', Boolean(isWorldData));
 
         // V2.0 Top-Left Era Anchor
         const eraEl = document.getElementById('hud-era-anchor');

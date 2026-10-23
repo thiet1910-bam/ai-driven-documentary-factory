@@ -10,7 +10,7 @@
       "title": "17 NĂM BỎ QUÊN & TIẾNG SÉT VÀNG KLONDIKE 1896",
       "t0": 0.0,
       "t1": 17.8,
-      "scene_motif": "MOTIF_1_DETECTIVE_CANVAS_PAN",
+      "scene_motif": "MOTIF_3_CARTOGRAPHIC_3D_FLYOVER",
       "camera_move": "DESK_PAN_ZOOM",
       "seam_transition": "ZOOM_THROUGH",
       "bg_mode": "CREAM_GRID",
@@ -78,10 +78,10 @@
           "type": "POLAROID",
           "t0": 7.6,
           "t1": 17.7,
-          "x": 110,
-          "y": 130,
-          "w": 680,
-          "h": 480,
+          "x": 80,
+          "y": 140,
+          "w": 620,
+          "h": 440,
           "rot": 1.8,
           "caption": "AUGUST 1896 • GOLD DISCOVERED IN KLONDIKE",
           "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/01.4_00m07s_polaroid_klondike_gold_pan_1896.jpg",
@@ -112,11 +112,12 @@
           ],
           "sfx": "map_whoosh.wav",
           "sfx_reason": "Trải bản đồ biên giới Canada - Alaska",
-          "source_origin": "Wikimedia Commons: Map Showing Routes From San Francisco To Alaska And The Klondike (1897, David Rumsey Collection)"
+          "source_origin": "Wikimedia Commons: Map Showing Routes From San Francisco To Alaska And The Klondike (1897, David Rumsey Collection)",
+          "full_bleed": true
         },
         {
           "stt_id": "01.6_00m14s_callout_fastest_way_in",
-          "type": "HANDWRITTEN_CALLOUT",
+          "type": "MAP_ROUTE",
           "t0": 13.8,
           "t1": 17.7,
           "x": 1020,
@@ -127,7 +128,14 @@
           "text": "Fastest route in: straight through Alaska!",
           "arrow_dir": "UP_LEFT",
           "sfx": "marker_swipe.wav",
-          "sfx_reason": "Khoanh mũi tên chỉ đường tắt qua Alaska"
+          "sfx_reason": "Khoanh mũi tên chỉ đường tắt qua Alaska",
+          "from_x": 1420,
+          "from_y": 760,
+          "to_x": 980,
+          "to_y": 280,
+          "from_label": "SEATTLE / SAN FRANCISCO",
+          "to_label": "KLONDIKE GOLD FIELDS",
+          "distance_label": "FASTEST ROUTE: STRAIGHT THROUGH ALASKA!"
         }
       ],
       "camera": {
@@ -137,7 +145,9 @@
         "toX": -18,
         "fromY": 0,
         "toY": -8
-      }
+      },
+      "world_type": "WORLD_1_FULL_MAP",
+      "layout_mode": "FULL_BLEED"
     },
     {
       "id": "sc_02",
@@ -228,14 +238,15 @@
           ],
           "sfx": "map_whoosh.wav",
           "sfx_reason": "Băng tư liệu đoàn người nối đuôi leo vách núi băng Chilkoot",
-          "source_origin": "Wikimedia Commons Archival Motion (2 Shots): ChilkootPass_steps.jpg & Line of Klondikers ascending Chilkoot Pass, 1898 (HEGG 378)"
+          "source_origin": "Wikimedia Commons Archival Motion (2 Shots): ChilkootPass_steps.jpg & Line of Klondikers ascending Chilkoot Pass, 1898 (HEGG 378)",
+          "full_bleed": true
         },
         {
           "stt_id": "02.5_00m30s_headline_1500_ice_steps",
           "type": "HEADLINE",
           "t0": 30.2,
           "t1": 37.4,
-          "x": 1010,
+          "x": 1020,
           "y": 150,
           "w": 790,
           "h": 210,
@@ -247,15 +258,15 @@
         },
         {
           "stt_id": "02.6_00m33s_red_circle_human_chain",
-          "type": "RED_INK_CIRCLE",
+          "type": "SPOTLIGHT_XRAY",
           "t0": 33.4,
           "t1": 37.4,
-          "x": 280,
-          "y": 240,
-          "w": 380,
-          "h": 220,
+          "x": 210,
+          "y": 190,
+          "w": 540,
+          "h": 460,
           "rot": -4.0,
-          "label": "30-40 TRIPS PER MINER!",
+          "label": "1,500 ICE STEPS • 30–40 TRIPS PER MINER!",
           "src": "2_KHO_NGUYEN_LIEU/dung_chung_toan_kenh/fx_overlays/red_ink_circle.png",
           "sfx": "red_pen_scratch.wav",
           "sfx_reason": "Khoanh mực đỏ vào sợi dây người trên vách băng"
@@ -268,14 +279,16 @@
         "toX": 14,
         "fromY": -6,
         "toY": -14
-      }
+      },
+      "world_type": "WORLD_2_CINEMA_FULLBLEED",
+      "layout_mode": "FULL_BLEED"
     },
     {
       "id": "sc_03",
       "title": "NGHỊCH LÝ BÁN XẺNG, WYATT EARP & BÃI BIỂN VÀNG NOME",
       "t0": 37.5,
       "t1": 61.5,
-      "scene_motif": "MOTIF_4_EVIDENCE_SPLIT_COLLISION",
+      "scene_motif": "MOTIF_1_DETECTIVE_CANVAS_PAN",
       "camera_move": "DESK_PAN_ZOOM",
       "seam_transition": "CUT_THE_CURVE_LEFT",
       "bg_mode": "CREAM_GRID",
@@ -283,21 +296,26 @@
       "source_footnote": "Source: Dexter Saloon Records, Nome Alaska (Wyatt Earp, 1899)",
       "hud_ticker": {
         "label": "REAL WINNERS",
-        "value": "SHOVEL & SALOON OWNERS"
+        "value": "SHOVEL SELLERS"
       },
       "beats": [
         {
           "stt_id": "03.1_00m37s_torn_split_miners_vs_shovels",
-          "type": "TORN_PAPER_SPLIT",
-          "t0": 37.6,
-          "t1": 44.2,
+          "type": "RED_STRING_LINK",
+          "t0": 43.5,
+          "t1": 50.2,
           "x": 915,
           "y": 0,
           "w": 90,
           "h": 1080,
           "rot": 0.0,
           "sfx": "paper_rip_split.wav",
-          "sfx_reason": "Xé đôi màn hình đối chiếu Kẻ đào vàng vs Kẻ bán xẻng"
+          "sfx_reason": "Xé đôi màn hình đối chiếu Kẻ đào vàng vs Kẻ bán xẻng",
+          "from_x": 480,
+          "from_y": 190,
+          "to_x": 1290,
+          "to_y": 160,
+          "label": "SHOVEL & SALOON FORTUNE"
         },
         {
           "stt_id": "03.2_00m38s_bars_gold_miners_vs_merchants",
@@ -368,7 +386,7 @@
           "type": "POLAROID",
           "t0": 50.4,
           "t1": 61.4,
-          "x": 100,
+          "x": 980,
           "y": 140,
           "w": 740,
           "h": 490,
@@ -389,7 +407,7 @@
           "type": "POLAROID",
           "t0": 54.0,
           "t1": 61.4,
-          "x": 960,
+          "x": 110,
           "y": 140,
           "w": 760,
           "h": 490,
@@ -427,7 +445,9 @@
         "toX": -16,
         "fromY": 0,
         "toY": -6
-      }
+      },
+      "world_type": "WORLD_3_DETECTIVE_CANVAS",
+      "layout_mode": "RIGHT_ANCHOR"
     },
     {
       "id": "sc_04",
@@ -514,11 +534,12 @@
           ],
           "sfx": "map_whoosh.wav",
           "sfx_reason": "Bay máy quay trên bản đồ đường chạy huyết thanh Nenana - Nome",
-          "source_origin": "Wikipedia (1925 serum run to Nome): Iditarod_Trail_BLM_map.jpg (674-mile Nenana to Nome relay route)"
+          "source_origin": "Wikipedia (1925 serum run to Nome): Iditarod_Trail_BLM_map.jpg (674-mile Nenana to Nome relay route)",
+          "full_bleed": true
         },
         {
           "stt_id": "04.5_01m15s_note_no_plane_50_below",
-          "type": "DETECTIVE_TAPE_NOTE",
+          "type": "MAP_ROUTE",
           "t0": 74.5,
           "t1": 78.2,
           "x": 930,
@@ -529,7 +550,14 @@
           "title": "EXTREME CONDITIONS",
           "text": "OPEN-COCKPIT PLANES FROZE SOLID AT -50°F • ONLY DOGS COULD RUN",
           "sfx": "typewriter.wav",
-          "sfx_reason": "Ghi chú máy bay không thể cất cánh ở -50 độ"
+          "sfx_reason": "Ghi chú máy bay không thể cất cánh ở -50 độ",
+          "from_x": 1360,
+          "from_y": 620,
+          "to_x": 380,
+          "to_y": 340,
+          "from_label": "NENANA RAILHEAD",
+          "to_label": "ISOLATED NOME (DIPHTHERIA)",
+          "distance_label": "674 MILES • -50°F DOG SLED RELAY"
         },
         {
           "stt_id": "04.6_01m18s_video_sled_dogs_blizzard",
@@ -549,7 +577,8 @@
           ],
           "sfx": "map_whoosh.wav",
           "sfx_reason": "Video tư liệu đàn chó kéo xe lao xuyên bão tuyết",
-          "source_origin": "Wikimedia Commons Archival Film (1925): Balto and Gunner Kaasen - February 2, 1925, Nome, Alaska.webm"
+          "source_origin": "Wikimedia Commons Archival Film (1925): Balto and Gunner Kaasen - February 2, 1925, Nome, Alaska.webm",
+          "full_bleed": true
         },
         {
           "stt_id": "04.7_01m21s_waffle_150_dogs_relay",
@@ -590,7 +619,9 @@
         "toX": 18,
         "fromY": -8,
         "toY": 8
-      }
+      },
+      "world_type": "WORLD_1_FULL_MAP",
+      "layout_mode": "FULL_BLEED"
     },
     {
       "id": "sc_05",
@@ -600,7 +631,7 @@
       "scene_motif": "MOTIF_5_DATA_STORY_PROGRESSION",
       "camera_move": "DRAMATIC_PULL_BACK",
       "seam_transition": "INVERSE_ZOOM_ARRIVAL",
-      "bg_mode": "CREAM_GRID",
+      "bg_mode": "DARK_CLIMAX",
       "era_label": "1925 • BALTO VS. TOGO: THE DATA TRUTH",
       "source_footnote": "Source: Leonhard Seppala Sled Log (260 Miles vs. 55 Miles)",
       "hud_ticker": {
@@ -613,7 +644,7 @@
           "type": "POLAROID",
           "t0": 87.6,
           "t1": 94.4,
-          "x": 110,
+          "x": 1040,
           "y": 140,
           "w": 720,
           "h": 490,
@@ -633,8 +664,8 @@
           "type": "HANDWRITTEN_CALLOUT",
           "t0": 90.6,
           "t1": 94.4,
-          "x": 920,
-          "y": 220,
+          "x": 120,
+          "y": 240,
           "w": 720,
           "h": 180,
           "rot": -2.0,
@@ -648,10 +679,10 @@
           "type": "STICKER",
           "t0": 94.5,
           "t1": 102.9,
-          "x": 110,
-          "y": 130,
-          "w": 640,
-          "h": 540,
+          "x": 90,
+          "y": 150,
+          "w": 540,
+          "h": 520,
           "rot": 1.5,
           "caption": "TOGO & LEONHARD SEPPALA • THE REAL HERO",
           "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/stickers_cutout/05.3_01m34s_sticker_togo_seppala.png",
@@ -667,15 +698,15 @@
         },
         {
           "stt_id": "05.4_01m36s_bars_togo_vs_balto_distance",
-          "type": "ROUGH_EDGE_BARS",
+          "type": "SVG_LINE_CHART",
           "t0": 96.6,
           "t1": 102.9,
-          "x": 860,
-          "y": 150,
-          "w": 880,
-          "h": 310,
+          "x": 660,
+          "y": 140,
+          "w": 1140,
+          "h": 480,
           "rot": 0.0,
-          "title": "DISTANCE RUN IN THE 1925 SERUM RELAY",
+          "title": "1925 SERUM RUN: DISTANCE BY LEAD DOG",
           "bars": [
             {
               "label": "BALTO (FINAL STRETCH ONLY)",
@@ -691,15 +722,34 @@
             }
           ],
           "sfx": "counter_tick_loop.wav",
-          "sfx_reason": "Biểu đồ vạch trần Togo chạy hơn 260 dặm — gấp 5 lần Balto"
+          "sfx_reason": "Biểu đồ vạch trần Togo chạy hơn 260 dặm — gấp 5 lần Balto",
+          "peak_note": "TOGO: 260+ MI (5X BALTO)",
+          "points": [
+            {
+              "label": "OTHER TEAMS",
+              "value": 31,
+              "value_text": "31 MI"
+            },
+            {
+              "label": "BALTO (FINAL LEG)",
+              "value": 55,
+              "value_text": "55 MI"
+            },
+            {
+              "label": "TOGO (SEPPALA)",
+              "value": 260,
+              "value_text": "260+ MI"
+            }
+          ],
+          "sub": "TOGO CROSSED NORTON SOUND IN -50°F GALE WINDS"
         },
         {
           "stt_id": "05.5_01m39s_stamp_sorry_balto",
           "type": "STAMP",
           "t0": 99.6,
           "t1": 102.9,
-          "x": 1020,
-          "y": 520,
+          "x": 1240,
+          "y": 650,
           "w": 480,
           "h": 115,
           "rot": -5.0,
@@ -716,7 +766,9 @@
         "toX": -14,
         "fromY": 0,
         "toY": -10
-      }
+      },
+      "world_type": "WORLD_4_DATA_STAGE",
+      "layout_mode": "CENTER_DATA_STAGE"
     },
     {
       "id": "sc_06",
@@ -753,7 +805,8 @@
           ],
           "sfx": "low_boom.wav",
           "sfx_reason": "Đảo sang nền Đen Cao Trào khi Thế chiến II nổ ra tại Alaska",
-          "source_origin": "Wikimedia Commons Archival Motion (WWII Aleutians): A6M2-N_Rufes_Holtz_Bay_1942.jpg & Battle of Attu 1943"
+          "source_origin": "Wikimedia Commons Archival Motion (WWII Aleutians): A6M2-N_Rufes_Holtz_Bay_1942.jpg & Battle of Attu 1943",
+          "full_bleed": true
         },
         {
           "stt_id": "06.2_01m46s_headline_japan_attacks_alaska",
@@ -772,15 +825,15 @@
         },
         {
           "stt_id": "06.3_01m50s_red_circle_aleutian_islands",
-          "type": "RED_INK_CIRCLE",
+          "type": "SPOTLIGHT_XRAY",
           "t0": 110.0,
           "t1": 114.0,
-          "x": 300,
-          "y": 260,
-          "w": 360,
-          "h": 200,
+          "x": 180,
+          "y": 200,
+          "w": 660,
+          "h": 440,
           "rot": -3.0,
-          "label": "OCCUPIED U.S. SOIL!",
+          "label": "ATTU & KISKA • OCCUPIED U.S. SOIL (1942)",
           "src": "2_KHO_NGUYEN_LIEU/dung_chung_toan_kenh/fx_overlays/red_ink_circle.png",
           "sfx": "red_pen_scratch.wav",
           "sfx_reason": "Khoanh đỏ vị trí 2 đảo bị chiếm đóng"
@@ -790,7 +843,7 @@
           "type": "POLAROID",
           "t0": 114.2,
           "t1": 120.5,
-          "x": 100,
+          "x": 980,
           "y": 140,
           "w": 760,
           "h": 490,
@@ -811,7 +864,7 @@
           "type": "DETECTIVE_TAPE_NOTE",
           "t0": 117.0,
           "t1": 120.5,
-          "x": 940,
+          "x": 110,
           "y": 220,
           "w": 800,
           "h": 170,
@@ -839,7 +892,8 @@
           ],
           "sfx": "paper_slide.wav",
           "sfx_reason": "Hiện trận chiến tái chiếm đảo Attu đẫm máu",
-          "source_origin": "Wikipedia (Battle of Attu): Mortar-attu-1943.jpg (U.S. soldiers in freezing mud on Attu Island, May 1943)"
+          "source_origin": "Wikipedia (Battle of Attu): Mortar-attu-1943.jpg (U.S. soldiers in freezing mud on Attu Island, May 1943)",
+          "full_bleed": true
         },
         {
           "stt_id": "06.7_02m03s_counter_attu_casualties",
@@ -868,7 +922,9 @@
         "toX": -16,
         "fromY": -4,
         "toY": -12
-      }
+      },
+      "world_type": "WORLD_2_CINEMA_FULLBLEED",
+      "layout_mode": "FULL_BLEED"
     },
     {
       "id": "sc_07",
@@ -891,11 +947,11 @@
           "type": "POLAROID",
           "t0": 126.3,
           "t1": 137.7,
-          "x": 100,
+          "x": 90,
           "y": 140,
-          "w": 740,
-          "h": 490,
-          "rot": -1.5,
+          "w": 760,
+          "h": 500,
+          "rot": 0.0,
           "caption": "AUGUST 1943 • 34,000 TROOPS STORM KISKA ISLAND",
           "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/07.1_02m06s_polaroid_kiska_landing_34k.jpg",
           "search_query": "Operation Cottage Kiska landing 1943 soldiers historical photo",
@@ -904,20 +960,22 @@
           ],
           "sfx": "paper_slide.wav",
           "sfx_reason": "Hiện lực lượng 34.000 quân đổ bộ lên đảo Kiska",
-          "source_origin": "Wikipedia (Operation Cottage): US_landings_on_Kiska.jpg (August 1943 Allied landing on Kiska Island)"
+          "source_origin": "Wikipedia (Operation Cottage): US_landings_on_Kiska.jpg (August 1943 Allied landing on Kiska Island)",
+          "full_bleed": true
         },
         {
           "stt_id": "07.2_02m09s_torn_split_34k_vs_0_japanese",
-          "type": "TORN_PAPER_SPLIT",
+          "type": "SPOTLIGHT_XRAY",
           "t0": 128.4,
-          "t1": 132.4,
-          "x": 915,
-          "y": 0,
-          "w": 90,
-          "h": 1080,
-          "rot": 0.0,
+          "t1": 133.4,
+          "x": 180,
+          "y": 410,
+          "w": 720,
+          "h": 410,
+          "rot": -2.0,
           "sfx": "paper_rip_split.wav",
-          "sfx_reason": "Xé đôi màn hình đối chiếu 34.000 quân Đồng minh vs 0 quân Nhật"
+          "sfx_reason": "Xé đôi màn hình đối chiếu 34.000 quân Đồng minh vs 0 quân Nhật",
+          "label": "34,000 TROOPS LAND • 0 JAPANESE FOUND!"
         },
         {
           "stt_id": "07.3_02m11s_headline_nobody_there",
@@ -958,14 +1016,16 @@
         "toX": 10,
         "fromY": -6,
         "toY": 0
-      }
+      },
+      "world_type": "WORLD_5_ARCHIVE_XRAY",
+      "layout_mode": "CENTER_STAGE"
     },
     {
       "id": "sc_08",
       "title": "SIÊU CAO TỐC ALASKA 1.700 DẶM TRONG 8 THÁNG & TIỂU BANG THỨ 49 (1959)",
       "t0": 137.8,
       "t1": 150.73,
-      "scene_motif": "MOTIF_3_CARTOGRAPHIC_3D_FLYOVER",
+      "scene_motif": "MOTIF_5_DATA_STORY_PROGRESSION",
       "camera_move": "MAP_FLYOVER_TRACK",
       "seam_transition": "INVERSE_ZOOM_ARRIVAL",
       "bg_mode": "PARCHMENT_MAP",
@@ -994,17 +1054,18 @@
           ],
           "sfx": "map_whoosh.wav",
           "sfx_reason": "Băng tư liệu công binh Mỹ mở đường xuyên rừng nguyên sinh",
-          "source_origin": "Wikimedia Commons Archival Motion (1942 Alcan Highway): Building a bridge on the Alaska Highway & Slims River Bridge 1942"
+          "source_origin": "Wikimedia Commons Archival Motion (1942 Alcan Highway): Building a bridge on the Alaska Highway & Slims River Bridge 1942",
+          "full_bleed": true
         },
         {
           "stt_id": "08.2_02m21s_counter_1700_miles_8_months",
-          "type": "NUMBER_COUNTER",
+          "type": "TIMELINE_SCROLLER",
           "t0": 141.0,
           "t1": 144.2,
-          "x": 980,
-          "y": 150,
-          "w": 780,
-          "h": 180,
+          "x": 220,
+          "y": 190,
+          "w": 1480,
+          "h": 440,
           "rot": 0.0,
           "label": "BUILT IN JUST 8 MONTHS",
           "target_text": "1,700 MILES OF HIGHWAY",
@@ -1013,17 +1074,42 @@
           "target_number": 1700,
           "prefix": "",
           "suffix": " MILES OF HIGHWAY",
-          "caption": "BUILT THROUGH WILDERNESS IN JUST 8 MONTHS (1942)"
+          "caption": "BUILT THROUGH WILDERNESS IN JUST 8 MONTHS (1942)",
+          "title": "FROM FORGOTTEN OUTPOST TO STRATEGIC U.S. STATE",
+          "active_year": "1959",
+          "events": [
+            {
+              "year": "1867",
+              "title": "PURCHASED (.2M)"
+            },
+            {
+              "year": "1896",
+              "title": "KLONDIKE GOLD"
+            },
+            {
+              "year": "1925",
+              "title": "674-MI SERUM RUN"
+            },
+            {
+              "year": "1942",
+              "title": "1,700-MI ALCAN HWY"
+            },
+            {
+              "year": "1959",
+              "title": "49TH U.S. STATE"
+            }
+          ],
+          "sub": "1,700 MILES CARVED IN 8 MONTHS • JANUARY 3, 1959 STATEHOOD"
         },
         {
           "stt_id": "08.3_02m26s_polaroid_alaska_49th_state_1959",
           "type": "POLAROID",
           "t0": 146.6,
           "t1": 150.7,
-          "x": 110,
-          "y": 140,
+          "x": 260,
+          "y": 135,
           "w": 760,
-          "h": 490,
+          "h": 510,
           "rot": 1.4,
           "caption": "JANUARY 3, 1959 • ALASKA BECOMES THE 49TH U.S. STATE",
           "src": "2_KHO_NGUYEN_LIEU/theo_tung_phan/phan_03/images_polaroid/08.3_02m26s_polaroid_alaska_49th_state_1959.jpg",
@@ -1040,8 +1126,8 @@
           "type": "STAMP",
           "t0": 148.2,
           "t1": 150.7,
-          "x": 980,
-          "y": 360,
+          "x": 1080,
+          "y": 340,
           "w": 520,
           "h": 120,
           "rot": -5.0,
@@ -1058,7 +1144,9 @@
         "toX": 14,
         "fromY": 0,
         "toY": -10
-      }
+      },
+      "world_type": "WORLD_4_DATA_STAGE",
+      "layout_mode": "FULL_BLEED"
     }
   ],
   "subtitles": [
